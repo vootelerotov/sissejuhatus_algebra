@@ -1,4 +1,4 @@
-\documentclass[12pt]{book}
+\documentclass[12pt]{article}
 
 \usepackage{amsmath}
 \usepackage{enumerate}
@@ -7,9 +7,9 @@
 
 
 
-\chapter{I loeng}
+\section{loeng I}
 
-\section{Meenutusi Algebra I-st}
+\subsection{Meenutusi Algebra I-st}
 
 $A \neq \emptyset$
 $A^n = A x A x ... A = \{(a_1,\cdots,a_n)| a_i \in A \}$
@@ -27,7 +27,7 @@ n-aarne:
 \end{enumerate}
 
 
-\section{$\Omega$-algebra}
+\subsection{$\Omega$-algebra}
 
 Def. 1.1.1 Hulka $\Omega$ nimetakse t\"u\"ubiks ehk signatuuriks kui ta on esitatud mittelõikuvate alamhulkade $\Omega_1 yhend \Omega_2...$
 
@@ -48,7 +48,7 @@ $\Omega = \Omega_0 yhend \Omega_1 yhend \Omega_2$, kus
 $\Omega_2 = \{+\}, \Omega_1 = \{-(vastandelement, pole vajalik kui skalaariga korrutamine sissetoodud)\} yhend {\alpha * | \alpha \in K}, \Omega_0 = \{0\} - samuti avaldatav skalaariga korrutimase kaudu$ 
 \end{enumerate}
 
-\section{Morfismid}
+\subsection{Morfismid}
 
 Def 1.2.1 Kujutust $\phi$ $\Omega$-algebrast $A$ $\Omega$-algebrasse $B$ nimetatakse homomorfismideks, kui iga $n, \omega \in \Omega_n$ ja suvaliste $a_1,...,a_n \in A$ korral kehtib võrdus $\phi(\omega(a_1,...,a_n)) = \omega(\phi(a_1),\cdots, \phi(a_n))$
 
@@ -84,7 +84,7 @@ Lause 1.2.3 Isomorfism on ekvivalentsiseos kõigi $\Omega$-algebrade klassis, eh
 Tõestus:
 \begin{enumerate}
 \item Refleksiivsus, st. A $isom$ A, $id_A: A \rightarrow A$
-\item S\"ummeetria. Olgu $\phi: A \rightarrow B$ isomorfism. Vaja $\ksi : B \rightarrow A$ mis oleks isomorfism. Valime selleks $\phi^{-1}$ Vaja näidata, et iga  $b_1,\cdots,b_n \in B$ korral $\phi^{-1} (\omega(b_1,\cdots, b_n)) = \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_2))$ Rakendame mõlemale poole $\phi$. $\phi(\omega(b_1,\cdots, b_n)) = \phi \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_2)) .... $
+\item S\"ummeetria. Olgu $ \phi : A \rightarrow B$ isomorfism. Vaja $ \psi : B \rightarrow A$ mis oleks isomorfism. Valime selleks $\phi^{-1}$ Vaja näidata, et iga  $b_1,\cdots,b_n \in B$ korral $\phi^{-1} (\omega(b_1,\cdots, b_n)) = \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_2))$ Rakendame mõlemale poole $\phi$. $\phi(\omega(b_1,\cdots, b_n)) = \phi \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_2)) .... $
 \item Transitiivsus - ise! 
 \end{enumerate}
 
@@ -95,16 +95,15 @@ $Aut(A)$
 Lause 1.2.4 Aut(A) on rühm. 
 
 Tõestus: 
-$\phi,\psi \in AutA,
+$\phi,\psi \in AutA, $
 
- \psi \phi \in End(A),
+$ \psi \phi \in End(A), $
  
- \phi \psi \in AutA
+$ \phi \psi \in AutA $
  
- id_a \in AutA
+$ id_a \in AutA $
  
- \phi in AutA \implies \phi^{-1} \in AutA
- $
+$ \phi in AutA \implies \phi^{-1} \in AutA $
  
  Näited:
  
@@ -119,7 +118,7 @@ $\phi,\psi \in AutA,
  
  $\phi(x) = g^{-1} x g $
  
- \section{Alamalgebra}
+ \subsection{Alamalgebra}
 
  def 1.3.1. Mõte : $B \subset A, b_1,\cdots,b_n : \omega^B (b_1,\cdots,b_n) = \omega^A (b_1,\cdots,b_n) ( \in B).$ 
  Algebra alamhulk, mis on kinnine tehete suhtes on alamalgebra.
@@ -129,11 +128,11 @@ Näide: $(A;*)$ poolr\"uhm. $B \subset A, x,y \in B \implies xy \in B $ , kui $B
   
  $B \leq A \iff B on A alamalgebra$
  
-$ B \leq A, \jota : B \rightarrow A
+$ B \leq A, \tau : B \rightarrow A$
 
-\jota(x) = x, x \in B
+$\tau(x) = x, x \in B$
 
-\jota \in Hom(B,A)$, $\jota$ \"uks\"uhene. 
+$\tau \in Hom(B,A)$, $\tau$ \"uks\"uhene. 
 
 
 1.3.1 tõestus:
@@ -154,8 +153,88 @@ $\phi^{-1}(B) \leq A$
 
 $a_1,\cdots, a_n \in \phi^{-1}(D), \omega \in \Omega_N$
 
-$\omega(a_1,\cdots,\a_t ...)$ 
+$\omega(a_1,\cdots,a_t ...)$ 
  
+ 
+\section{loeng II}
+
+\paragraph{Lause 1.3.3} Olgu antud $\omega$-algebra A alamalgebrate s\"steem $B_i$, $i \in I$, kujsuures $B= yhisosa_{i \in I} B_i \neq \emptyset$ Siis $B \leq A$.
+
+\subparagraph*{Tõestus}
+
+...
+
+Vaatleme alamhulka $X$:
+$\emptyset \neq X \subset A$
+Vaatleme hulka $yhisosa \{ B | X \leq B \leq A \} \neq \emptyset$. Vastavalt lausele 1.3.3 on tegemist alamalgebraga. Sellist alamalgebrad tähistatakse $<X>$
+Kui $<X> = A$ ehk $X$ on $A$ moodustajate s\"usteem.
+
+\subsection{Faktoralgebra}
+
+Eesmärgiks on t\"ukeldada $\omega$-algebra mittelõikuvateks osadeks, nii et nende osade hulgal saaks loomulikul viisil defineerida $\omega$-algebra struktuuri. 
+
+$\rho \in Eqv(A), \rho \subset A x A $, vastab kolmele tingimusele:
+\begin{enumerate}
+\item refleksiivne
+\item transitiivne
+\item s\"ummeetriline
+\end{enumerate}
+$a \in A$, $\{x \in A | a \rho x \} = a \/ \rho$, $a \in a \/ \rho$ Faktorhulgaks $A \/ \rho = \{ a \/ \rho | a \in A \}$ 
+
+$a_1 \/ \rho = a_2 \/ \rho \iff a_1 \rho a_2$
+
+Võtame $\omega \in \Omega_n$, $a_1 / \rho , \cdots , a_n / \rho \in A / \rho$ .
+
+$\omega(a_1 / \rho , \cdots , a_n / \rho) = \omega(a_1,\cdots,a_n)/ \rho$
+
+Lisame $\omega$-le lisatingimiuse : $(x_1,y_i),\cdots, (x_n,y_n)  \in \rho \iff ( \omega(x_1, \cdots , x_n), \omega(y_1,\cdots,y_n)) \in \rho$
+
+Olgu $\rho \in Eqv(a)$.
+Eksisteerib kujutis $ \pi : A \rightarrow A/ \rho$, $\pi (a) = a / \rho $ - loomulik kujutus faktorhulgale, projektsioon.
+
+
+Võtame $\omega \in \Omega_n, a_1,\cdots,a_n \in A$
+
+$\pi(\omega(a1,\cdots,a_n)) = \omega(a_1,\cdots,a_n)/\rho = \omega( a_1 / \rho, \cdots , a_n / \rho) = ...$
+
+\subsection{Def - tuum}
+
+
+\subsection{Lause 1.4.3}
+
+\subsubsection*{Tõestus}
+Olgu $\phi : A \rightarrow B$ homoformism. $\rho$ - $\phi $ tuum . 
+Valime $\omega \in \Omega_n$, $a_1,\cdots,a_n,a_1^{`},\cdots,a_n^{`}$. Kas $\omega(a_1,\cdots ,a_n) \rho \omega(a_1^{`},\cdots ,a_n^{`})$ kehtib ? ...
+
+\paragraph{Homomorfismiteoreem}
+
+\paragraph*{Tõestus}
+Olgu $\psi : A/ \rho \rightarrow B, \psi(a / \rho) := \phi(a)$. Kas on \"uheselt määratud ? Ehk kas $a_1/ \rho = a_2 / \rho \iff \phi(a_1) = \phi (a_2)$. Siit saaksime kätte ka injektiivsuse. Piisab arvesse võtta, et eelnev tähendab, et $a_1 \rho a_2$, nin kun $\rho$ on $\phi$ tuum. siis on tulemus selge. Sürjektiuuvses tuleb sellest, et $\phi$ sürjektiivne. 
+Kas $\psi$ on homoformism ?
+Olgu $\omega \in \Omega_n, a_1, \cdots, a_n \in A$.
+Siis  $\psi(\omega(a_1 / \rho, \cdots, a_n / \rho) = \psi (\omega(a_1, \cdots, a_n) / \rho) = \phi(w(a_1,\cdots,a_n)) = \omega(\phi(a_1),\cdots, \phi(a_n)) = \omega(\psi(a_1 / \rho, \cdots, a_s / \rho)).$
+
+\paragraph{Lause 1.4.4} Olgu $\rho$ $\Omega $-algebra A kongruents, $D \leq A / \rho$ ning $\pi $ kongurgentsi $\rho $ tuum. Siis $D isomeetriline C / \rho|_C , kus C = \pi^{-1}(D) $.
+
+\paragraph*{Tõestus}
+
+Olgu $\pi^{-1}(D) = C \leq A$. Olgu $\alpha$ $\pi$ ahend C-le ($\alpha = \pi|_{C}$). Siis $\alpha : C \rightarrow D$, $\alpha$ on homomorfism. Väidame, et $\alpha$ on s\"urjektiinve. Kuna $\pi$ oli s\"urjektiinve, siis $\forall x \in A \pi(x) = y$. Seega $\alpha(x) = y$. 
+
+K\"usimus : kui kaks korda faktoriseerime, mis siis juhtub, kas me saame midagi uut ? Võimalik asendada isomorfismi täpsuseni üks kord faktoriseerimisega. 
+
+Olgu antud $\rho$ ja $\sigma$ $\Omega$-algebra A kongurentsid, kusjuures $\rho \leq \sigma, (x,y) \in \rho \implies (x,y) \in \sigma$. Defineerime faktoralgebral $A/ \rho$ binaarse seos:
+
+$\sigma / \rho = \{(x / \rho, y / \rho  | (x,y) \in a \sigma \}$
+
+Võime veenduda, et nii defineertus seos $\sigma / \rho$ on faktoralgebra $A / \rho$ kongurents.
+
+\paragraph{Teoreem 1.4.2}
+
+Olgu $\rho \in Con(A), \tau \in Con(A / \rho)$. $\pi : A \rightarrow A / \rho$. Olgu $x,y \in A$.  Defineerime $\sigma$: $(x,y) \in \sigma \iff \pi(x) \tau \pi(x)$
+
+Väide: $\sigma \in Con(A)$. Veendume, et $\sigma \in Eqv(A)$. Olgu $x,y,z \in A, (x,y), (y,z) \in \tau$, st. $(\pi(x),\pi(y)), (\pi(y),\pi(z)), (\pi(x),\pi(z)) \in \tau$.
+
+
 
 
 
