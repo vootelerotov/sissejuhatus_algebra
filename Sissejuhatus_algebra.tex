@@ -1,7 +1,8 @@
 \documentclass[12pt]{article}
 
-\usepackage{amsmath}
+\usepackage{amsmath,amssymb}
 \usepackage{enumerate}
+
 
 \begin{document}
 
@@ -31,7 +32,7 @@ n-aarne:
 
 Def. 1.1.1 Hulka $\Omega$ nimetakse t\"u\"ubiks ehk signatuuriks kui ta on esitatud mittelõikuvate alamhulkade $\Omega_1 yhend \Omega_2...$
 
-Def 1.1.2 Olgu $\Omega tüüp$. Mittet\"uhja hulka A nimetatakse $\Omega$-algebraks, kui iga $a$ korral igale $\omega \in \Omega_n$ vastab n-aarne tehe hulgal A, mida tähistatakse sama s\"mboliga $\omega$. 
+Def 1.1.2 Olgu $\Omega$ tüüp. Mittet\"uhja hulka A nimetatakse $\Omega$-algebraks, kui iga $a$ korral igale $\omega \in \Omega_n$ vastab n-aarne tehe hulgal A, mida tähistatakse sama s\"mboliga $\omega$. 
 
 Kui tahetakse rõhutada, mis t\"u\"upi algebraga on tegemist, siis tähistatakse $\Omega$ algebrad paarina $(A;\Omega)$
 
@@ -235,7 +236,126 @@ Olgu $\rho \in Con(A), \tau \in Con(A / \rho)$. $\pi : A \rightarrow A / \rho$. 
 Väide: $\sigma \in Con(A)$. Veendume, et $\sigma \in Eqv(A)$. Olgu $x,y,z \in A, (x,y), (y,z) \in \tau$, st. $(\pi(x),\pi(y)), (\pi(y),\pi(z)), (\pi(x),\pi(z)) \in \tau$.
 
 
+\section{loeng IV}
 
+\subsection{Lagrange'i teoreem}
+
+Lõpliku rühma järk( elementide arv) jagub tema iga alamhulga järguga.
+
+\subsection{$\Omega$-algebrate otsekorrutis}
+
+Viis kuidas saada mitmest algebrast uus algebra.
+
+Võime defineerida funktsioonid, mis kirjeldavad jadasid. $ \phi : \mathbb{N} \rightarrow \cup_{i \in \mathbb{N}} A_i$, mis rahuldab tingimust $ \phi (i) \in A_i$, iga $i \in \mathbb{N}$ korral.
+
+Projektsioonid - seavad jadale vastavuse mingi kindla elemendi. Tähistame $\pi _ i$. 
+
+\paragraph{ 1.6.1}
+
+\subparagraph{Tõestus}
+$\omega \in \Omega_n, a^1 = (a_i^1)_{i \in I},..., a^n = (a_i^n)_{i \in I} ...$ 
+
+\subsection{Võred}
+
+\paragraph{(Osaliselt) Järjestatud hulk} 
+
+Binaarne seas, mis on reflektsiivne, transitiivne ja antis\"meetriline. Lineaarselt järjestatud hulk on selline, kus iga element on mingis seoses iga teisega.
+
+\paragraph{Teoreem 2.2.1}
+
+\subparagraph{Tõestus}
+
+4) Neeldevus (absorbtion)
+
+Tarvilikkus:
+
+$x \leq y \iff x = x alumineraja y$
+
+\section{Loeng V}
+
+$[a,b] = \{x \in L | a \leq x \leq b \}$
+
+$Con(A/\rho) \leftarrow \rightarrow \{\sigma \in Con(A) | \rho \leq \sigma \}$
+
+\paragraph{Teoreem 2.2.2}
+
+Distributiivsed võred. 
+
+\paragraph{Lause 2.3.1}
+
+Ahelad on distributiivsed võred.
+
+\paragraph{Lause 2.3.2}
+
+Tähtis distributiivne võre $(P(A); \
+intersection; union)$
+
+Isendega duaalsus.
+
+\paragraph{Lause 2.3.3}
+
+\paragraph{Järeldus 2.3.1}
+
+\paragraph{Teoreem 2.3.1}
+
+Võre on modulaarne parajasti siis, kui ta ei oma võrega $N_5$ isomorfset alamvõret. Modulaarne võre on distributiivne parajasti siis, kui ta ei oma võrega $M_3$ isomorfset alamvõret.
+
+\subparagraph{Tõestus}
+
+Riina esitab seminaris.
+
+\paragraph{Teorem 2.4.1}
+Võre on distributiivne parajasti siis, kui ta on isomorfne mingi hulga kõigi alamhulkade võre mingi alamvõrega. 
+
+\paragraph{Definitsioon 2.4.1}
+Võre mittetühja alamhulka F nimetatakse filtriks, kui ta on kinnine alumise raja võtmise suhtes ja koos iga elemendiga $a$ sisaldab ka võre $L$ kõik elemendist $a$ suuremad elemendid.
+
+\subparagraph{Märkus}
+Filtri ja algfiltri duaalsed mõisted on vastavalt ideaal ja algideal.
+
+\paragraph{Definitsioon 2.4.2}
+Võre $L$ filtrit $F$ nimetatakse algfiltriks, kui sellest, et $a V b \in F$, kus $a,b \in L$, järjeldub
+$a \in F$ või $b \in F$. Algfilter $F \neq L$. 
+
+\paragraph{Zorni lemma}
+Olgu meil järjestatud hulk $A$. Eeldame, et iga hulga $A$ alamhulk omab ülemist tõket hulgas $A$. Siis sellest järeldub, et $A$ omab vähemalt ühte maksimaalset elementi. $C \subset A alamhulk: x,y \in C \implies x \leq y või y \leq x$.
+
+\paragraph{Lause 2.4.1}
+Distributiivse võre iga kahe erivena elemendi jaoks leidub algfilter, mis sisaldab täpselt ühte neist kahest. 
+
+\subparagraph{Tõestus}
+
+
+\paragraph{Teoreem 2.4.1}
+Võre on distributiivne parajasti siis, kui ta on isomorfne mingi hulga kõigi alamhulkade võre mingi alamvõrega
+
+\subparagraph{Selgitus}
+Olgu L distributiivne võre. Vaja ledia hulk A ja \"uks\"uhene homomorfism $\Phi : L \rightarrow P(A), \Phi(L) \leq P(A), L isomm \Phi(L)$. 
+
+\subparagraph{Tõestus}
+
+\section{R\"uhmad}
+
+\subsection{Faktorr\"uhma faktoriseerimine}
+
+\paragraph{Isomorfismiteoreem}
+Olgu $H$ rühma $G$ normaalne alamr\"uhm, B r\"uhma G alamr\"uhm ning A r\"uhma B normaalne alamr\"uhm. Siis $BH/AH isom B/(A(B yhisosa H))$.
+
+\paragraph{Järeldus 3.2.1.}
+Olgu $H$ r\"uhma G normaalne alamr\"uhm ja $A$ r\"uhma G alamr\"uhm. Siis $BH/H isom B/(B yhisosa H)$.}
+
+\paragraph{Teoreem 3.2.2. (Zassenhausi lemma)}
+Kui $H,H',K$ ja $K'$ on rühma G alamrühmad, kusjuures $H'$ on normaalne alamr\"uhm r\"uhmas $H$ ja $K'$ on normaalne alamr\"uhm r\"uhmas K, siis
+
+$(H yhis K)H'/(H yhis K')H' isom (K yhis H)K'/(K yhis H')K'$.
+
+\subparagraph{Tõestus}
+
+Idee: näitame, et mõlemad on isomorfsed $H yhis K / (H' yhis K)(H yhis K')$.
+$H'(H yhis K) / H'(H yhis K') isom H yhis K / (H' yhis K)(H yhis K')$.
+Kasutame isomorfismiteoreemi. Võtame $B$ rolli $H yhis K$, $H$ rolli sobib  $H'$, $A$ rolli võtame $H yhis K'$. Lisaks vaatama $G$ rollis $H$-d. Kas $h yhis K' normaalne alamryhm H yhis K$?
+
+   
 
 
 \end{document}
