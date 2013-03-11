@@ -342,7 +342,7 @@ Olgu L distributiivne võre. Vaja ledia hulk A ja \"uks\"uhene homomorfism $\Phi
 Olgu $H$ rühma $G$ normaalne alamr\"uhm, B r\"uhma G alamr\"uhm ning A r\"uhma B normaalne alamr\"uhm. Siis $BH/AH isom B/(A(B yhisosa H))$.
 
 \paragraph{Järeldus 3.2.1.}
-Olgu $H$ r\"uhma G normaalne alamr\"uhm ja $A$ r\"uhma G alamr\"uhm. Siis $BH/H isom B/(B yhisosa H)$.}
+Olgu $H$ r\"uhma G normaalne alamr\"uhm ja $A$ r\"uhma G alamr\"uhm. Siis $BH/H isom B/(B yhisosa H)$.
 
 \paragraph{Teoreem 3.2.2. (Zassenhausi lemma)}
 Kui $H,H',K$ ja $K'$ on rühma G alamrühmad, kusjuures $H'$ on normaalne alamr\"uhm r\"uhmas $H$ ja $K'$ on normaalne alamr\"uhm r\"uhmas K, siis
@@ -355,7 +355,76 @@ Idee: näitame, et mõlemad on isomorfsed $H yhis K / (H' yhis K)(H yhis K')$.
 $H'(H yhis K) / H'(H yhis K') isom H yhis K / (H' yhis K)(H yhis K')$.
 Kasutame isomorfismiteoreemi. Võtame $B$ rolli $H yhis K$, $H$ rolli sobib  $H'$, $A$ rolli võtame $H yhis K'$. Lisaks vaatama $G$ rollis $H$-d. Kas $h yhis K' normaalne alamryhm H yhis K$?
 
+\subsection{Normaal- ja kompositsioonijadad}
+
+\paragraph{Schreieri teoreem} Antud r\"uhmas suvalised kaks normaaljada omavad ekvivalentseid tihedusi.
+
+\subparagraph{Tõestus}
+$\{1\} = H_0 <d H_1 <d H_2 ... H_m= G$
+
+$\{1\}] K_0 <d K_1 <d K_2 ... <d H_n = G$
+
+Defineerime $H_{ij} = H_i(H_{i+1} yhisosa K_j)$ ja $K_{ji} = K_j (K_{j+1} yhisosa H_i)$. 
+
+
+Miks $H_{ij} <d H_{i,j+1}$ ?
+
+
+Miks $H_i( H_{i+1} yhisosa K_j) <d H_i(H_{i+1} yhisosa K_{j+1})$ ?
+
+\paragraph{Näide}
+
+Olgu $ m=2, n =3$. Siis peavad eelneva põhjal ekvivalentsed olema $H_0 = H_{00} \leq H_{01} \leq H_{02} \leq H_{03} = H_1=H_{10} \leq H_{11} \leq H_{12} \leq H_{13} = H_2 = G$ ja $K_0 = K_{00} \leq K_{01} \leq K_{02} = K_1 = K_{10} \leq K_{11} \leq K_{12} = K_{2} = K_{20} \leq K_{21} \leq K_{22} = K_3 = G$.
+
+Veenduda Sachenhausi lemma põhjal. 
+
+$H_{01} / H_{00} isomorfne K_{01} / K_{00}$
+
+$H_{02}/ H_{01} isomorfne K_{11}/K_{10}$
+
+$H_{03}/ H_{02} isomorfne K_{21}/K_{20}$
+
+$H_{11} / H_{10} isomorfne K_{02}/K_{01}$
+
+$H_{12} / H_{11} isomorfne K_{12}/K_{11}$
+
+$H_{13} / H_{12} isomorfe K_{22}/K_{12}$
+
+\section{Lihtsad r\"uhmad}
+
+\paragraph{Lause 3.4.1 Abeli rühm on lihtne siis ja ainult siis, kui tema järk on algarv}
+
+\subparagraph{Tõestus}
+Kuna alamrühma järk jagab rühma järke, siis algarvulise järguga rühmal saab olla ainult 2 alamrühma - kogu rühm ja 1 elemendiline rühm.
+
+Teistpidi, olgu $A$ lihtne Abeli rühm. $(A,+)$,$0 \neq a \in A$, $ \{na | n \in \mathbb{Z}\}$. Kusjuures, kui $n >0 $ siis $na = a + a + .... + a$, kui $n=0$ siis $0a = 0$. Ja kui $n < 0$ siis $(-n)*a = -(na)$. Elemendi A poolt tektitatdu ts\"ukliline alamr\"uhm. Abeli rühma alamr\"uhm on lihte, seega $A = < a >$. 
+
+\paragraph{Teoreem 3.4.1 Kui $n = 3$ või $n \geq 5$, siis rühm $A_n$ on lihtne }
    
+\paragraph{Teoreem 3.4.2} Kui $n > 2$ või $n=2$ ja $|K| > 3$, siis projektiivne spetsiaalne lineaarr\"uhm PSL(n,K) on lihtne. 
+
+\section{Lahenduvad rühmad}
+
+\paragraph{Definitsioon 3.5.1.} R\"uhma, mis omab normaaljada, mille kõik faktorid on Abeli rühmad, nimetatakse lahenduvaks.
+
+\paragraph{Teoreem 3.5.1} Lahenduva r\"uhma alamrühmad ja faktorrühmad on lahenduvad.
+
+\subparagraph{Tõestus} Olgu meil lahenduv rühm $G$. Kehtigu $\{1\} = H_0 <d H_1 <d H_2 <d ... <d H_m = G$. $H_{i+1}/H_i $ on Abeli rühm $i=0,...,n-1$. 
+
+$A \leq G $, $ A_i = A yhiosa H_i$, $A_0 = A yhisosa \{1\} = \{1\}$, $A_n = A yhisosa G = A$, $i \leq j \implies A_i \leq A_j$. 
+
+\paragraph{Teoreem X} Iga paaritu arvulise järguga rühm on lahenduv
+
+\subparagraph{Tõestus}
+Olgu $|G|$ paaritu. $\{1\} = H_0 <d H_1 <d H_2 <d ... <d H_n = G$. Kõik jada faktorit lihtsad lõplikud rühmad. Alamrühma järk jagab rühma järku $\implies$ alamr\"uhmade järgud on paaritud. 
+
+\section{Faktorringi faktoriseerimine}
+
+\paragraph{Lause 4.1.1} Kõik korpused on lihtsad ringid. Iga lihtne kommutatiivne ring on korpus. 
+
+\subparagraph{Tõestus} $\{0\} \neq I <d K$. $I$ - ideaal. ...
+
+\paragraph{Lause 4.1.2} Täielik maatriksring $Mat_n (K)$ on lihtne iga naturaalarve $n$ ja korpuse $K$ korral. 
 
 
 \end{document}
