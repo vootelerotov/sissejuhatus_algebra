@@ -524,5 +524,71 @@ Olgu $|G|$ paaritu. $\{1\} = H_0 <d H_1 <d H_2 <d ... <d H_n = G$. Kõik jada fa
 
 \paragraph{Lause 4.1.2} Täielik maatriksring $Mat_n (K)$ on lihtne iga naturaalarve $n$ ja korpuse $K$ korral. 
 
+%yks loeng puudu
+
+AlI - iga vektorruum omab baasi lõplikul juhul
+lõpmatu mõõtmelise baasi lin sõltumatus - kõik lõpblikud alamhulgad sõltumatud.
+T.4.4.2
+$S = \left\{ X | X \subset V, X on lin. sõltumatu \right\}$
+Zorni lemma eeldute kontroll.
+$\left\{ X_i | i \in I \right\}$, $X_i \in S$ Otsime suurimat elementi
+$X = \sup_{i \in I} X_i$. Kas $X$ kuulub hulka $S$?
+...
+Zorni lemma eeldus täidetud.
+$S$ omab maksimaalset elementi, olgu selleks $Z$. $Z$ on $V$ baas ? 
+Valime $v \in V$, kas $v \in L(Z)$. Oletame, et $v \not \in V$, siis $Z \sup \left\{ v \right\}$ on lin sõltumatu, see on aga vastuolu.
+
+$V$ vektorruum \"ule $K$
+$ei, i \in I$ -$V$ baas.
+$V isom ringpluss \sum \limits_{i \in I} K_i$
+$ringpluss \sum \limits_{i \in I} K_i = \left\{ (k_i)_{i \in I} | k_i \in K, | \left\{ j \in L | k_j = 0 \right\} | < \infty \right\}$
+
+defineerime $\phi: V \to ringpluss \sum \limits_{i \in I} K_i$ nii, et $\phi(v) = (l_i)_{i \in I}, l_i = \begin{cases} k_i, \text{kui} i \in \left\{ i_1,i_2,...,i_n \right\} \\
+0, \text{kui} i \not \in \left\{ i_1,i_2,...,i_n \right\}
+\end{cases}$
+
+\section{Ringide esitused ja moodulid}
+D 4.5.1
+
+$A$ Abeli r\"uhm, End$(A)$ on r\"uhm. Liitimine defineeritud kui $\left( \phi + \psi \right) \left( a \right) = \phi \left( a \right) + \psi \left( a \right)$. 
+
+T 4.5.1
+$\phi : R \to End(M;+)$, iga $r \in R$ kollab tekib loomulik kujutus $l_2: M \to M, x \to rx$. Sellest võime mõelda kui vasaknihkest.  $\phi \left( r \right ) = l_r$. Veendume, kas definitsioon on korrektne. Esiteks, kas $l_r \in \text{End}(M;+)$ ? $l_2 (x +y ) = r (x + y ) = rx + ry = l_r(x) + l_r(y)$. Veel, $\phi(rs) = \phi(r) * \phi(s)$, $\phi(1) = 1_M$, $l_{r+s} = l_r + l_s$.
+
+D 4.5.2
+
+$\phi: R \to \text{End}(A)$. Oletame, et $\phi$ on \"uks\"uhene, oletame, et $r$ kuulub Ker$(\phi)$, $\phi(r) = 0 = \phi(0) \implies r=0$, seega Ker$(\phi)$  ....
+
+R-moodul M on täpne $\implies$ vastav esitus on täpne. $\phi : R \to \text{End}(M;+)$, $\phi(r) = l_r$, Ker$(\phi) = \left\{ 0 \right\}$, $l_r(x) = 0 \forall x \in M \iff r=0$
+
+T 4.5.2
+$R isom \phi(R) \leq \text{End} \left( M;+ \right)$.
+
+Ainult null element anuleerib kõik mooduli elemendid. 
+
+\section{Abeli r\"uhmad}
+POLE SLAIDIL! 
+Idee: näidata, et mooduli ehitus võib olla keerulisem. 
+
+Tsükliline $R$-moodul 
+
+Def. $R$-moodulit nimetatakse ts\"ukliliseks, kui ta on tekitatud \"uhe elemendi poolt. 
+
+Olgu $M$ ts\"ukliline $R$-moodul, see tähendab $\exists a \in M, M = < a >$. $M = Ra = \left\{ ar | r \in R \right\}$. $RA \subset < a > $. $ra + sa = (r + s) a$, $s(ra) = (sr)a$. $a = 1 * a \in Ra$. 
+
+L. Iga ts\"ukliline $R$-moodul on isomorfne $R$-mooduli $R$ faktormooduliga. 
+
+\begin{proof}
+$M = Ra$.
+$\phi: R \to Ra$.
+$\phi(r) = ra$.
+Kontrollida homomorfismi. S\"urjektiivne, homomorfismi teoreemi põhjal $M$ isomorfne $R/ \text{Ker} \left( \phi \right)$.
+
+\end{proof}
+
+
+
+L 4.5.1
+
 
 \end{document}
