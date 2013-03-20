@@ -1,160 +1,290 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{report}
 
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
+\usepackage{amsthm}
 \usepackage{enumerate}
+\usepackage[estonian]{babel}
+\usepackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{float}
+\usepackage{theoremref}
+
+\setlength\parindent{0pt}
+
+\definecolor{background_example}{HTML}{EDEDED}
+
+\numberwithin{equation}{section}
+\theoremstyle{definition}
+\newtheorem{tyyp}[equation]{Definitsioon}
+\newtheorem{omega_algebra}[equation]{Definitsioon}
+\newtheorem{homomorfism}[equation]{Definitsioon}
+\newtheorem{emorf}[equation]{Definitsioon}
+\newtheorem{isomorfism}[equation]{Definitsioon}
+\newtheorem{isomorfsus}[equation]{Definitsioon}
+\newtheorem{automorfism}[equation]{Definitsioon}
+\newtheorem{alamalgebra}[equation]{Definitsioon}
+
+\theoremstyle{plain}
+\newtheorem{homomorfismide_korrutis_homomorfism}[equation]{Lause}
+\newtheorem{emorf_on_monoid}[equation]{Lause}
+\newtheorem{isomorfsus_on_ekvivalents}[equation]{Lause}
+\newtheorem{automorfismide_hulk_on_ruhm}[equation]{Lause}
+\newtheorem{kui_leidub_homomorfism_leidub_alamalgebra}[equation]{Lause}
+\newtheorem{homomorfism_ja_alamalgebrad}[equation]{Lause}
 
 
 \begin{document}
 
 
 
-\section{loeng I}
+%loeng I
 
-\subsection{Meenutusi Algebra I-st}
 
-$A \neq \emptyset$
-$A^n = A x A x ... A = \{(a_1,\cdots,a_n)| a_i \in A \}$
+\chapter{\"Uldise algebra põhimõisteid ja põhikonstruktsioonid}
 
-n - tuple
-$|A^0| = 1 (A^0 = \{ \emptyset \}$
-$\omega: A^n \rightarrow A$ 
-n-kohaline algebraline tehe hulgal A
 
-n-aarne:
+\colorbox{background_example}{\parbox{\textwidth}{
+\subsection*{Meenutusi varasemast}
+
+Olgu $A$ mittet\"uhi hulk ehk $A \neq \emptyset$. Olgu $n$ suvaline naturaalarv, hulga $A$ \textbf{$n$-ndaks otseastmeks} nimetatakse hulga $A$ elementidest koosnevate järjestatud vektorite hulka.
+\begin{equation*}
+A^n = A \times A \times ... \times A = \{(a_1,\cdots,a_n)| a_i \in A \} \text{.}
+\end{equation*}
+
+Inglise keelses kirjanduses kasutatakse tähist \textit{$n$-tuple}. Märgime veel, et $A^0 = \left\{\emptyset \right\} $, seega $\left| A^0 \right| = 1$.
+
+Kujututust
+
+\begin{equation*}
+\omega: A^n \to A 
+\end{equation*} 
+
+nimetatakse \textbf{$n$-naarseks} ehk \textbf{$n$-kohaliseks} algebraliseks tehteks hulgal A.
+
+
+
+
+Levinumad $n$-aarsete tehete nimetused:
 \begin{enumerate}
-\item n=1 unaarne tehe
-\item n=2 binaarne tehe
-\item n=0 nullarne tehe
+\item $n$=2: binaarne tehe, paneb kahele kindlas järjekorras võetud elemendile vastavusse elemendi samast hulgast.
+\item $n$=1: unaarne tehe, paneb hulga elemendile vastavasse mingi selle sama hulga elemendiga. 
+\item $n$=0: nullarne tehe, tõlgendatav kui \"uhe kindla elemendi fikseerimine
+\end{enumerate}
+}}
+\section{$\Omega$-algebra}
+
+\begin{tyyp} Hulka $\Omega$ nimetakse \textbf{t\"u\"ubiks} ehk \textbf{signatuuriks} kui ta on esitatud mittelõikuvate alamhulkade $\Omega_0 , \Omega_1, \Omega_2, ... $ \"uhendina.
+\end{tyyp}
+
+\begin{omega_algebra} Olgu $\Omega$ tüüp. Mittet\"uhja hulka $A$ nimetatakse \textbf{$\Omega$-algebraks}, kui iga $a$ korral igale $\omega \in \Omega_n$ vastab $n$-aarne tehe hulgal A, mida tähistatakse sama s\"umboliga $\omega$. 
+\end{omega_algebra}
+
+Ehk, kui $A$ on $\Omega$-algebra, siis iga $\omega \in \Omega_n$ ja suvaliste $a_1,a_2,...,a_n \in A$ korral on \"uheselt määratud element $\omega \left( a_1,a_2,...,a_n \right) \in A$. 
+
+Kui tahetakse rõhutada, mis t\"u\"upi algebraga on tegemist, siis tähistatakse $\Omega$ algebrad paarina $(A;\Omega)$.
+
+
+\colorbox{background_example}{\parbox{\textwidth}{
+\section*{Meenutusi varasemast}
+Algebralised põhistruktuurid.
+\begin{enumerate}[I]
+\item R\"uhmoid - mittet\"uhi hulk, millel defineeritud kahekohaline tehe.
+\item Poolr\"uhm - r\"uhmoid, mille tehe on assotsiatiivne.
+\item Monoid - poolr\"uhm, milles leidub \"uhikelement.
+\item R\"uhm - monoid, mille igal elemendil leidub pöördelement.
+\item Abeli r\"uhm - r\"uhm on Abeli r\"uhm, kui tema tehe on kommutatiivne.
+\item Ring - hulka R nimetatatkse ringiks, kui tal on defineeritud liitmine ja korrutamine, kusjuures R on liitmiise suhtes Abeli r\"uhm ja liitmine ja korrutamine on distributiivsed. Tihti lisatakse ka nõue \"uhikelemende olemasoluks.
+\item Korpus - ring, mille nullist erinevad elemendid moodustavad r\"uhma korrutamise suhtes.
+\end{enumerate}
+}}
+\subsection*{Näited}
+
+\begin{enumerate}[I]
+\item R\"uhmoid - hulk \"uhe binaarse tehtega, see tähendab $\Omega= \Omega_2 = \left\{ * \right\}$.
+\item Poolr\"uhm - signatuur analoogne r\"uhmoidi signatuuriga.
+
+\item Monoid - \"uhikelemendiga poolr\"uhm, vaatame seda tihti laiema signatuuriga, $\Omega = \Omega_0 \cup \Omega_2$, kus $\Omega_0 = \left\{ 1 ~ \text{(\"uhikelemendi fikseerimine)}  \right\}$ ja $\Omega_2 = \{*\}$.
+
+\item R\"uhm - saab kirjeldada eelnevate signatuuride kaudu, aga parem kirjeldada järgnevalt: $\Omega = \Omega_0 \cup \Omega_1 \cup \Omega_2$, kus $\Omega_0 = \{1\}$, $\Omega_1 = \left\{ ^{-1} ~ \text{(pöördelemendi leidmine)} \right\}$ ja $\Omega_2 = \{*\}$.
+
+\item Ring - algebraline struktuur signatuuriga: $\Omega = \Omega_0 \cup \Omega_1 \cup \Omega_2$, kus $\Omega_2 = \left\{ +,* \right\}, \Omega_1 = \left\{- ~ \text{vastandelemendi leidmine} \right\}$  ja  $\Omega_0 = \left\{0 ~ \text{(nullelemendi fikseerimine)},1 \right\}$.
+
+\item Vektorruum  \"ule korpuse $\mathbb{K}$ - struktuur signatuuriga:
+$\Omega = \Omega_0 \cup \Omega_1 \cup \Omega_2$, kus
+$\Omega_2 = \{+\}$, $\Omega_1 = \{-\} \cup \left\{ \alpha * | \alpha \in \mathbb{K} \right\}$, $\Omega_0 = \{0\}$. Paneme tähele, et kui oleme sisse toonud skalaariga korrutamise ei ole rangelt võttes vaja ei nullelemendi fikseerimist ega vastandelemendi leidmist - need tehted võime defineerida läbi skalaariga korrutamise. Ehk alternatiivne signatuur oleks järgmine: $\Omega = \Omega_1 \cup \Omega_2$, kus
+$\Omega_2 = \{+\}$, $\Omega_1 =  \left\{ \alpha * | \alpha \in \mathbb{K} \right\}$.
 \end{enumerate}
 
+\section{Morfismid}
 
-\subsection{$\Omega$-algebra}
 
-Def. 1.1.1 Hulka $\Omega$ nimetakse t\"u\"ubiks ehk signatuuriks kui ta on esitatud mittelõikuvate alamhulkade $\Omega_1 yhend \Omega_2...$
+\begin{homomorfism} Olgu meil $\Omega$-algebra $A$ ja $\Omega$-algebra $B$. Kujutust $\phi$  nimetatakse \textbf{homomorfismiks}, kui iga $n$, iga $\omega \in \Omega_n$ ja suvaliste $a_1,...,a_n \in A$ korral kehtib võrdus 
+\begin{equation*}
+\phi(\omega(a_1,...,a_n)) = \omega(\phi(a_1),..., \phi(a_n)).
+\end{equation*}
+\end{homomorfism}
 
-Def 1.1.2 Olgu $\Omega$ tüüp. Mittet\"uhja hulka A nimetatakse $\Omega$-algebraks, kui iga $a$ korral igale $\omega \in \Omega_n$ vastab n-aarne tehe hulgal A, mida tähistatakse sama s\"mboliga $\omega$. 
+Defineerime kõikide $A$ ja $B$ vaheliste homomorfismide hulga järgnevalt - $\left\{ \phi | \phi \text{ on homoformism algebrast A algebrasse B }  \right\} $, sellist hulka tähistatakse s\"umboliga Hom$(A,B)$.
 
-Kui tahetakse rõhutada, mis t\"u\"upi algebraga on tegemist, siis tähistatakse $\Omega$ algebrad paarina $(A;\Omega)$
+\subsection*{Näited}
+\begin{enumerate}[I]
+\item{
+Olgu $A$ ja $B$ r\"uhmad. Meenutame, et r\"uhma saab kirjeldada järgneva signatuuri abil: $\Omega = \{1\} \cup \{ ^{-1} \} \cup \{*\}$. Olgu meil järgnev kujutus:
+\begin{equation*}
+\phi : A \rightarrow B 
+\end{equation*}
 
-Näited:
+Veendumaks, et $\phi$ on homomorfism tuleb veenduda selles, et $\phi$ säilitab kõik tehted. Teisisõnu:
 
-\begin{enumerate}
-\item R\"uhmoid - hulk \"he binaarse tehtega, st. $\Omega= \Omega_2 = \{*\}$
-\item Poolr\"uhm - sama signatuur mis r\"uhmoidil
-\item Monoid - \"uhikelemendiga poolr\"uhm, vaatame seda tihti laiemal signatuuriga, $\Omega = \Omega_0 yhend \Omega_2, \Omega_0 = \{1\}$ - \"uhikelemendi fikseerimine, $\Omega_2 = \{*\}$
-\item R\"uhm - saab kirjeldada eelnevate signatuuride kaudu, aga parem kirjeldada järgnevalt: $\Omega = \Omega_0 yhend \Omega_1 yhend \Omega_2$, kus $\Omega_1 = \{ ^{-1}\}$
-\item Ring - algebralinie struktuur signatuuriga(signatuuris): $\Omega = \Omega_0 yhend \Omega_1 yhend \Omega_2$, kus $\Omega_2 = \{+,*\}, \Omega_1 = {-(vastandelemendi võtmine}, \Omega_0 = {0,1}$
-\item Vektorruum - struktuur signatuuriga:
-$\Omega = \Omega_0 yhend \Omega_1 yhend \Omega_2$, kus
-$\Omega_2 = \{+\}, \Omega_1 = \{-(vastandelement, pole vajalik kui skalaariga korrutamine sissetoodud)\} yhend {\alpha * | \alpha \in K}, \Omega_0 = \{0\} - samuti avaldatav skalaariga korrutimase kaudu$ 
+\begin{equation*}
+\phi \text{ on homomorfism} \iff 
+\begin{cases}
+\phi(1) = 1 \\
+\phi(x^{-1}) = \phi(x)^{-1} \\
+\phi(xy) = \phi(x)\phi(y)
+\end{cases} 
+\end{equation*}
+
+Tõestame, et r\"uhmade $A$ ja $B$ vaheline kujutus on homomorfism siis ja ainult siis kui kehtib kolmas tingimus ($\phi(xy)= \phi(x) \phi(y)$). 
+\begin{proof}
+Kehtigu kolmas tingimus, see tähendab $\phi(xy)= \phi(x) \phi(y)$. Veendume, et sellest järeldub esimese kahe tingimuse kehtivus.
+\begin{equation*}
+\phi(1) = \phi(1*1) = \phi(1)\phi(1) \implies \phi(1)\phi(1)^{-1} = \phi(1)\phi(1)\phi(1)^{-1} \implies 1 = \phi(1)*1 = \phi(1)
+\end{equation*}
+\begin{equation*}
+ \phi(x^{-1}x) = \phi(x^{-1})\phi(x) = \phi(1) = 1 \implies \phi(x)^{-1} = \phi(x^{-1})
+\end{equation*}
+\end{proof}
+
+Niisiis taandub kujutuse homomorfismiks olemise kontroll kolmanda omanduse kehtimise kontrollimisele.}
+
+\item Lineaarkujutis on vektorruumide isomorfism.
+
+\item{ Olgu meil $\Omega$-algebrad $A,B$ ja $C$ ning nende homomorfismid $\phi : A \to B$, $\psi : B \to C$. Defineerime kujutuse $\upsilon: A \to C$ järgnevalt: $\upsilon =  (\psi \phi ) = \psi (\phi ( x)), x \in A$.  Siis see kompositsioon on samuti homoformism (kui teda saab nii defineerida).Sõnastame eelneva lausena ja veendume, et see nii on. 
+}
+
 \end{enumerate}
 
-\subsection{Morfismid}
+\begin{homomorfismide_korrutis_homomorfism}
+\thlabel{homomorfismide_korrutis_homomorfism}
+Kui $\Omega$-algebrate homomorfismide korrutis on defineeritud, siis on see isa ka $\Omega$-algebrate homomorfism. 
+\end{homomorfismide_korrutis_homomorfism}
 
-Def 1.2.1 Kujutust $\phi$ $\Omega$-algebrast $A$ $\Omega$-algebrasse $B$ nimetatakse homomorfismideks, kui iga $n, \omega \in \Omega_n$ ja suvaliste $a_1,...,a_n \in A$ korral kehtib võrdus $\phi(\omega(a_1,...,a_n)) = \omega(\phi(a_1),\cdots, \phi(a_n))$
+\begin{proof}
 
-$Hom(A,B) - \{\phi | \phi on homoformism A-st B-sse\}$
-
-Näide:
-
-Olgu A, B sellised $\Omega = \{1\}, \{ ^{-1}\}, \{*\}$
-$\phi : A \rightarrow B homoformism
-\phi(1) = 1, \phi(1) = \phi(1*1) = \phi(1)*\phi(1) \implies \phi(1) = 1 (kolmanda põhjal)
-\phi(x^{-1}) = \phi(x)^{-1}, 1 = \phi(1) = \phi(x^{-1}x) = \phi(x^{-1})\phi(x) (kolmanda põhjal)
-\phi(xy) = \phi(x)\phi(y)$
-
-Taandub kolmanda omanduse kontrollimisele.
-
-
-Lineaarkujutis on vektorruumide isomorfism.
-
-Olgu meil $\Omega$-algebrad A,B,C ning nende homoformismid $\phi : A \rightarrow B$, $\psi : B \rightarrow C, (\psi \phi ) = \psi (\phi ( x)), x \in A$. Siis see kompositsioon on samuti homoformism (kui teda saab nii defineerida). 
-
-Tõestame : Veendume, et $(\psi\phi)(\omega(a_1,\cdots, a_n)) = \omega((\psi \phi)(a_1,\cdots,a_n))$. See on samaväärne sellega, te $\psi(\phi(\omega(a_1,\cdots,a_n))) = \psi(w(\phi(a_1),\cdots, \phi(a_n)) ...$
-
-Endomorfism (End(A) = Hom(A,A)).
-
-Lause 1.2.2 (End(A);*) on monoid. 
-
-Tõestus: Assotatiivsus on selge, tuleneb homoformismide omadustest. \"Uhikelement ? $id_A : A \rightarrow B, id_{A}(x) = x, x \in A$
-
-Def 1.2.3 Bijektiivne homomorfismi nimetatakse isomorfismiks. 
-
-Lause 1.2.3 Isomorfism on ekvivalentsiseos kõigi $\Omega$-algebrade klassis, ehk ta on reflektsiivne, s\"ummeetriline ja transitiivne. 
-
-Tõestus:
-\begin{enumerate}
-\item Refleksiivsus, st. A $isom$ A, $id_A: A \rightarrow A$
-\item S\"ummeetria. Olgu $ \phi : A \rightarrow B$ isomorfism. Vaja $ \psi : B \rightarrow A$ mis oleks isomorfism. Valime selleks $\phi^{-1}$ Vaja näidata, et iga  $b_1,\cdots,b_n \in B$ korral $\phi^{-1} (\omega(b_1,\cdots, b_n)) = \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_2))$ Rakendame mõlemale poole $\phi$. $\phi(\omega(b_1,\cdots, b_n)) = \phi \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_2)) .... $
-\item Transitiivsus - ise! 
-\end{enumerate}
-
-Isomorfismi tähtsus. Kui meid huvitab tehe ja tema omadused, siis need jäävad samaks isomorfismi klassi täpsusega. 
-
-$Aut(A)$ 
-
-Lause 1.2.4 Aut(A) on rühm. 
-
-Tõestus: 
-$\phi,\psi \in AutA, $
-
-$ \psi \phi \in End(A), $
- 
-$ \phi \psi \in AutA $
- 
-$ id_a \in AutA $
- 
-$ \phi in AutA \implies \phi^{-1} \in AutA $
- 
- Näited:
- 
- C kompleksarue korpus
- $\phi: C \rightarrow C, \phi(\alpha) = \overline{\alpha}$
- 
- G suvaline r\"uhm
- 
- $g \in G$
- 
- $\phi : G \rightarrow ...$
- 
- $\phi(x) = g^{-1} x g $
- 
- \subsection{Alamalgebra}
-
- def 1.3.1. Mõte : $B \subset A, b_1,\cdots,b_n : \omega^B (b_1,\cdots,b_n) = \omega^A (b_1,\cdots,b_n) ( \in B).$ 
- Algebra alamhulk, mis on kinnine tehete suhtes on alamalgebra.
- 
-Näide: $(A;*)$ poolr\"uhm. $B \subset A, x,y \in B \implies xy \in B $ , kui $B = \emptyset$, siis ei ole alamalgebra aga rahuldab definitsiooni. Täiendame: 
-  Algebra \textbf{mittet\"hi} alamhulk, mis on kinnine tehete suhtes on alamalgebra.
+  Peame veenduma sellest, et $(\psi\phi)(\omega(a_1,\cdots, a_n)) = \omega((\psi \phi)(a_1,\cdots,a_n))$. See on samaväärne sellega, te $\psi(\phi(\omega(a_1,\cdots,a_n))) = \omega(\psi(\phi(a_1)),\cdots, \psi(\phi(a_n)))$. Kuna $\phi$ on homomorfism, siis kehtib $ \psi(\phi(\omega(a_1,\cdots,a_n))) = \psi(\omega(\phi(a_1),\cdots,\phi(a_n))$. Kuna ka $\psi$ on homomorfism, siis saame kirjutada: $\omega(\psi(\phi(a_1)),...,\psi(\phi(a_n)))$.
   
- $B \leq A \iff B on A alamalgebra$
+
+\end{proof}
+
+
+\begin{emorf}
+Homomorfismis mingist $\Omega$-algebrast iseendasse nimetatakse selle algebra \textbf{endomorfismiks}. Kõikide endomorfismide hulka Hom$(A,A)$ tähistame s\"umboliga End$(A)$.
+\end{emorf}
  
-$ B \leq A, \tau : B \rightarrow A$
+\begin{emorf_on_monoid}
+\thlabel{emorf_on_monoid}
+Iga $\Omega$-algebra A korral on hulk End$(A)$ monoid kujutuste korrutamise (järjest rakendamise) suhtes. 
+\end{emorf_on_monoid}
 
-$\tau(x) = x, x \in B$
+\begin{proof}
+Tõestuseks piisab veenduda, et leidub \"uhikelement ja kujutuste järjest rakendamine on assotsiatiivne. Veendume \"huikelemendi olemasolus, selleks sobib kujutus $id_A : A \to A, id_{A}(x) = x, x \in A$. On selge, et selline kujutus on ka homomorfism, mistõttu ta kuulub hulka End$(A)$. Assotatiivsuses veendumiseks piisab tähele panna, et $\left( \phi\psi \right) x$ on defineeritud kui $\phi \left( \psi \left( x \right) \right)$. Seega $\left( \phi \psi \right) \upsilon \left( x \right) = \phi \left( \psi \left( \upsilon \left( x \right) \right) \right) =   \phi \left( \psi \upsilon \right) \left( x \right)$.
+\end{proof}
 
-$\tau \in Hom(B,A)$, $\tau$ \"uks\"uhene. 
+\begin{isomorfism}
+Bijektiivne homomorfismi nimetatakse \textbf{isomorfismiks}. 
+\end{isomorfism}
+
+\begin{isomorfsus}
+$\Omega$-algebraid $A$ ja $B$ nimetatakse nimetatakse \textbf{isomorfseteks}, kui leidub isomorfism $\phi: A \to B$.
+\end{isomorfsus}
+
+Seda, et $\Omega$-algebrad A ja B on isomorfsed, tähistatakse s\"umboliga $A \simeq B$.
+
+\begin{isomorfsus_on_ekvivalents}
+\thlabel{isomorfsus_on_ekvivalents}
+Isomorfism on ekvivalentsiseos kõigi $\Omega$-algebrade klassil, ehk ta on refleksiivne, s\"ummeetriline ja transitiivne. 
+\end{isomorfsus_on_ekvivalents}
+
+\begin{proof}
+Veendume, et isomorfism on refleksiivne, s\"umeetriline ja transitiivne. Olgu $A,B,C$ $\Omega$-algebrad. 
+\begin{enumerate}[I]
+\item Refleksiivsus, ehk A $\simeq$ A. Lihte on nähe, et sobivaks isomorfismiks osutub $id_A: A \to A$.
+\item S\"ummeetria. Peame veenduma, et kui eksisteerib isomorfism $ \phi : A \rightarrow B$ isomorfism, siis sellest järeldub, et eksisteerib ka isomorfism $ \psi : B \rightarrow A$. Valime selleks $\phi^{-1}$ ja näitame, et tegemist on tõepoolest isomorfismiga. Bijektiivsus on ilme, näidata tuleb, et $\phi^{-1}$ säilitab tehted. See tähendab, et peab kehtima järgnev : $\forall (b_1,\cdots,b_n) \in B$ korral $\phi^{-1} (\omega(b_1,\cdots, b_n)) = \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_n))$. Rakendame mõlemale poole kujutust $\phi$. Saame $\phi \left( \phi^{-1}(\omega(b_1,\cdots, b_n)) \right) = \phi \left( \omega \left( \phi^{-1}(b_1), \cdots, \phi^{-1}(b_n) \right) \right)$. Arvestades seda, et $\phi$ on homomorfism saame kirjutada: $ \phi \left( \phi^{-1}(\omega(b_1,\cdots, b_n)) \right) = \left( \omega \left( \left( \phi  \phi^{-1} \right) (b_1), \cdots, \left( \phi \phi^{-1} \right) (b_n) \right) \right)$. Kuna kujutuse ja tema pöördkujutuse järjest rakendamine on võrdne \"uhik teisendusega, siis on lihte näha, et võrdus kehtib. Siis aga $\phi$ injektiivsuse põhjal $\phi^{-1} (\omega(b_1,\cdots, b_n)) = \omega(\phi^{-1}(b_1), \cdots, \phi^{-1}(b_n))$, mida oligi tarvis näidata.
+\item Transitiivsus. Veendume, et kui leiduvad isomorfisimid $\phi: A \to B$ ja $\psi: B \to C$, siis leidub ka isomorfism $\upsilon: A \to C$. Valime kujutuseks $\upsilon$ kujutuste $\phi$ ja $psi$ järjest rakenduse $(\phi \psi): A \to C$. Veendume, et nii defineeritud $\upsilon$ on isomorfism. On lihtne näha, et tegemist on bijektsiooniga.     
+Lause \ref{homomorfismide_korrutis_homomorfism} põhjal on $\upsilon$ ka homomorfism, seega oleme näidanud, et $\upsilon$ on isomorfism.
+\end{enumerate}
+\end{proof}
+
+Kui meid huvitab tehe ja tema omadused, siis need jäävad samaks isomorfismi klassi täpsusega. Seeläbi võime laiendada tehte kohta tehtud tähelepanekuid \"uhelt $\Omega$-algebralt  algebrade isomorfismiklassile.
 
 
-1.3.1 tõestus:
+\begin{automorfism}
+Bijektiivset endomorfismi nimetatakse automorfismiks.
+\end{automorfism}
+
+$\Omega$-algebra $A$ kõigi automorfismide hulka tähistatakse s\"umboliga Aut$A$ 
+
+\begin{automorfismide_hulk_on_ruhm}
+Iga $\Omega$-algebra $A$ korral on hulk Aut$A$ rühm kujutuste korrutamise (järjest rakendamise) suhtes. 
+\end{automorfismide_hulk_on_ruhm}
+
+\begin{proof}
+Olgu $A$ suvaline $\Omega$-algebra.Esiteks, tuletame meelde, et Lause \ref{emorf_on_monoid} põhjal on kõikide $A$ endomorfismide hulk monoid kujutuste korrutamise suhtes. Kuna $\Omega$-algebra $A$ kõikide automorfismide hulk Aut$A$ on endomorfismide hulga kinnine alamhulk, siis on tegemist samuti monoidiga. Hulga kinnisus tuleneb faktist, et bijektiivsete kujutuste korrutamise tulemus on bijektiivne kujutus. Tuletame meelde, et r\"uhm on selline monoid, mille igal elemendil leidub pöördelement. Jääb veenduda, et iga hulga Aut$A$ elemendil leidub pöördelement. Selleks sobib aga elemendi pöördfunktsioon, nagu me Lause \ref{isomorfsus_on_ekvivalents} tõestuse teises osas veendusime. Seega on lause tõestatud.
+\end{proof}
+
+
  
-$\phi \in Hom(B,A)$
-$\phi $ \"uks\"uhene.
-$\phi(B) \subset A$
-$B \rightarrow \phi(B) = \{ \phi(x) | x \in B \}$
+\subsection*{Näited automorfismidest}
+ \begin{enumerate}[I]
+ \item{Vaatleme kompleksarvude korpuse $\mathbb{C}$ peal defineeritud funktsiooni
+ $\phi: C \rightarrow C, \phi(\alpha) = \overline{\alpha}$. On lihtne veenduda, et see funktsioon on automorfism.} 
+ 
+ \item{Olgu $G$ suvaline r\"uhm, fikseerime elemendi $g \in G$. Defineerime n\"u\"ud kujutuse $\phi : G \to G, \phi(x) = g^{-1} x g $. Nii defineeritud kujutis on automorfism.} 
+ 
+ \end{enumerate}
+ 
+\section{Alamalgebra}
 
-$phi \in Hom(A,B)$
-$C \leq A , D \leq B $
+\begin{alamalgebra}
+$\Omega$-algebrat $B$ nimetatakse $\Omega$-algebra $A$ alamalgebraks, kui $B \subseteq A$ ja iga $\omega \in \Omega$ korral tehe $\omega$ algebral $B$ saadakse kui algebra $A$ sama tehte ahend.
+\end{alamalgebra}
 
-$\phi(C) \leq B , \phi^{-1}(B) \leq A$
+ Eelnevat võib mõtestada järgnevalt : $B \subset A, b_1,\cdots,b_n : \omega^B (b_1,\cdots,b_n) = \omega^A (b_1,\cdots,b_n) ( \in B)$. Ehk, sõnadesse panduna, siis tehte $\omega$ väärtus ei sõltu sellest, kas me vaatame teda algebras $A$ või algebras $B$.  
+Definitsioonist järjeldub, et algebra mittet\"uhialamhulk, mis on kinnine tehete suhtes on alamalgebra. 
+ 
+Paneme tähele, et kui me jätaksime ära nõude, et alamhulk peab olema mittet\"hi, siis kehtiks jägnev väide:  olgu  $(A;*)$ on poolr\"uhm ja $B= \emptyset \subset A$, siis $B$ rahuldab tingimust $ x,y \in B \implies xy \in B $ ehk $B$ on kinnine korrutamise suhtes. Samas $B$ ei ole alamalgebra, seega on  mittet\"uhja alamhulga nõue oluline. 
 
-Esimese ise. Teine:
+Seda, et $\Omega$-algebra $B$ on $\Omega$-algebra $A$ alamalgebra tähistame $B \leq A$.
+ 
+Kui $ B \leq A$, siis saab vaadelda sisestuskujutust$ \tau : B \to A, \tau(x) = x, x \in B$. On selge, et $\tau \in Hom(B,A)$, samuti on lihte veenduda, et $\tau$ on injektiivne. 
+Teatud mõttes kehtib ka vastupidine seos, seda näeme järgmises lauses.
 
-$\phi^{-1}(B) \leq A$
+\begin{kui_leidub_homomorfism_leidub_alamalgebra}
+Kui $A$ ja $B$ on $\Omega$-algebrad ning leidub \"uks\"uhene homomorfism $\phi : B \to A $, siis kujutis $\phi(B)$ on $A$ alamalgebra, mis on isomorfne algebraga $B$.
+\end{kui_leidub_homomorfism_leidub_alamalgebra}
 
-$a_1,\cdots, a_n \in \phi^{-1}(D), \omega \in \Omega_N$
+\begin{proof}
+Vaatleme hulka $\phi(B)$. Eelneva põhjal piisab selleks, et veenduda et $\phi(B)$ on $A$ alamalgebra veenduda, et $\phi(B)$ on kinnine. On selge, et $B$ on kinnine kõigi oma tehete suhtes, $\Omega$-algebra definitsiooni põhjal. Kuna $\phi$ on homomorfism, siis ta säilitab teheted, kuna ta on ka injektiivne, siis on hulk $\phi(B)$ kinnine tehete suhtes, seega on hulk $\phi(B)$ algebra $A$ alamalgebra. Kuna $\phi(B) = \left\{ \phi(x) | x \in B \right\} $, siis on kujutus $\phi$ selle hulga suhtes pealekujutus. Seega on $\phi$ bijektsioon hulkade $B$ ja $\phi(B)$ vahel ehk $B \simeq \phi(B)$. 
+  
 
-$\omega(a_1,\cdots,a_t ...)$ 
+\end{proof}
+
+\begin{homomorfism_ja_alamalgebrad}
+Olgu antud $\Omega$-algebrate homomorfism $\phi : A \to B$ ning olgu antud alamalgebrad $C \leq A$ ja $D \leq B$. Siis $\phi(C) \leq B$ ja $\phi^{-1}(D) \leq A$. 
+\end{homomorfism_ja_alamalgebrad}
+
+\begin{proof}
+Veendume esiteks, et algebra $B$ alamhulk $\phi(C)$ on kinnine. Valime suvaliselt mingi  tehte $\omega \in \Omega_n$. Alamhulga kinnisuses on samaväärne sellege, et suvaliste $ e_1,...,e_n \in \phi(C)$ korral $\omega(e_1,...,e_n) \in \phi(C)$. Märgime, et leiduvad $ c_i \in C$,nii et $\phi(c_i)=e_i$. Kusjuures, leidub $ c \in C$ niiviisi, et kehtib $ \omega(c_1,...,c_n) = c$. Seega, $ \omega(e_1,...,e_n) = \omega(\phi(c_1),...,\phi(c_n))= \phi(\omega(c_1,...,c_n)) = \phi(c) \in \phi(C)$. Seega algebra $B$ alamhulk $\phi(C)$ on kinnine ja seega algebra $B$ alamalgebra. 
+
+Veendume n\"u\"ud, et algebra $A$ alamhulk $\phi^{-1}(D)$ on kinnine. Valime taaskord suvaliselt mingi $\omega \in \Omega_n$. Piisab näidata, et $a_1,...,a_n \in \phi^{-1}(D) \implies \omega(a_1,...,a_n) \in \phi^{-1}(D) \iff \phi(\omega(a_1,...,a_n)) \in D$. Leiduvad $d_1,...,d_n$, nii et kehtib $\phi(a_i)=d_i$. Jällegi, kuna $D$ on alamalgebra, siis kehtib järgnev: $d = \omega(d_1,...,dn) = \omega(\phi(a_1),...,\phi(a_n)) \in D$.
+ 
+
+
+\end{proof}
+
+
  
  
 \section{loeng II}
@@ -318,7 +448,7 @@ Võre $L$ filtrit $F$ nimetatakse algfiltriks, kui sellest, et $a V b \in F$, ku
 $a \in F$ või $b \in F$. Algfilter $F \neq L$. 
 
 \paragraph{Zorni lemma}
-Olgu meil järjestatud hulk $A$. Eeldame, et iga hulga $A$ alamhulk omab ülemist tõket hulgas $A$. Siis sellest järeldub, et $A$ omab vähemalt ühte maksimaalset elementi. $C \subset A alamhulk: x,y \in C \implies x \leq y või y \leq x$.
+Olgu meil järjestatud hulk $A$. Eeldame, et iga hulga $A$ alamhulk omab ülemist tõket hulgas $A$. Siis sellest järeldub, et $A$ omab vähemalt ühte maksimaalset elementi. $C \subset A alamhulk: x,y \in C \implies x \leq y \lor y \leq x$.
 
 \paragraph{Lause 2.4.1}
 Distributiivse võre iga kahe erivena elemendi jaoks leidub algfilter, mis sisaldab täpselt ühte neist kahest. 
@@ -431,7 +561,7 @@ Olgu $|G|$ paaritu. $\{1\} = H_0 <d H_1 <d H_2 <d ... <d H_n = G$. Kõik jada fa
 AlI - iga vektorruum omab baasi lõplikul juhul
 lõpmatu mõõtmelise baasi lin sõltumatus - kõik lõpblikud alamhulgad sõltumatud.
 T.4.4.2
-$S = \left\{ X | X \subset V, X on lin. sõltumatu \right\}$
+$S = \left\{ X | X \subset V, X on lin. soltumatu \right\}$
 Zorni lemma eeldute kontroll.
 $\left\{ X_i | i \in I \right\}$, $X_i \in S$ Otsime suurimat elementi
 $X = \sup_{i \in I} X_i$. Kas $X$ kuulub hulka $S$?
