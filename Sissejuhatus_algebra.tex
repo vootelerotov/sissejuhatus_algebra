@@ -622,5 +622,53 @@ Kontrollida homomorfismi. S\"urjektiivne, homomorfismi teoreemi põhjal $M$ isom
 
 L 4.5.1
 
+% 20.03.13
+
+$A \simeq \mathbb{Z}_{k_1} +ring ... +ring \mathbb{Z}_{k_n}$
+
+$k,l \in \mathbb{N}, \text{S\"UT}(k,l)=1$
+$\mathbb{Z}_{kl} \simeq \mathbb{Z}_k +ring \mathbb{Z}_l$
+$\phi(\overbrace{x_kl}) = (\overbrace{x_k},\overbrace{x_l})$
+....
+$phi bijektsioon$ 
+$|\mathbb{Z}_kl| = kl = |\mathbb{Z}_k +ring \mathbb{Z}_l|$
+
+Lemma 4.6.1
+
+Tõestus:
+$M$ -[täpne] taandamatu(=lihtne) $R$-moodul
+$ K = End_{R}M $, $(K,+,*)$, $ \phi,\psi \in K $, liitmine punktikaupa, korrutamine järjest rakendamine. 
+Fikseerime $0 \neq \phi \in K$, $\phi(M) = \left\{ \phi(m) | m \in m \right\}, {0} \neq \phi(M) \leq M /implies (eeldus, lihtne) \phi(M) = M$. Uurime $\phi$ tuuma. Ker$\phi = \left\{x \in M | \phi(x) = 0 \right\}$. Ker$\phi \neq M \implies $Ker$\phi = \left\{ 0 \right\} \iff \phi $ on bijektsioon.
+
+ L 4.7.1
+ 
+ T 4.7.1
+ 
+ Tõestus : $M$ täpne taandumatu $R$-mooduls.
+ $K = $End$_{R}M$, $k^M$ ruut... , $f \in End_{k}M, S \subset M$ - lõplik, $\exists a \in R \forall s \in S f(s) = rs$. S võib kästleda kui lõpliku mõõtmelise moodustjaga alamruumi. 
+ Tõestuse idee: induktsiooni alamruumi mõõtme järgi. Baas : $S = \left\{ 0 \right\}$.
+ $X \subset M$, $\left\{ a \in R | \forall x \in X ax = 0 \right\} = $Anh$(X) = X^tagurpidiT$
+ $ Y \subset R$.$\left\{ m \in M | \forall y \in Y my = 0 \right\} = $Anh$(Y) = Y^tagurpidiT$
+ S lõplik alamruum , $f \in$End$_{k}M \implies r \in R, \forall s \in S, f(s) = rs$, $(f - r)- = 0$. $(f-r)S = 0$. 
+ 
+Tehniline abvahend induktsiooni jaoks: $(S^{tagurpidiT})^tagurpidiT =S$
+Olgu väide tõestatud $S$ jaoks, $a \in M\S$, $T = S + Ka = \left\lbrace s + ka | s \in S, k \in K \right\rbrace$.
+ 
+$dim_{K}T = dim_{K}S+1$
+
+$f \in End_{K}M$
+$r \in R, (f - r)S = 0$
+leida $r' \in R$, nii et $(f - r')T = 0$, $b = (e -r)e$, leida $u \in R$, nii et $nS = 0 $ ja
+$ na = b $. $S^{tagurpidiT}a \subset M$, $S \subset M \implies S^{tagurpidiT} \subset R$. 
+Kas $S^{tagurpidiT}a \leq_R M$? $x,y \in S^{tagurpidiT} \implies x,y \in S^{tagurpidiT}$, $s \in S, xs = ys = 0 \implies (x + y)a \in S^{tagurpidiT}a$.
+$x \in S^{tagurpidiT}, r \in R, s \in S$, $(rx)s = r(xs) = r0 = 0 \implies rx \in S^{tagurpidiT}, ...$ 
+
+1) $S^{tagurpidiT} a = M$
+2) $S^{tagurpidiT} a = \left\lbrace 0 \right\rbrace$. 
+
+$a \in (S^{tagurpidiT})^{tagurpidiT} = S$, vastuolu. 
+$t \in T$, $t = s + ka $, $s \in S$, $k \in K$
+$(r + u)t = (r + n)(s +ka) = rs + r(ka) + ns + n(ka) = f(s) = k(ra + na) = f(s) + k(ra + (fa) = f(s) + (ka) = f(s - ka) = f(t), r' = r + n$.
+Jääb näidata, et $T^{tagurpidiT tagurpidiT} = T$.
 
 \end{document}
