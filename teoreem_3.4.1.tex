@@ -1,0 +1,69 @@
+\documentclass[12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage[estonian]{babel}
+\usepackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{float}
+\usepackage{theoremref}
+
+\setlength\parindent{0pt}
+
+\definecolor{background_example}{HTML}{EDEDED}
+
+\newcounter{def}
+\theoremstyle{definition}
+\newtheorem{normaalne_alamruhm}[def]{Definitsioon}
+\newtheorem{lihtne_alamruhm}[def]{Definitsioon}
+\newtheorem{substitutsioon}[def]{Definitsioon}
+\newtheorem{paarissubstitutsioon}[def]{Definitsioon}
+\newtheorem{transpositsioon}[def]{Definitsioon}
+\newtheorem{tsukel}[def]{Definitsioon}
+
+\theoremstyle{plain}
+\newcounter{teoreem}
+\newtheorem{paaris_subsitutsioonide_hulk}[teoreem]{Teoreem}
+\newtheorem{trans_korrutis}[teoreem]{Teoreem}
+\newtheorem{trans_korrutis_sub}[teoreem]{Lause}
+
+\begin{document}
+
+Kui $A$ on mittet\"uhi hulk, siis tähistame $S(A)$ abil kõigi bijektiivsete teisenduste ehk substitutsioonide r\"uhma hulgal $A$. Seda nimetame s\"ummeetriliseks r\"uhmaks hulgal $A$. Kui $A=\left\lbrace 1,...,n \right\rbrace$, siis kirjutame $S(A)$ asemel $S_n$. Kõik paarissubsitutsioonid hulgal $\left\lbrace 1,...,n \right\rbrace$ moodustavad r\"uhma $S_n$ normaalse alamr\"uhma, mida tähistame $A_n$. 
+\begin{paaris_subsitutsioonide_hulk}
+Kui $n=3$ või $n \geq 5$, siis r\"uhm $A_n$ on lihtne.
+\end{paaris_subsitutsioonide_hulk}
+
+\begin{normaalne_alamruhm}
+R\"uhma $G$ alamr\"uhma $H$ nimetatakse normaalseks, kui iga $a \in G$ ja $h \in H$  korral $a^{-1}ha \in H$ .
+\end{normaalne_alamruhm}
+\begin{lihtne_alamruhm}
+R\"uhma, millel ei ole mittetriviaalseid normaalseid alamr\"uhmi, nimetatakse lihtsaks r\"uhmaks.
+\end{lihtne_alamruhm}
+\begin{substitutsioon}
+Olgu $M \neq \emptyset$ mistahes hulk. Subsitutsiooniks hulgal $M$ nimetatakse hulga $M$ mistahest \"uk\"uhest pealekujutust.
+\end{substitutsioon}
+\begin{paarissubstitutsioon}
+Substitutsiooni nimetatakse paarissubstitutsiooniks, kui mõlemad permutatsioonid tema esituses tabelina on \"uhesuguse paarsusega, see tähendab, inversioonide arv mõlemas esituses tabelina on sama paarsusega. Vastasel juhul nimetatakse subsitutsiooni paarituks substitutsiooniks.
+\end{paarissubstitutsioon}
+\begin{transpositsioon}
+Lõpliku hulga teisendust, mis seisneb selle hulga kahe erineva elemendi \"umbervahetamises, kusjuures \"ulejäänud elemendid jäävad paika nimetatakse transpositsiooniks. 
+\end{transpositsioon}
+\begin{trans_korrutis}
+Iga substitutsioon vähemalt kaheelemendilisel hulgal on esitatav transpositsioonide korrutisena.
+\end{trans_korrutis}
+\begin{trans_korrutis_sub}
+Tegurite arv substitutsiooni esituses transpositsioonide korrutisena on sama paarsusega kui substitutsioon ise.
+\end{trans_korrutis_sub}
+\begin{tsukel}
+Subsitsiooni nimetatakse ts\"ukliks, kui ta paigutab teatud elemendid ts\"ukliliselt \"umber, \"ulejäänud elemendid jätab aga paigale. Ts\"uklit, mis viib elemendi $i_1$ elemendiks $i_2$, elmendi $i_2$ elemendiks $i_3$,...,elmendi $i_k$ elemendiks $i_1$ tähistataikse $\left(i_1 i_2 ... i_k \right)$.
+\end{tsukel}
+Mistahes substitutsiooni on võimalik esitada niinimetatud sõltumatute ts\"uklite korrutisena - ts\"uklite korrutisena, mille \"uleskirjutises ei ole \"uhiseid elemente.
+
+Paneme tähele, et transpositsioone võime vaadelda kui kahe elemendilise ts\"ukleid.
+
+
+
+\end{document}
