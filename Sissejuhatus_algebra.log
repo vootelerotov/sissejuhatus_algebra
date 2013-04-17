@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.15)  10 APR 2013 12:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.6)  17 APR 2013 12:03
 entering extended mode
 **Sissejuhatus_algebra.tex
-
-(C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
-algebra.tex
+(K:\algebra\Sissejuhatus_algebra.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +13,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+(K:\MikTeX\tex\latex\base\report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+(K:\MikTeX\tex\latex\base\size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,20 +30,18 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) (K:\MikTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(K:\MikTeX\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+ (K:\MikTeX\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -195,7 +191,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(K:\MikTeX\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -225,8 +221,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+ (K:\MikTeX\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -250,24 +245,24 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+(K:\MikTeX\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+(K:\MikTeX\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+(K:\MikTeX\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+(K:\MikTeX\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+(K:\MikTeX\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -308,17 +303,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(K:\MikTeX\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(K:\MikTeX\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+(K:\MikTeX\tex\latex\ams\classes\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -330,23 +325,23 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks26
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(K:\MikTeX\tex\latex\tools\enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks27
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+(K:\MikTeX\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+(K:\MikTeX\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\estonian.ldf"
+(K:\MikTeX\tex\generic\babel\estonian.ldf
 Language: estonian 2009/03/08 v1.0k Estonian support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+(K:\MikTeX\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen112
@@ -354,29 +349,27 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 Package babel Info: Making " an active character on input line 98.
 Warning: Hyphenation would work better for the T1 encoding.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(K:\MikTeX\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+ (K:\MikTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+ (K:\MikTeX\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(K:\MikTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(K:\MikTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
 ))
-(C:\Users\Kasutaja\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("J:\Documents and Settings\Voss\Application Data\MiKTeX\2.9\tex\latex\xcolor\x
+color.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+ (K:\MikTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
@@ -392,10 +385,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+(K:\MikTeX\tex\latex\graphics\dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(K:\MikTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count102
 \float@exts=\toks28
@@ -403,27 +396,26 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box29
 )
-(C:\Users\Kasutaja\AppData\Roaming\MiKTeX\2.9\tex\latex\theoremref\theoremref.s
-ty
+("J:\Documents and Settings\Voss\Application Data\MiKTeX\2.9\tex\latex\theoremr
+ef\theoremref.sty"
 Package: theoremref 2008/05/13 References with automatic theorem names
 \thmref@num=\count103
-)
-(C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
-algebra.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+) (K:\algebra\Sissejuhatus_algebra.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
-(C:\Users\Kasutaja\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("J:\Documents and Settings\Voss\Application Data\MiKTeX\2.9\tex\context\base\s
+upp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen113
@@ -438,28 +430,28 @@ LaTeX Font Info:    ... okay on input line 37.
 \everyMPtoPDFconversion=\toks31
 )
 Peat"ukk 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+(K:\MikTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+ (K:\MikTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 74--75
+Overfull \hbox (6.0pt too wide) in paragraph at lines 78--79
 [][][][][][] 
  []
 
 [1
 
 
-{C:/Users/Kasutaja/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{J:/Documents and Settings/Voss/Local Settings/Application Data/MiKTeX/2.9/pdft
+ex/config/pdftex.map}]
 Overfull \vbox (8.71272pt too high) has occurred while \output is active []
 
 
 [2]
-Overfull \hbox (23.40668pt too wide) in paragraph at lines 80--81
+Overfull \hbox (23.40668pt too wide) in paragraph at lines 84--85
 []\OT1/cmr/bx/n/12 Definitsioon 1.1.2. []\OT1/cmr/m/n/12 Ol-gu $
 $ t[]u[]up. Mit-tet[]uhja hul-ka $\OML/cmm/m/it/12 A$ \OT1/cmr/m/n/12 ni-me-ta-
 tak-se $
@@ -467,12 +459,12 @@ $\OT1/cmr/bx/n/12 -algebraks\OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 100--101
+Overfull \hbox (6.0pt too wide) in paragraph at lines 104--105
 [][][][][][][] 
  []
 
 [3]
-Overfull \hbox (63.21556pt too wide) in paragraph at lines 109--110
+Overfull \hbox (63.21556pt too wide) in paragraph at lines 113--114
 \OT1/cmr/m/n/12 da-da j[]argnevalt: $
  = 
 [] \OMS/cmsy/m/n/12 [ \OT1/cmr/m/n/12 
@@ -483,14 +475,14 @@ Overfull \hbox (63.21556pt too wide) in paragraph at lines 109--110
  []
 
 
-Overfull \hbox (76.76677pt too wide) in paragraph at lines 111--112
+Overfull \hbox (76.76677pt too wide) in paragraph at lines 115--116
 $[] \OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
 [] = []$ ja $
 [] = []$. 
  []
 
 [4]
-Overfull \hbox (71.45125pt too wide) detected at line 154
+Overfull \hbox (71.45125pt too wide) detected at line 158
 \OML/cmm/m/it/12 \OT1/cmr/m/n/12 (1) = \OML/cmm/m/it/12 \OT1/cmr/m/n/12 (1 \O
 MS/cmsy/m/n/12  \OT1/cmr/m/n/12 1) = \OML/cmm/m/it/12 \OT1/cmr/m/n/12 (1)\OML
 /cmm/m/it/12 \OT1/cmr/m/n/12 (1)  =[]\OMS/cmsy/m/n/12 )  \OML/cmm/m/it/12 \OT
@@ -502,13 +494,13 @@ cmr/m/n/12 (1)
  []
 
 
-Overfull \hbox (10.85pt too wide) in paragraph at lines 160--161
+Overfull \hbox (10.85pt too wide) in paragraph at lines 164--165
 []\OT1/cmr/m/n/12 Niisiis taan-dub ku-ju-tuse ho-mo-mor-fis-miks ole-mise kont-
 roll kol-man-da oman-
  []
 
 
-Overfull \hbox (20.72018pt too wide) in paragraph at lines 176--177
+Overfull \hbox (20.72018pt too wide) in paragraph at lines 180--181
 []\OT1/cmr/m/n/12 Peame veen-du-ma sel-lest, et $(\OML/cmm/m/it/12  \OT1/cmr/m
 /n/12 )(\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; []  ; a[]\OT1/
 cmr/m/n/12 )) = \OML/cmm/m/it/12 !\OT1/cmr/m/n/12 ((\OML/cmm/m/it/12  \OT1/cmr
@@ -516,7 +508,7 @@ cmr/m/n/12 )) = \OML/cmm/m/it/12 !\OT1/cmr/m/n/12 ((\OML/cmm/m/it/12  \OT1/cmr
  []
 
 
-Overfull \hbox (14.24986pt too wide) in paragraph at lines 176--177
+Overfull \hbox (14.24986pt too wide) in paragraph at lines 180--181
 \OT1/cmr/m/n/12 See on sa-mav[]a[]arne sel-le-ga, te $\OML/cmm/m/it/12  \OT1/cm
 r/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 
 (\OML/cmm/m/it/12 a[]; []  ; a[]\OT1/cmr/m/n/12 ))) = \OML/cmm/m/it/12 !\OT1/cm
@@ -527,7 +519,7 @@ r/m/n/12 (\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12
  []
 
 
-Overfull \hbox (26.5775pt too wide) in paragraph at lines 176--177
+Overfull \hbox (26.5775pt too wide) in paragraph at lines 180--181
 \OT1/cmr/m/n/12 Ku-na $\OML/cmm/m/it/12 $ \OT1/cmr/m/n/12 on ho-mo-mor-fism, s
 iis keh-tib $\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/
 12 (\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; []  ; a[]\OT1/cmr/
@@ -538,27 +530,40 @@ L/cmm/m/it/12 ; []  ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]\OT1/cmr/m/n/12 ))$
  []
 
 
-Overfull \hbox (12.31987pt too wide) in paragraph at lines 183--184
+Overfull \hbox (12.31987pt too wide) in paragraph at lines 187--188
 \OT1/cmr/m/n/12 tak-se sel-le al-geb-ra \OT1/cmr/bx/n/12 en-do-mor-fis-miks\OT1
 /cmr/m/n/12 . K[]oikide en-do-mor-fismi-de hul-ka Hom$(\OML/cmm/m/it/12 A; A\OT
 1/cmr/m/n/12 )$
  []
 
 [5] [6]
-Overfull \hbox (7.80644pt too wide) in paragraph at lines 220--221
+Overfull \hbox (7.80644pt too wide) in paragraph at lines 224--225
 \OT1/cmr/m/n/12 mi klas-si t[]apsusega. Seel[]abi v[]oime laien-da-da teh-te ko
 h-ta teh-tud t[]ahelepanekuid
  []
 
 [7]
-Overfull \hbox (12.47023pt too wide) in paragraph at lines 254--256
+Overfull \hbox (12.47023pt too wide) in paragraph at lines 258--260
 \OT1/cmr/m/n/12 sel-lest, kas me vaa-ta-me te-da al-geb-ras $\OML/cmm/m/it/12 A
 $ \OT1/cmr/m/n/12 v[]oi al-geb-ras $\OML/cmm/m/it/12 B$\OT1/cmr/m/n/12 . De-fi-
 nit-sioo-ni-st j[]arjeldub,
  []
 
 [8]
-Overfull \hbox (69.8221pt too wide) in paragraph at lines 321--322
+Overfull \hbox (13.9985pt too wide) in paragraph at lines 301--304
+[]\OT1/cmr/m/n/12 Vaatleme $
+$-algebra $\OML/cmm/m/it/12 A$ \OT1/cmr/m/n/12 mit-tet[]uhja alam-hul-ka $\OML/
+cmm/m/it/12 X$\OT1/cmr/m/n/12 . N[]aeme, et $\OMS/cmsy/m/n/12 \ [] 6\OT1/cmr/m/
+n/12 =$
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 332--333
+[][][][][][][] 
+ []
+
+[9]
+Overfull \hbox (69.8221pt too wide) in paragraph at lines 342--343
 []\OT1/cmr/m/n/12 Lisame $\OML/cmm/m/it/12 !$\OT1/cmr/m/n/12 -le li-sa-tin-gi-m
 iu-se : $(\OML/cmm/m/it/12 x[]; y[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; []  ; \O
 T1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; y[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \O
@@ -568,8 +573,8 @@ ML/cmm/m/it/12   \OMS/cmsy/m/n/12 ([])  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 !\OT
 /m/n/12 2$
  []
 
-[9]
-Overfull \hbox (21.4211pt too wide) in paragraph at lines 337--339
+
+Overfull \hbox (21.4211pt too wide) in paragraph at lines 358--360
 \OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12  \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 A \
 OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 B$ \OT1/cmr/m/n/12 ho-mo-for-mism. $\OML/cmm
 /m/it/12 $ \OT1/cmr/m/n/12 - $\OML/cmm/m/it/12 $ \OT1/cmr/m/n/12 tuum . Va-li
@@ -578,7 +583,7 @@ OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 B$ \OT1/cmr/m/n/12 ho-mo-for-mism. $\OML/cmm
  []
 
 
-Overfull \hbox (51.55678pt too wide) in paragraph at lines 343--347
+Overfull \hbox (51.55678pt too wide) in paragraph at lines 364--368
 $\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 !\OT1/cmr/m/n/12 (\OML/cmm
 /m/it/12 a[]; []  ; a[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 ) = 
 \OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 w\OT1/cmr/m/n/12 (\OML/cmm/
@@ -589,8 +594,8 @@ L/cmm/m/it/12 !\OT1/cmr/m/n/12 (\OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 a[]=; []  ; a[]=\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 :$ 
  []
 
-
-Overfull \hbox (6.92278pt too wide) in paragraph at lines 366--367
+[10]
+Overfull \hbox (6.92278pt too wide) in paragraph at lines 387--388
 []\OT1/cmr/m/n/12 V[]aide: $\OML/cmm/m/it/12  \OMS/cmsy/m/n/12 2 \OML/cmm/m/it
 /12 Con\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 )$. Veen-du-me, et $\
 OML/cmm/m/it/12  \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 Eqv\OT1/cmr/m/n/12 (\OML/
@@ -600,8 +605,8 @@ cmm/m/it/12 A\OT1/cmr/m/n/12 )$. Ol-gu $\OML/cmm/m/it/12 x; y; z \OMS/cmsy/m/n/
 S/cmsy/m/n/12 2$
  []
 
-[10] [11]
-Overfull \hbox (65.22691pt too wide) in paragraph at lines 434--437
+[11]
+Overfull \hbox (65.22691pt too wide) in paragraph at lines 455--458
 $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 a; b; c \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12
  L$ $a \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 b  \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/
 12 )  \OML/cmm/m/it/12 aylemineraja\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 baluminera
@@ -610,21 +615,21 @@ m/it/12 ayleminerajac\OT1/cmr/m/n/12 )$
  []
 
 [12]
-Overfull \hbox (57.90517pt too wide) in paragraph at lines 480--481
+Overfull \hbox (57.90517pt too wide) in paragraph at lines 501--502
 \OT1/cmr/m/n/12 alamr[]uhm ning A r[]uhma B nor-maal-ne alamr[]uhm. Siis $\OML/
 cmm/m/it/12 BH=AHisomB=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML
 /cmm/m/it/12 ByhisosaH\OT1/cmr/m/n/12 ))$. 
  []
 
-
-Overfull \hbox (38.845pt too wide) in paragraph at lines 492--495
+[13]
+Overfull \hbox (38.845pt too wide) in paragraph at lines 513--516
  \OT1/cmr/bx/n/12 T[]oestus[] \OT1/cmr/m/n/12 Idee: n[]aitame, et m[]olemad on 
 iso-morf-sed $\OML/cmm/m/it/12 HyhisK=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]yhis
 K\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 HyhisK[]\OT1/cmr/m/n/12 )$.
  []
 
 
-Overfull \hbox (16.22447pt too wide) in paragraph at lines 492--495
+Overfull \hbox (16.22447pt too wide) in paragraph at lines 513--516
 $\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 HyhisK\OT1/cmr/m/n/12 )\
 OML/cmm/m/it/12 =H[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 HyhisK[]\OT1/cmr/m/n/12 )
 \OML/cmm/m/it/12 isomHyhisK=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]yhisK\OT1/cmr/
@@ -632,20 +637,20 @@ m/n/12 )(\OML/cmm/m/it/12 HyhisK[]\OT1/cmr/m/n/12 )$. Ka-su-ta-me iso-
  []
 
 
-Overfull \hbox (36.61493pt too wide) in paragraph at lines 492--495
+Overfull \hbox (36.61493pt too wide) in paragraph at lines 513--516
 $\OML/cmm/m/it/12 HyhisK[]$\OT1/cmr/m/n/12 . Li-saks vaa-ta-ma $\OML/cmm/m/it/1
 2 G$ \OT1/cmr/m/n/12 rol-lis $\OML/cmm/m/it/12 H$\OT1/cmr/m/n/12 -d. Kas $\OML/
 cmm/m/it/12 hyhisK[]normaalnealamryhmHyhisK$\OT1/cmr/m/n/12 ? 
  []
 
-[13] [14]
-Overfull \hbox (7.521pt too wide) in paragraph at lines 569--580
+[14] [15]
+Overfull \hbox (7.521pt too wide) in paragraph at lines 590--601
 $[]$ \OT1/cmr/m/n/12 Zor-ni lem-ma eel-du-te kont-roll. $[]$, $\OML/cmm/m/it/12
  X[] \OMS/cmsy/m/n/12 2$
  []
 
-[15]
-Overfull \hbox (13.19125pt too wide) in paragraph at lines 581--585
+
+Overfull \hbox (13.19125pt too wide) in paragraph at lines 602--606
 []$\OML/cmm/m/it/12 V$ \OT1/cmr/m/n/12 vek-tor-ruum []ule $\OML/cmm/m/it/12 K$ 
 $ei; i \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$ \OT1/cmr/m/n/12 -$\OML/cmm/m/it/1
 2 V$ \OT1/cmr/m/n/12 baas. $\OML/cmm/m/it/12 Visomringpluss [] K[]$ $ringpluss 
@@ -653,7 +658,7 @@ $ei; i \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$ \OT1/cmr/m/n/12 -$\OML/cmm/m/it/1
  []
 
 
-Overfull \hbox (62.23917pt too wide) in paragraph at lines 586--589
+Overfull \hbox (62.23917pt too wide) in paragraph at lines 607--610
 []\OT1/cmr/m/n/12 defineerime $\OML/cmm/m/it/12  \OT1/cmr/m/n/12 : \OML/cmm/m/
 it/12 V \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 ringpluss [] K[]$ \OT1/cmr/m/n/12 n
 ii, et $\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 ) 
@@ -662,7 +667,7 @@ ii, et $\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 )
  []
 
 [16]
-Overfull \hbox (22.07777pt too wide) in paragraph at lines 637--643
+Overfull \hbox (22.07777pt too wide) in paragraph at lines 658--664
 []$\OML/cmm/m/it/12 k; l \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N\OML/cmm/m/it/12 ; [
 ]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k; l\OT1/cmr/m/n/12 ) = 1$ $\U/msb/m/n/12 Z[
 ] \OMS/cmsy/m/n/12 ' \U/msb/m/n/12 Z[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ring\
@@ -671,7 +676,7 @@ U/msb/m/n/12 Z[]$ $\OML/cmm/m/it/12 \OT1/cmr/m/n/12 ([]) = ([]\OML/cmm/m/it/12
  []
 
 
-Overfull \hbox (1.77861pt too wide) in paragraph at lines 646--650
+Overfull \hbox (1.77861pt too wide) in paragraph at lines 667--671
 []\OT1/cmr/m/n/12 T[]oestus: $\OML/cmm/m/it/12 M$ \OT1/cmr/m/n/12 -[t[]apne] ta
 an-da-ma-tu(=lihtne) $\OML/cmm/m/it/12 R$\OT1/cmr/m/n/12 -moodul $\OML/cmm/m/it
 /12 K \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 End[]M$\OT1/cmr/m/n/12 , $(\OML/cmm/m/
@@ -680,7 +685,7 @@ it/12 K; \OT1/cmr/m/n/12 +\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 \OT1/cmr/m/n/12
  []
 
 
-Overfull \hbox (41.72687pt too wide) in paragraph at lines 646--650
+Overfull \hbox (41.72687pt too wide) in paragraph at lines 667--671
 $\OT1/cmr/m/n/12 0 \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = \OML/cmm/m/it/12  \OMS/
 cmsy/m/n/12 2 \OML/cmm/m/it/12 K$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 \OT1/cmr/
 m/n/12 (\OML/cmm/m/it/12 M\OT1/cmr/m/n/12 ) = [] \OML/cmm/m/it/12 ; \OT1/cmr/m/
@@ -691,14 +696,14 @@ s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 eeldus; lihtne\OT1/cmr/m/n/12 )\OML/cmm/m/it
  []
 
 [17]
-Overfull \hbox (30.94383pt too wide) in paragraph at lines 689--701
+Overfull \hbox (30.94383pt too wide) in paragraph at lines 710--722
 $\OML/cmm/m/it/12 S$ $K \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 End[]M$ $S[] \OT1/cm
 r/m/n/12 = \OML/cmm/m/it/12 S$ $b \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 (\OML/cmm/
 m/it/12 S[]yhisosaa[]\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 $
  []
 
 
-Overfull \hbox (85.37607pt too wide) in paragraph at lines 725--741
+Overfull \hbox (85.37607pt too wide) in paragraph at lines 746--762
 []$\OT1/cmr/m/n/12 2)  =[]\OMS/cmsy/m/n/12 )  \OT1/cmr/m/n/12 3)$ Ol-gu $\OML/c
 mm/m/it/12 Mat[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K\OT1/cmr/m/n/12 )\OML/cmm/m/
 it/12 ; K$ \OT1/cmr/m/n/12 kor-pus. V[]aide: $\OML/cmm/m/it/12 R$ \OT1/cmr/m/n/
@@ -707,7 +712,7 @@ lnealamruhmR  \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 )$
  []
 
 
-Overfull \hbox (44.57558pt too wide) in paragraph at lines 725--741
+Overfull \hbox (44.57558pt too wide) in paragraph at lines 746--762
 $\OML/cmm/m/it/12 I \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 R$\OT1/cmr/m/n/12 . $\OM
 S/cmsy/m/n/12 9\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 a[]\OT1/c
 mr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$ \OT1/cmr/m/n/12 Too-me sis-s
@@ -716,7 +721,7 @@ e maat-rik-sid $\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 E[]A
  []
 
 [18]
-Overfull \hbox (135.98006pt too wide) in paragraph at lines 754--757
+Overfull \hbox (135.98006pt too wide) in paragraph at lines 775--778
 []$\OML/cmm/m/it/12 R \OMS/cmsy/m/n/12 ! []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M\
 OT1/cmr/m/n/12 ; +)$ $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 i R \OMS/cmsy/m/n/12 !
  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 )[](\OML/cmm/m/it/12 M[]\
@@ -727,15 +732,15 @@ OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis[]
  []
 
 
-Overfull \hbox (2.62947pt too wide) in paragraph at lines 768--771
+Overfull \hbox (2.62947pt too wide) in paragraph at lines 789--792
 $\OML/cmm/m/it/12 primitiivsedringid$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 M[]$ \
 OT1/cmr/m/n/12 t[]apne taan-du-ma-tu $\OML/cmm/m/it/12 R[]$\OT1/cmr/m/n/12 -moo
 dul. $\OML/cmm/m/it/12 M[]; m \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 M[]; r \OMS/c
 msy/m/n/12 2$
  []
 
-
-Overfull \hbox (23.54614pt too wide) in paragraph at lines 780--794
+[19]
+Overfull \hbox (23.54614pt too wide) in paragraph at lines 801--815
 $\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr/
 m/n/12 !\OML/cmm/m/it/12 otsekorrutisX[]; \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 o
 nilmne$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/1
@@ -744,7 +749,7 @@ mm/m/it/12 ; x[] \OMS/cmsy/m/n/12 2$
  []
 
 
-Overfull \hbox (38.53616pt too wide) in paragraph at lines 780--794
+Overfull \hbox (38.53616pt too wide) in paragraph at lines 801--815
 $\OML/cmm/m/it/12 rx \OT1/cmr/m/n/12 = (0\OML/cmm/m/it/12 ; :::; \OT1/cmr/m/n/1
 2 0\OML/cmm/m/it/12 ; r[]x[]; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; :::\OT1/cmr/m
 /n/12 0) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 X$ $r[]x[] \OMS/cmsy/m/n/12 2 \OML
@@ -754,7 +759,7 @@ S/cmsy/m/n/12 $
  []
 
 
-Overfull \hbox (38.35732pt too wide) in paragraph at lines 780--794
+Overfull \hbox (38.35732pt too wide) in paragraph at lines 801--815
 $\OML/cmm/m/it/12 X$\OT1/cmr/m/n/12 ? Va-li-me su-va-li-se ele-men-di $(\OML/cm
 m/m/it/12 X[]; :::; X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 X[
 ]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/i
@@ -762,22 +767,22 @@ t/12 otsekorrutisX[]$\OT1/cmr/m/n/12 .
  []
 
 
-Overfull \hbox (40.0593pt too wide) in paragraph at lines 797--798
+Overfull \hbox (40.0593pt too wide) in paragraph at lines 818--819
 []\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; :
 ::; R[]$ \OT1/cmr/m/n/12 Ar-ti-ni rin-gid, $\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 
 = \OML/cmm/m/it/12 R[]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr
 /m/n/12 !\OML/cmm/m/it/12 otsekorrutisR[]$\OT1/cmr/m/n/12 .
  []
 
-[19]
-Overfull \hbox (5.68968pt too wide) in paragraph at lines 820--847
+[20]
+Overfull \hbox (5.68968pt too wide) in paragraph at lines 841--868
 $[] []\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 yhisosaI \OT1/cmr/m/n/12 = \OML/cmm/m/i
 t/12 Re[]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsesumma\OT1/cmr/m/n/12 ([] []!\OML
 /cmm/m/it/12 yhisosaI\OT1/cmr/m/n/12 )$ $[] [] =$
  []
 
 
-Overfull \hbox (27.87054pt too wide) in paragraph at lines 820--847
+Overfull \hbox (27.87054pt too wide) in paragraph at lines 841--868
 \OT1/cmr/m/n/12 pa-rem-pool-ne an-hi-laa-tor Ol-gu $\OML/cmm/m/it/12 I \OT1/cmr
 /m/n/12 = \OML/cmm/m/it/12 Re; e[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 e$ $R \OT
 1/cmr/m/n/12 = \OML/cmm/m/it/12 I\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsesumma[][
@@ -786,7 +791,7 @@ cmr/m/n/12 :=$
  []
 
 
-Overfull \hbox (7.26483pt too wide) in paragraph at lines 820--847
+Overfull \hbox (7.26483pt too wide) in paragraph at lines 841--868
 \OT1/cmr/m/n/12 Kas $[][](\OML/cmm/m/it/12 I\OT1/cmr/m/n/12 )!\OML/cmm/m/it/12 
 normaalne[]lamryhmR$\OT1/cmr/m/n/12 ? $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 []
 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 I\OT1/cmr/m/n/12 )$ $\OML/cmm/m/it/12 y \OM
@@ -794,8 +799,8 @@ S/cmsy/m/n/12 2 \OML/cmm/m/it/12 I; r \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R$ $y
  [] \OT1/cmr/m/n/12 =$
  []
 
-[20]
-Overfull \hbox (64.52264pt too wide) in paragraph at lines 850--853
+
+Overfull \hbox (64.52264pt too wide) in paragraph at lines 871--874
 []\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 iso
 meetirilneMat[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K[]\OT1/cmr/m/n/12 )!\OML/cmm/
 m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutisMat[]\OT1/
@@ -803,7 +808,7 @@ cmr/m/n/12 (\OML/cmm/m/it/12 K[]\OT1/cmr/m/n/12 )$
  []
 
 
-Overfull \hbox (53.16008pt too wide) in paragraph at lines 856--872
+Overfull \hbox (53.16008pt too wide) in paragraph at lines 877--893
 $\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 yhisosa\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 lim
 its[][][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 ) = []$ $\OML/cmm
 /m/it/12 r \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R; r \OMS/cmsy/m/n/12 2\OT1/cmr/
@@ -811,8 +816,8 @@ m/n/12 !\OML/cmm/m/it/12 yhisosa\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 limits[][][]\
 OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 )$...
  []
 
-
-Overfull \hbox (37.23024pt too wide) in paragraph at lines 873--886
+[21]
+Overfull \hbox (37.23024pt too wide) in paragraph at lines 894--907
 $\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 isomeetrilineI\OT1/cmr/m/n
 /12 !\OML/cmm/m/it/12 otsekorrutisJ$ $R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 I\OT
 1/cmr/m/n/12 !\OML/cmm/m/it/12 otsesummaJ$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 J
@@ -820,14 +825,14 @@ $\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 isomeetrilineI\OT1/cmr/m/n
  []
 
 
-Overfull \hbox (3.43088pt too wide) in paragraph at lines 873--886
+Overfull \hbox (3.43088pt too wide) in paragraph at lines 894--907
 $[][] []$\OT1/cmr/m/n/12 ? $[][] []!\OML/cmm/m/it/12 yhisosaI\OT1/cmr/m/n/12 !\
 OML/cmm/m/it/12 normalanealamryhmi \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 I$\OT1/c
 mr/m/n/12 , peab
  []
 
-[21]
-Overfull \hbox (98.15324pt too wide) in paragraph at lines 959--970
+[22]
+Overfull \hbox (98.15324pt too wide) in paragraph at lines 980--991
 []\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 = 2$, $\OML/cmm/m/
 it/12 p[] \OT1/cmr/m/n/12 = 3$, $\OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 = 5$,... 
 $\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = \OM
@@ -837,7 +842,7 @@ L/cmm/m/it/12 A \OT1/cmr/m/n/12 =!\OML/cmm/m/it/12 sisemineotsesumma [] T[]\OT1
  []
 
 
-Overfull \hbox (6.15805pt too wide) in paragraph at lines 959--970
+Overfull \hbox (6.15805pt too wide) in paragraph at lines 980--991
 \OT1/cmr/m/n/12 Kas $\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 \OT1/cmr/m/n/12 !\OML
 /cmm/m/it/12 sisemineotsesumma [] T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cm
 r/m/n/12 )$? Teist-pi-di ilm-ne. $\OML/cmm/m/it/12 a \OMS/cmsy/m/n/12 2 \OML/cm
@@ -845,32 +850,60 @@ m/m/it/12 A; \OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \OML/cmm/m
 /it/12 N; na \OT1/cmr/m/n/12 =$
  []
 
-[22] [23]
-(C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
-algebra.aux) ) 
+[23]
+Overfull \hbox (6.49303pt too wide) in paragraph at lines 1068--1083
+\OT1/cmr/m/n/12 dusi. $\OML/cmm/m/it/12 Mat[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+K\OT1/cmr/m/n/12 )!\OML/cmm/m/it/12 isomEnd\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 V\
+OT1/cmr/m/n/12 )$ $\OML/cmm/m/it/12 V\OMS/cmsy/m/n/12  $ \OT1/cmr/m/n/12 n-m[]o
+[]otmeline vek-tor-ruum []ule $\OML/cmm/m/it/12 K$\OT1/cmr/m/n/12 . $\OML/cmm/m
+/it/12  \OMS/cmsy/m/n/12 2$\OT1/cmr/m/n/12 End$(\OML/cmm/m/it/12 V\OT1/cmr/m/n
+/12 )$
+ []
+
+[24]
+Overfull \hbox (5.92723pt too wide) in paragraph at lines 1137--1138
+$\OML/cmm/m/it/12 PT\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 )\OML/cm
+m/m/it/12 ; [] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 $\OT1/cmr/m/n/12 , $\OML/cm
+m/m/it/12 Dom\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 ) = \OML/cmm/
+m/it/12 Dom\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12 )\OML/cmm/m/it/12
+ ; In\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 
+In\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12 )$. See-ga, iga $\OML/cmm/
+m/it/12 b \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OML/cmm/m/i
+t/12 b\OT1/cmr/m/n/12 ) =$
+ []
+
+[25]
+Overfull \hbox (33.292pt too wide) in paragraph at lines 1178--1183
+$\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 yhend []$\OT1/cmr/m/n/12 , $(\OML/cmm/m/it/1
+2 a; b\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 b; 
+c\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 $\OT1/cmr/m/n/12 . Kui 
+meil on $\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 N\OT1/cmr/m/n/1
+2 4\OML/cmm/m/it/12 ; ! \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 
+[]$, $\OML/cmm/m/it/12 a[]; :::; a[]; b[]; :::; b[] \OMS/cmsy/m/n/12 2$
+ []
+
+[26] [27] (K:\algebra\Sissejuhatus_algebra.aux) ) 
 Here is how much of TeX's memory you used:
- 3184 strings out of 494045
- 39172 string characters out of 3148378
- 109089 words of memory out of 3000000
- 6442 multiletter control sequences out of 15000+200000
+ 3185 strings out of 494045
+ 37818 string characters out of 3155590
+ 109971 words of memory out of 3000000
+ 6443 multiletter control sequences out of 15000+200000
  14304 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,10n,35p,1258b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Sissejuhatus_algebra.pdf (23 pages, 232415 bytes).
+ 27i,10n,35p,1258b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+<K:/MikTeX/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><K:
+/MikTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><K:/MikTeX/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><K:/
+MikTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><K:/MikTeX/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><K:/Mik
+TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><K:/MikTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><K:/MikTe
+X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><K:/MikTeX/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb><K:/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Sissejuhatus_algebra.pdf (27 pages, 258102 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

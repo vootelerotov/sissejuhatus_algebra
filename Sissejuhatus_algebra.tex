@@ -24,6 +24,8 @@
 \newtheorem{isomorfsus}[equation]{Definitsioon}
 \newtheorem{automorfism}[equation]{Definitsioon}
 \newtheorem{alamalgebra}[equation]{Definitsioon}
+% II loeng
+\newtheorem{kongruents}[equation]{Definitsioon}
 
 \theoremstyle{plain}
 \newtheorem{homomorfismide_korrutis_homomorfism}[equation]{Lause}
@@ -32,6 +34,8 @@
 \newtheorem{automorfismide_hulk_on_ruhm}[equation]{Lause}
 \newtheorem{kui_leidub_homomorfism_leidub_alamalgebra}[equation]{Lause}
 \newtheorem{homomorfism_ja_alamalgebrad}[equation]{Lause}
+%II loeng
+\newtheorem{alamalgebrate_systeemi_yhisosa_alamalgebra}[equation]{Lause}
 
 
 \begin{document}
@@ -168,7 +172,7 @@ Niisiis taandub kujutuse homomorfismiks olemise kontroll kolmanda omanduse kehti
 
 \begin{homomorfismide_korrutis_homomorfism}
 \thlabel{homomorfismide_korrutis_homomorfism}
-Kui $\Omega$-algebrate homomorfismide korrutis on defineeritud, siis on see isa ka $\Omega$-algebrate homomorfism. 
+Kui $\Omega$-algebrate homomorfismide korrutis on defineeritud, siis on see ise ka $\Omega$-algebrate homomorfism. 
 \end{homomorfismide_korrutis_homomorfism}
 
 \begin{proof}
@@ -276,41 +280,58 @@ Olgu antud $\Omega$-algebrate homomorfism $\phi : A \to B$ ning olgu antud alama
 \end{homomorfism_ja_alamalgebrad}
 
 \begin{proof}
-Veendume esiteks, et algebra $B$ alamhulk $\phi(C)$ on kinnine. Valime suvaliselt mingi  tehte $\omega \in \Omega_n$. Alamhulga kinnisuses on samaväärne sellege, et suvaliste $ e_1,...,e_n \in \phi(C)$ korral $\omega(e_1,...,e_n) \in \phi(C)$. Märgime, et leiduvad $ c_i \in C$,nii et $\phi(c_i)=e_i$. Kusjuures, leidub $ c \in C$ niiviisi, et kehtib $ \omega(c_1,...,c_n) = c$. Seega, $ \omega(e_1,...,e_n) = \omega(\phi(c_1),...,\phi(c_n))= \phi(\omega(c_1,...,c_n)) = \phi(c) \in \phi(C)$. Seega algebra $B$ alamhulk $\phi(C)$ on kinnine ja seega algebra $B$ alamalgebra. 
+Veendume esiteks, et algebra $B$ alamhulk $\phi(C)$ on kinnine. Valime suvaliselt mingi  tehte $\omega \in \Omega_n$. Alamhulga kinnisus on samaväärne sellege, et suvaliste $ e_1,...,e_n \in \phi(C)$ korral $\omega(e_1,...,e_n) \in \phi(C)$. Märgime, et leiduvad $ c_i \in C$,nii et $\phi(c_i)=e_i$. Kusjuures, leidub $ c \in C$ niiviisi, et kehtib $ \omega(c_1,...,c_n) = c$. Seega, $ \omega(e_1,...,e_n) = \omega(\phi(c_1),...,\phi(c_n))= \phi(\omega(c_1,...,c_n)) = \phi(c) \in \phi(C)$. Seega algebra $B$ alamhulk $\phi(C)$ on kinnine ja seega algebra $B$ alamalgebra. 
 
 Veendume n\"u\"ud, et algebra $A$ alamhulk $\phi^{-1}(D)$ on kinnine. Valime taaskord suvaliselt mingi $\omega \in \Omega_n$. Piisab näidata, et $a_1,...,a_n \in \phi^{-1}(D) \implies \omega(a_1,...,a_n) \in \phi^{-1}(D) \iff \phi(\omega(a_1,...,a_n)) \in D$. Leiduvad $d_1,...,d_n$, nii et kehtib $\phi(a_i)=d_i$. Jällegi, kuna $D$ on alamalgebra, siis kehtib järgnev: $d = \omega(d_1,...,dn) = \omega(\phi(a_1),...,\phi(a_n)) \in D$.
  
 
 
 \end{proof}
-
-
  
  
-\section{loeng II}
+% loeng II
 
-\paragraph{Lause 1.3.3} Olgu antud $\omega$-algebra A alamalgebrate s\"steem $B_i$, $i \in I$, kujsuures $B= yhisosa_{i \in I} B_i \neq \emptyset$ Siis $B \leq A$.
+\begin{alamalgebrate_systeemi_yhisosa_alamalgebra}\thlabel{alamalgebrate_systeemi_yhisosa_alamalgebra} Olgu antud $\Omega$-algebra A alamalgebrate s\"usteem $B_i$, $i \in I$, kujsuures $B= \cap_{i \in I} B_i \neq \emptyset$. Siis $B \leq A$.
+\end{alamalgebrate_systeemi_yhisosa_alamalgebra}
 
-\subparagraph*{Tõestus}
+\begin{proof}
+Olgu $B_i \leq A, i \in I, \cap_{i \in I}B_i \neq \emptyset$. Olgu $\omega_n \in \Omega$, valime suvaliselt $x_1,...,x_n$ hulgast $\cap_{i \in I} B_i$. Sellest järeldub otseselt, et $x_1,...,x_n \in B_i \forall i \in I$, kuna $B_i$ on alamalgebra, siis $\omega(x1,...,x_n) \in B_i \implies \omega(x1,...,x_n) \in \cap_{i \in I}$, millest alamalgebra definitsioonist järeldub, et $\cap_{i \in I} B_i$ on alamalgebra.
+\end{proof}
 
-...
+Vaatleme $\Omega$-algebra $A$ mittet\"uhja alamhulka $X$.
+Näeme, et $\cap \left\lbrace B | X \leq B \leq A \right\rbrace \neq \emptyset$. Vastavalt lausele \ref{alamalgebrate_systeemi_yhisosa_alamalgebra} on tegemist alamalgebraga. Sellist alamalgebrad tähistatakse $\left\langle X \right\rangle$.
+Kui $\left\langle X \right\rangle = A$, siis öeldakse, et  $X$ on $A$ moodustajate s\"usteem.
 
-Vaatleme alamhulka $X$:
-$\emptyset \neq X \subset A$
-Vaatleme hulka $yhisosa \{ B | X \leq B \leq A \} \neq \emptyset$. Vastavalt lausele 1.3.3 on tegemist alamalgebraga. Sellist alamalgebrad tähistatakse $<X>$
-Kui $<X> = A$ ehk $X$ on $A$ moodustajate s\"usteem.
+On võimalik näidata, et $\left\langle X \right\rangle$ koosneb täpselt algebra $A$ neist elementidest, mis on selle algebra teheta abil (nende korduval rakendamisel) saadavad hulga $B$ elementidest.
 
-\subsection{Faktoralgebra}
 
-Eesmärgiks on t\"ukeldada $\omega$-algebra mittelõikuvateks osadeks, nii et nende osade hulgal saaks loomulikul viisil defineerida $\omega$-algebra struktuuri. 
 
-$\rho \in Eqv(A), \rho \subset A x A $, vastab kolmele tingimusele:
+\section{Faktoralgebra}
+
+Eesmärgiks on t\"ukeldada $\Omega$-algebra mittelõikuvateks osadeks, nii et nende osade hulgal saaks loomulikul viisil defineerida $\Omega$-algebra struktuuri. 
+
+\begin{kongruents}
+Ekvivalentsiseost $\rho$ $\Omega$-algebral $A$ nimetatakse selle algebra kongruentsiks, kui iga $n$, iga $\omega \in \Omega_n$ ja suvaliste $x_1,...,x_n ,y_1,...,y_n \in A$ korral sellest, et
+\begin{equation*}
+(x_1,y_1) \in \rho,...,(x_n,y_n) \in \rho
+\end{equation*}
+järeldub
+\begin{equation*}
+(\omega(x_1,...,x_n),\omega(y_1,...,y_n)) \in \rho.
+\end{equation*}
+\end{kongruents}
+
+\colorbox{background_example}{\parbox{\textwidth}{
+\subsection*{Meenutusi varasemast}
+\"Utleme, et $\rho$ on hulga $A$ ekvivalents ($\rho \in Eqv(A)$), kui $\rho \subset A \times A $ ja $\rho$ on:
 \begin{enumerate}
 \item refleksiivne
-\item transitiivne
 \item s\"ummeetriline
+\item transitiivne
 \end{enumerate}
-$a \in A$, $\{x \in A | a \rho x \} = a \/ \rho$, $a \in a \/ \rho$ Faktorhulgaks $A \/ \rho = \{ a \/ \rho | a \in A \}$ 
+}}
+
+Kui hulgal on antud ekvivalentsiseos $\rho$, siis iga $a \in A$ määrab ekvivalentsiklassi  $\left\lbrace x \in A ~|~ a \rho x \right\rbrace$, mida me hakama tähistama  $a / \rho$. Kõigi  $\rho$-klasside hulka nimetatakse hulga $A$ faktorhulgaks ekvivalentsi $\rho$ järgi ja tähistatakse $A/ \rho$. 
 
 $a_1 \/ \rho = a_2 \/ \rho \iff a_1 \rho a_2$
 
@@ -1011,8 +1032,8 @@ $S = <a>$ poolr\"uhm.
 $S = \left\lbrace a^k | x \in \mathbb{N} \right\rbrace $
 $(N, +)$, $\phi : \mathbb{N} \to S$, $\phi(k) = a^k,\phi(k+l) = a^k \cdot a^l$
 
-$K \neq l \implies a^k \neq a^l$, lõpmatu ... poolr\"uhm , $isom (\mathbb{N},+)$.
-$\exist k,l, k \neq l, a^k = a^l$, valime miminaalse võimaliku $k$, valime minimaalse võimaliku $l$, $a,a^2,...,a^k, a^{k+1},...,a^{l-1}$. $S = \left\lbrace a,a^2,...,a^{l-1}$. Kui kuskil $k \neq l$, $a^k = a^l$, siis see on lõplik.
+$K \neq l \implies a^k \neq a^l$, lõpmatu ... poolr\"uhm , $!isom (\mathbb{N},+)$.
+$\exists k,l, k \neq l, a^k = a^l$, valime miminaalse võimaliku $k$, valime minimaalse võimaliku $l$, $a,a^2,...,a^k, a^{k+1},...,a^{l-1}$. $S = \left\lbrace a,a^2,...,a^{l-1} \right\rbrace$. Kui kuskil $k \neq l$, $a^k = a^l$, siis see on lõplik.
 
 $G = \left\lbrace a^k,...,a^l-1 \right\rbrace$
 $|G| = (l-1) - (k-1) = l-k  = n$
@@ -1111,7 +1132,7 @@ Teoreem 6.3.2
 
 
 $A$ hulk, $PT(A)$ - kõik osalised bijektsioonid
-Korrutis $g(f(x)),  x \in A, f(x) \in Y, Y = \left\lbrace {y \in A| g(y) \in A \right\rbrace$
+Korrutis $g(f(x)),  x \in A, f(x) \in Y, Y = \left\lbrace y \in A| g(y) \in A \right\rbrace$
 
 Kas on regulaarne ? ($x \in S \implies \exists t \in S, s = sts$ Sobib pöördkujutis. $PT(A)$ idempotentidid ? Alamhulkade samasusteisendused. Oletame, et $\phi \in PT(A), \phi^2 = \phi$, $Dom(\phi^2) = Dom(\phi), In(\phi^2) = In(\phi)$. Seega, iga $b \in B \phi^2(b) = \phi(b)$, seega $\phi(\phi(b)) = \phi(b)$, \"uks\"uhesuse põhjal $\phi(b) = b$. Miks nad kommuniteeruvad? Valime kaks alamhulka $B,C$, saame kaks idemponeti, mille korrutis on $id_B \cdot id_C = id_{B !yhisosa C}$. Oletame, et meil on $\phi,\psi \in PT(A)$, $Dom(\psi \phi) = \phi^{-1}(I_m \phi !yhisosa Dom (\psi)$. Korrutise määramispiirkond $Dom(id_C \cdot id_B) = id_b ^{-1} ( C) = \left\lbrace x \in B | id_B(x) \in C \right\rbrace = B !yhisosa C$.
 
