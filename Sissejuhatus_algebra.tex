@@ -430,6 +430,14 @@ Isendega duaalsus.
 
 Võre on modulaarne parajasti siis, kui ta ei oma võrega $N_5$ isomorfset alamvõret. Modulaarne võre on distributiivne parajasti siis, kui ta ei oma võrega $M_3$ isomorfset alamvõret.
 
+\begin{proof}
+Võrk on modulaarne $ \implies $ võrk ei ma $N_5$ isomorfset alamvõret. 
+$\forall a,b,c \in L$
+$a \leq b \implies a ylemineraja ( b alumine raja c )= b alumeine raja (a ylemine raja c)$ Vastuolu!
+
+
+\end{proof}
+
 \subparagraph{Tõestus}
 
 Riina esitab seminaris.
@@ -670,5 +678,491 @@ $a \in (S^{tagurpidiT})^{tagurpidiT} = S$, vastuolu.
 $t \in T$, $t = s + ka $, $s \in S$, $k \in K$
 $(r + u)t = (r + n)(s +ka) = rs + r(ka) + ns + n(ka) = f(s) = k(ra + na) = f(s) + k(ra + (fa) = f(s) + (ka) = f(s - ka) = f(t), r' = r + n$.
 Jääb näidata, et $T^{tagurpidiT tagurpidiT} = T$.
+
+$T ?= T^{tagurpidiTtagurpidiT} $
+$T \leq M$
+$T^{tagurpidiT} \subset R$
+$T^{tagurpidiTtagurpidiT} \subset M$
+$T subset T^{tagurpidiTtagurpidiT}$ ilmne
+$ T^{tagurpidiTtagurpidiT} ?subset T$
+
+$T = S + Ka$
+$a \in M \\ S$
+$K = End_R M$
+$S^{tagurpidiTtagurpidiT}=S$
+$b \in (S^{tagurpidiT} yhisosa a^{tagurpidiT})^{tagurpidiT} \subset M$
+$\phi : S^{tagurpidiT}a \to S^{tagurpidiT}b$
+$\phi(xa) = xb, x \in S^{tagurpidiT}$.
+$S^{tagurpidiT}a = \left\lbrace xa | x \in S^T \right\rbrace \leq_R M$
+$S^{tagurpidiT}b \leq_R M$
+$x,y \in S^{tagurpidiT} \implies x -y \in S$
+$xa = ya \implies x-y \in a^{tagurpidiT} \implies x-y \in S^{tagurpidiT} yhisosa a^{tagurpidiT} \implies (x-y)b = 0$
+....
+
+Teoreem 4.8.1
+
+\begin{proof}
+$1) \implies 2)$
+$R primitiivne Artini ring$
+$M - t2pne taandumatu R-moodul$
+$K = End_R  korpus$ (\"uldises mõttes)
+$\phi: R \to End_K M$
+$\phi(r) = l_r$
+$M $ - ruutvorm \"ule K.
+$K^M$ - lõplikumõõtmeline ?
+Oletame, et leidub $e1,e2,e3,.... $ lineaarselt sõltumatu s\"usteem vektorruumis $K^M$. 
+$S_i=<e_1,e_2,...> \leq K^M$.
+$A_1 = S_i^{tagurpidiT} = \left\lbrace x \in R | x S_i = 0 \right\rbrace , i = 1,2,3....$
+$\forall i \exists \phi \in End K^M , \phi(e_i) = 0, \phi(e_{i+1}) \neq 0$
+$A_i \ A_{i+1} \exists r \in R, ....$
+$A_i - R vpidevad i=1,2,3,..$
+$A_1 \not ... A_2 $
+$e1,...,en - K^M baas$
+$f \in End K^M$
+$\exists r \in R r e_i = f(ei), i=1,2,3...,n$
+$l_2 = \phi(r)=f$.
+
+$2) \implies 3)$
+Olgu $Mat_n(K), K$ korpus.
+Väide: $R$ on lihtne.
+$\left\lbrace 0 \right\rbrace \neq I normaalnealamruhm R \implies I = R$.
+$\exists A = (a_{ij}) \in I$
+Toome sisse maatriksid $E_{ij} =
+\begin{cases}
+e_{ij} = 1 \\
+e_{kl} = 0, k \neq i voi l \neq j
+\end{cases}
+E_{ij}A = A 1 rida
+AE_{ij} = A 1 veergi
+E_{kk}AE_{ll} = a_{kl}E_{kl}$
+$a^{-1}_{kl}EE_{kk}AE_{ll} = E_{kl}$
+$E_{ij}E_{jm}=E_{im} \forall i,j \in E_{ij} \in I$
+$\forall \alpha \in K \forall i,j \alpha E_{ij} \in I$
+
+$3) \implies 1$
+Olgu $r$ lihtne Artini ring, näitame, et ta on primitiivne.
+$R$ on vasakpoolne moodul \"ule iseenda. Selle $R$-mooduli alamoodulid on parajasti $R$ vasakpoolsed ideaalid. Kasutame Artini tingimust, kuna $R$ on Artini ringi siis $R$ omab minimaalset vasakpoolset ideaali (Ei ole nullideal). $\left\lbrace 0 \right\rbrace \leq L \leq K$. $L - vp ideaalid \implies L = \left\lbrace 0 \right\rbrace voi L = \left\lbrace K \right\rbrace$.
+$K - R$-moodul, $K$ on lihtne R-moodul. Kas $R$-moodul $K$ on täpne? Vaatame hulka $I$ = Anh$K = \left\lbrace x \in R | x K = 0 \right\rbrace$. $I$ on $R$ vasakpoolne ideaal, veendume, et $I$ on ka parempoolne ideaal. $x \in I, r \in R$, kas siis $xr \in I$? $(xr)k = x(rk) = 0$, siis kas $I = \left\lbrace 0 \right\rbrace$ või $I = R$. $I = R \implies R \cdot K = \left\lbrace 0 \right\rbrace$...
+\end{proof}
+
+Def Ringi nimetatatkse poollihtsaks, kui tema taandumatute moodulite annullaatorite \"uhisosa on null.
+
+Poollihtsat Artini ringi nimetatakse klassikaliselt poollihtsaks ringiks.
+
+Primitiivne ring on poollihtne.
+
+$R \to \text{End}(M;+)$
+$\forall i ~ R \to (\phi_i) \text{End}(M_i;+)$
+$\phi: R \to \text{End}(M_1;+) !otsekorrutis ... !otsekorrutis \text{End}(M_n,+)$.
+
+$\phi(r) = 0  \iff (\phi_1(r),\phi_2(r),...,\phi_n(r))= (0,0,...,0)$
+
+$\phi(R) \leq \phi_1(R) !otsekorrutis \phi_2(R) !otsekorrutis ... !otsekorrutis  \phi_n(R)$
+
+Teoreem 4.8.2 (Artin-Weddenburni teoreem) Ring on klassikaliselt poollihtne parajasti siis, kui ta on isomorfne lõpliku arvu lihtsate Artini ringide otsekorrutisega.
+
+\begin{enumerate}
+\item Primitiivne ring on poolihtne
+\item Primitiivne ringide otsekorrutis on poolt\"uhi ring
+\begin{proof}
+Tõestus
+Olgu $R = R_1 !otsekorrutis ... !otsekorrutis R_N$, $R_i - primitiivsed ringid$, $M_i$ täpne taandumatu $R_i$-moodul.
+$M_1, m \in M_1, r \in R, r = (r1,...,r2), r_i \in R_i$, $rm = r_1m$, $l_r : M \to M$.
+
+$R^{M_1}$ alamoodulid on mooduli $R_{1}^{M_1}$ alusmooulid ja vastupidi.
+
+$R \leq \cap Am R^{M_i}, r = (r_1,...,r_n)$
+
+$m \in M_i, 0 = rm  = (r1,...,rn)m = r_im \implies r=0$
+\end{proof}
+\item Olgu $R$ ringide otsekorrutis, $R = R_1 !otsekorrutis ... !otsekorrutis R_n$. Moodul $R$ vasakpoolsed (parempooled, kahepoolsed) on parajasti $R$ alamhulgad kujul $X_1 !otsekorrutis ... !otsekorrutis X_n$, kus $X_i \text{on} R_i$ vasakpooled ideaalid.
+\begin{proof}
+$X_i -R_i ... $
+$X \text{on} R_1 !otsekorrutis ... !otsekorrutis R_n$ vasakpoolne ideaal.
+$\pi_{i} : R \to R_i, \pi_i(r_1,...,r_n) = r_i$, 
+$X_i = \pi_i(X)$, $i \in \left\lbrace 1, 2, ..n \right\rbrace$.
+$X = X_1 !otsekorrutis ... !otsekorrutis X_N, \leq on ilmne$, $x \in X, x = (x_1,...,x_n), x_i \in R_i$, $x_i = \pi_i(x) \in X_i$.
+$X_i on R_i$ vasakpoolsed ideaalid ?
+$r_i \in R_i, x_i \in X_i$. Kas $r_i x_i \in X_i$ ?
+$ r = (0,...,r_i,0,...,0) \in R$
+$ x = (x_1,...,x_i, ..., x_n) \in X$
+$rx = (0,...,0,r_1x_i,0,...0) \in X$
+$r_{i}x_{i} \in X_i$
+Kas $X_1 !otsekorrutis ... !otsekorrutis \subset X$? Valime suvalise elemendi $(X_1,...,X_n) \in X_1 !otsekorrutis ... !otsekorrutis X_n$. Kas sellest järeldub, et $ (x_1,0,...,0) \in X$?
+$(x_1,x_{2}',...,x_{n}') \in X, x_{2}' \in R_{j1} \geq 2$.
+$(1,0,...,0)(x_1,x_{2}',...,x_{n}') = (x_1,0,0,....0) \in X$.
+\end{proof}
+\item Lõpliku arvu Artini ringide otsekorrutis on ka Artini ring.
+\begin{proof}
+Olgu $R1,...,R_n$ Artini ringid, $R = R_1 !otsekorrutis ... !otsekorrutis R_n$. $X^{\left(1 \right)} \subset X^{\left( 2 \right)} \subset ... \subset X^{\left( n \right)}$ - kahanev vasakpoolsete ideaalide jada. $X^{\left(j \right)} = X^{\left(j \right)}_1 !otsekorrutis ... !otsekorrutis X^{\left(j \right)}_n, X_{i}^{\left( j \right)} ......$
+\end{proof}
+\item Kui meil on $L$ minimaalne vasakpoolne ideaal, kusjuures $L^2 \neq 0$, siis leidub $1 \in L$, nee et $e = e^2$ ja $L = Le = R e_{n}$.
+\begin{proof}
+$L^2 \neq 0 \implies \exists a \in L , La \neq 0$, $La \subset L$, $La$ on mooduli $R$ vasakpolone ideal - $x \in La$, $r \in R, \exists y = ya, rx = r(ya) = (ry)a \in La$, sest $ry \in L$. 
+Kas $La = L$? $\exists e \in L, ea= a$.
+$ea = e(ea) = e^2a, (e-e^2)a = 0, e-e^2 \in \text{Anh} \left( a \right) !yhisosa L$ vasakpoolne ideaal.
+$\left\lbrace x \leq R | xa = 0 \right\rbrace$, $R v.p ideaal$ .....
+\end{proof}
+\item Kui $I$ on Artini ringi minimaalne ideaal ja $I^2 \neq 0$, siis leidub $e \in I$, nii et $e' = e$ ja $\forall x \in I$, $exe=x$.
+\begin{proof}
+$L \subset I$, vähim vasakpoolne ideaal. 
+Veendume, et $L^2 \neq 0$. Kõigepealt, $LI \neq 0$. Kui $LI =0$, siis $L \subset \text{Anh}\left( I \right) !yhisosa I$, $\text{Anh} \left( I \right)$ on $R$ vasapoolne ideaal.
+$ x \in \text{Anh} \left( I \right), r \in R$
+Kas $xr \in \text{Anh} \left( I \right)$? Olgu $y \in I$,  $(xl)y  = x(ly) = 0$, kuna $x in \text{Anh} \left( I \right)$. 
+$\text{And} \left( I \right) !yhisosa I$, I on vähim ideaal, yhisosa on ideaal, järelikult $\text{Anh} \left( I \right) !yhisosa I = I$....
+Kas $R e_1 + R e_2 + ... + Ren = I$?
+Kuna $e_3 (e_1 + e_2 - e_{1} e_{2}) ...$
+$I = R e_{1} !otsesumma (\text{Anh} \left( e_1 \right) !yhisosa I )$
+\begin{enumerate}
+\item $R e_1 !yhisosa (\text{Anh} \left( e_1 \right) !yhisosa I ) = \left\lbrace 0 \right\rbrace$
+\item $I = R e_1 + (\text{Anh} \left( e_1 \right) !yhisosa I )$
+\end{enumerate}
+$\text{Anh} \left( e_1 \right) !yhisosa I = R e_2 !otsesumma (\text{Anh} \left( e_1, e_2 \right) !yhisosa I )$
+$\text{Anh} \left( X \right) = \left\lbrace r \in R | \forall x \in X rx = 0  \right\rbrace$
+$\text{Anh}_v(X)$ - vasakapoolne anhilaator
+$\text{Anh}_p(X)$ - parempoolne anhilaator
+Olgu $I = Re, e^2 = e $
+$R = I !otsesumma \text{Anh}_v (e), j := \text{Anh}_v (e) $
+$ x \in I$
+$ex -x \in I$
+Kas $ex - x = 0 $?
+$y \in I$
+$\exists l \in R , y = re$
+$y \left( ex - x \right) = re \left( ex - x \right) = r e^2 x - r e x = 0$
+$ex - x \in \text{Anh}_p(I) !yhisosa I$
+Kas $\text{Anh}_p(I) !normaalne_alamryhm R$?
+$x \in \text{Anh}_p(I)$
+$y \in I, r \in R$
+$y \left( rx \right) = \left( yr \right) x = 0 $, kuna $\left( yr \right) \in I$...
+$I = eRe = eIe$,
+$eIe \subset eRe \ subset I$
+$x \in I, x = xe = e(xe)$
+...
+$1 \in R$
+$ 1 = a - b, a \in I, b \in J$
+$x \in R, x = y + z, y \in I, z \in J$
+$x = x \cdot 1 = (y+z)(a+b) = ya + yb + za + zb$, $yb,ze \in I !yhisosa J \implies yb,za = 0$, $ya + yb + za + zb = ya + zb$, $ya \in I, zb \in J \implies y = yb ,  z = zb$. Sarnase arutluskaigu alusel, $y = ay, z = bz$, seega $a=e$,...
+$R !isomeetriline I !otsekorrutis J$
+$x \to (y,z), (y,z) \to x$
+\end{proof}
+\item Teoreemi toestus
+\begin{proof}
+Olgu $R !isomeetirilne Mat_{m_1}(K_1) !otsekorrutis ... !otsekorrutis Mat_{m_n}(K_n)$
+Kas $R$ on klassikaline poollihtne ?
+\begin{enumerate}
+\item $R$ on Artini ring
+Kas $R=Mat_{m}(K)$ on Artini ring ?
+$L \subset R$, vasakpoolsed ideaalid, $A \in L$, $\alpha \in K$, $(\alpha E)A = \alpha EA = \alpha A \ in R$...
+\item $R$ on poollihtne
+Piisavus
+$\exists $täpne taandumatu $R_i$ maadul $M_i$, $i \in \left\lbrace 1,2,...,n \right\rbrace$.
+$i = 1$.
+$x \in M_1, r \in R$
+$r = \left( r_1,...,r_n \right)$
+$rx := r_1 x $
+$R$-moodul $M_1$ alammoodulid $=$ $R_1$ moodul $M_1$ alammoodulid.
+$!yhisosa !limits_{i=1}^n  \text{Anh}_R (M_i) = \left\lbrace 0 \right\rbrace$
+$r \in R, r \in !yhisosa !limits_{i=1}^n  \text{Anh}_R (M_i)$...
+Tarvilikus
+Eeldame, et $R$ on klassikaliselt poollihte ring.$R$ on Artini ring (vastavalt defile).
+$I !normaalnealamryhm R$, $I$ minimaalne vasakpoolne ideaal. Kas $I^2 \neq 0$. Eeldame vastuväiteliselt, et $I^2 = 0$. 
+$\exists$ taandumatu $R$-moodul M, nii et $IM \neq 0$. (Muidu vastuolu millegagi)
+$\exists m \in M, Im \neq 0$, siis $Im$ on $R$-mooduli $M$ alammoodul. Kaks võimalust, kas $Im = M$, $Im = \left\lbrace 0 \right\rbrace$, teine variant eelduse kohaselt ei sobi. Vaatleme esimest varianti, olgu $a \in M, x \in I$, $\exists y \in I, a = ym$, $xa = x \left( ym \right) = \left( xy \right) m = 0m = 0 \implies IM = 0$, mis on vastuolu.
+Saame kasutada eelnevalt tõestatud.
+\end{enumerate}
+$R !isomeetriline I !otsekorrutis J$
+$R = I !otsesumma J$, $J !normaalnealamryhm$
+$I$ on ... Artini ring.
+On Artini Ring?
+$L \subset I, I$ on vasakpoolne ideaal.
+$x \in Z, r \in R, r = a +l, a \in I$
+$rx = (a +b)x = ax + bx = ax \in L$
+$L$ - $R$ minimaalne vasakpoolne ideaal,... $I$-s.
+$IL \neq 0$, $L$ - taandumatu $R$-moodul.
+L on vaadelduav kui $I$-moodul.Kas $I$-moodul on täpne ja taandumatu ?
+$0 = l \in L$. Kas $Il = L$? , $IL$ on $R$-vasakpoolneideaal, järelikul $Il = L$, kuna puuduvad mittetirivaalsed $R$-vasakpoolsed ideaalid. Kas $\text{Anh}_I \left( LI = \left\lbrace 0 \right\rbrace \right)$?
+$\text{Anh}_R \left( R \right) !yhisosa I !normalanealamryhm i \subset I$, peab olema $I$. 
+$R = R_1 !otsekorrutis T_1, R_1 = Mat_{m_1} \left( K_1 \right) , Anh_{R} R_1 = T_1 $
+\end{proof}
+\end{enumerate}
+
+\section{Väändeta ja perioodiline Abeli r\"uhmad}
+
+Olgu $A$ Abeli r\"uhm. Siis iga element $a \in A$ moodustab $A$ alamr\"uhma - $<a> \leq A$. $0$ järk on 1.
+
+def perioodiline - r\"uhm on perioodiline, kui tema kõik elemendid on lõpliku järku.
+
+def R\"uhm, mille kõIk elemendid peale \"uhikelemine on lõpmatut järku, nimetatatkse väändeta r\"uhmaks.
+
+def Segar\"uhm ei ole kumbagi.
+
+Näited
+$(R;+)$ väändeta rühm?
+Koik lõplikud r\"uhmad on perioodilised.
+
+$Z_n !isom A_i , i \in I$ (Lõpmatu). $!otsesumma \sum \limits_{i \in I} A_i$ - lõpmatu perioodiline r\"uhm.
+$R* = R \\ \left\lbrace 0 \right\rbrace , (R*,\cdot) , -1$ rikub ära ja teeb segar\"uhmaks. $(C*,\cdot) \alpha \in C* \exists n \in N \alpha n = 1$.
+
+def R\"uhma $A$ perioodiliseks osaks nimetatakse tema kõigi lõpliku järku elementide hulk.
+
+lause Abeli r\"uhma perioodiline osa on selle r\"uhma alamr\"uhm. 
+
+\begin{proof}
+$(A;+)$ Abeli r\"uhm.
+$T(A)$ - A perioodiline osa.
+$a,b \in T(A)$.
+$a \in T(A) \iff \exists n \in N , na=0$
+$\exists m,n \in N, ma = 0 = nb$
+$ms \in N$
+$mn(a+b) = mna + mnb = n(ma) + m(nb) = 0$
+$a + b \in T(A)$.
+\end{proof}
+
+Lause Abeli r\"uhma faktorr\"uhm on oma perioodilise osa järgi on väändeta r\"uhm.
+
+\begin{proof}
+$(A;+)$ Abeli r\"uhm.
+$a \in A, a + T(A) \in A / T(A)$
+$a \not \in T(A)$. 
+$ n \in N, n \left( a + T \left(A \right) \right) = 0 + T(A)$
+Samas, $na + TA = n \left( a + T \left(A \right) \right)$, $na \in na - 0 \in T(A)$.
+$\exists n \in N (mn)a=m(na) = 0.$
+\end{proof}
+
+$A$ Abeli r\"uhm.
+$B \leq A$
+$A = B !plusspunkt T(A)$
+$B !isomorfne A / T(A)$
+
+$p$ algarv
+
+def Abeli r\"uhma $p$-komponendks nimetatakse selle r\"uhma kõigi nende elementide hulka mille järk on $p$ aste.
+
+Lause. Abeli r\"uhma kõik $p$-komponendid on selle r\"uhma alamr\"uhmadega.
+
+\begin{proof}
+$T_p (A) $- $A$ $p$-komponent.
+$a,b \in T_p (A)$.
+$a$ jark $p^m$
+$b$ jark $p^n$. 
+$p^m a = 0 = p^nb$
+$m \leq n$
+$p^n ( a + b) = p^n  + p^n b = 0$
+Vaja naidate, et $<a + b> !isomorfne \mathbb{Z}_{p^k}$.
+Oletus: $a + b$ jark on $l$. $p^k = ql + r$, $q,r \in \mathbb{Z}, 0 \leq r < l$
+$0  p^k (a + b) = gl(a+b)+ r(a+b) = r(a + b) \implies r = 0$
+\end{proof}
+
+Teoreem Iga perioodiline Abeli r\"uhm on oma $p$-komponentide otsesumma. 
+
+\begin{proof}
+Olgu $p_1 = 2$, $p_2 = 3$, $p_3 = 5$,...
+$T_i(A) = T_{p_i}(A)$
+Kas $A = !sisemineotsesumma \sum \limits_{i \in N} T_i (A)$?
+Kas $A \subset !sisemineotsesumma \sum \limits_{i \in N} T_i (A)$? Teistpidi ilmne.
+$a \in A, \exists n \in N, na = 0, n = p_1^{k_1},...,p_n^{k_n}$
+$n_i = \frac{n}{p_i^{k_i}}$.
+S\"UT($n_1,...,n_k) = 1$
+$\exists t_1,...,t_k \in \mathbb{Z}, 1 = t_1 n_1 +...+ t_k n_k$.
+$a = 1 \cdot a = ( t_1 n_1 +...+ tk n_k)a = t_1 (n_1 a) + ... + t_k (n_k a) $
+Kas $n_i a \in T_i (A)$?
+$t_i (n_i a) \in T_i$...........
+ \end{proof}
+
+\section{Poolr\"uhmad}
+
+\subsection{Teisinustes poolr\"uhmad}
+Cayle teoreem - iga r\"uhm on isomorfne mingi teisenduste r\"uhmaga.
+$(G; \cdot)$ - r\"uhm.
+Vastavalt Cayle teoreerimle $\exists A, G !isomorfne $ r\"uhma $S(A) $ ( kõik bijektiivsed teisenudse) alamr\"uhmaga. 
+\begin{proof}
+$A = G$ sobib, $g \in , lg : G \to G, l_g (x) = gx$, $lg \in S(G)$. 
+$\phi: G \to S(G)$
+$\phi(g) = l_g$.
+Kas $phi$ on injetiivne? 
+$g,h \in G, l_g = l_h$
+$g = g \cdot 1 = l_g(1) = l_h (1) = h \cdot 1 = h$
+$l_{gh} = l_g l_h$
+$x \in G$
+$l_{gh}(x) = (gh)x = g(bx( = l_g(l_h(x)) = (l_g l_h)(x)$
+$T(A) =$ kõigi teisenduste hulk hulgal $A$.
+\end{proof}
+....
+\subsection{Vabad poolr\"uhmad}
+$F$ vaba poolr\"uhm baasgia $B$.
+$B = \left\lbrace b_1,...,b_n \right\rbrace$
+$F$ elemenidid - sõned tähestikus $B$.
+$B$ tähestiks
+$F_B$ - kõigi lõpliku sõnade hulk tähestikus B
+Miks poolr\"uhm on vaba ?
+\begin{proof}
+$S$ suvaline poolr\"uhm.
+$s_1,...,s_n \in S$
+Kas leidub homomorfism $\phi: F_B \to S$, nii et $f(b_i) = s_i$ ?
+$\phi(b_{i_1},...,b_{i_m}) = s_{i_1}...s_{i_m}$
+....
+
+\end{proof}
+
+
+def 6.1.1
+$F_X !yhend \left\lbrace \emptyset \right\rbrace$
+$S = <a>$ poolr\"uhm.
+$S = \left\lbrace a^k | x \in \mathbb{N} \right\rbrace $
+$(N, +)$, $\phi : \mathbb{N} \to S$, $\phi(k) = a^k,\phi(k+l) = a^k \cdot a^l$
+
+$K \neq l \implies a^k \neq a^l$, lõpmatu ... poolr\"uhm , $isom (\mathbb{N},+)$.
+$\exist k,l, k \neq l, a^k = a^l$, valime miminaalse võimaliku $k$, valime minimaalse võimaliku $l$, $a,a^2,...,a^k, a^{k+1},...,a^{l-1}$. $S = \left\lbrace a,a^2,...,a^{l-1}$. Kui kuskil $k \neq l$, $a^k = a^l$, siis see on lõplik.
+
+$G = \left\lbrace a^k,...,a^l-1 \right\rbrace$
+$|G| = (l-1) - (k-1) = l-k  = n$
+$\phi : G \to (\mathbb{Z_n},+)$
+$\phi(a^i) = !j22giklass i$
+
+Olertame, et $i,j \geq k, a^i = a^j \iff n | i-j$
+$G !isomorfne (\mathbb{Z},+)$
+
+def 6.2.2
+
+Lause 6.2.1
+
+\subsection{Regulaarsed ja inverssed poolr\"uhmad}
+
+def 6.3.1
+
+Lause 6.3.1
+
+\begin{proof}
+$A$ hulk
+$T(A)$ kõigi teisenudse poolr\"uhm hulgal A
+$\phi \in T(A)$
+$\psi \in T(A), \phi = \phi \psi \phi$
+$\forall a \in A, \phi(a) = \phi(\psi(\phi(a))))$
+$psi$ - paneb vastavusse \"uhe originaalidest, suvaline A element, kui argument ei oma originaali.
+\end{proof}
+
+Lause 6.3.2
+
+\begin{proof}
+$(Mat_{n} (K); \cdot), K$ korpus.
+Vaatleme maatrikseid kui lineaarteisendusi. 
+$Mat_{n} (K) !isom End(V)$
+$V -$ n-mõõtmeline vektorruum \"ule $K$.
+$\phi \in $End$(V)$
+$\psi \in End(V)$
+$\phi = \phi \psi \phi$
+$\forall x \in V, \phi(x) = \phi( \psi ( \phi (x)))$
+$Im(\phi) = W \leq V, Im(\phi) = \left\lbrace \phi(x) | x \in V \right\rbrace $
+$\left\lbrace e1,...,e_n \right\rbrace - W baas$
+Valime iga $i$ jaoks $a_i \in V$, nii et $\phi(a_i) = e_i$
+$\psi(e_i) a_i, kui i \in \left\lbrace 1,..,m \right\rbrace, else 0$
+$a \in V$
+$\phi(a) \in Im (V)$
+...
+\end{proof}
+
+def 6.3.2
+
+lause 6.3.3
+
+\begin{proof}
+$S$ -  reg. poolr\"uhm
+$a \in S$
+$\exists b, aba = e$
+Kas $bab = b$?
+$c = bab$
+$aca = ab(aba) = aba = a$
+$cac = bab(aba)b = b(eba)b = bab = c$
+\end{proof}
+
+def 6.3.3
+
+näited:
+
+r\"uhm on inversne. 
+
+R\"uhm $G$
+$a,b \in G$
+$aba = a \implies ab = 1 \implies b = a ^{-1}$
+$bab = b$
+
+Olgu $S$ poolvõre.
+
+$a \in S$, $aaa = a$.
+Oletame, et $aba = a, bab = b$, $aba = a \implies a \leq b, bab =b \implies b leq a, \implies a = b$
+
+Teoreem 6.3.1
+
+\begin{proof}
+Tarvilikkus: $S$ on inversne poolr\"uhm, $e,f \in S$, $e^2 = e, f^2 = f, x -ef$ ivresne element.
+$efxef = ef, xefx = x$,
+$fxe \cdot fxe = f(xefx)e = f(x)e$
+Seega $fxe$ on idempotent, $fxe$ on $fxe$ inversne element.
+$ef \cdot fxe \cdot ef = efxef = ef$
+$fxe \cdot ef \cdot fxe = fxefke = fxe$, seega $ef$ on $fxe$ inverrse elment, seega $fxe = ef$. 
+$ef = fxe = fef$, $ef = fxe = efe$, $fef=ef=efe$
+Vahetades $e$ ja $f$ rollid, saame, te $ef = fe$.
+\end{proof}
+
+Teoreem 6.3.2
+
+\begin{proof}
+
+
+
+$A$ hulk, $PT(A)$ - kõik osalised bijektsioonid
+Korrutis $g(f(x)),  x \in A, f(x) \in Y, Y = \left\lbrace {y \in A| g(y) \in A \right\rbrace$
+
+Kas on regulaarne ? ($x \in S \implies \exists t \in S, s = sts$ Sobib pöördkujutis. $PT(A)$ idempotentidid ? Alamhulkade samasusteisendused. Oletame, et $\phi \in PT(A), \phi^2 = \phi$, $Dom(\phi^2) = Dom(\phi), In(\phi^2) = In(\phi)$. Seega, iga $b \in B \phi^2(b) = \phi(b)$, seega $\phi(\phi(b)) = \phi(b)$, \"uks\"uhesuse põhjal $\phi(b) = b$. Miks nad kommuniteeruvad? Valime kaks alamhulka $B,C$, saame kaks idemponeti, mille korrutis on $id_B \cdot id_C = id_{B !yhisosa C}$. Oletame, et meil on $\phi,\psi \in PT(A)$, $Dom(\psi \phi) = \phi^{-1}(I_m \phi !yhisosa Dom (\psi)$. Korrutise määramispiirkond $Dom(id_C \cdot id_B) = id_b ^{-1} ( C) = \left\lbrace x \in B | id_B(x) \in C \right\rbrace = B !yhisosa C$.
+
+Teine pool:
+Olgu $S$  inversne poolr\"uhm, valime $A = S$. $s \in S$, $s \to l_s$, kus $l_s$ on defineeritud teatul alamhulgal, nii et ta oleks bijektiivne. $Dom(l_s) = s'S$, $s'$ elemendi s inversne element. $im(l_s) = sS$, $l_s : s'S \to sS$, vasaknihe, st $l_s(x) = sx, x \in s'S$, $x,y \in s'S$, kas $sx = sy \implies y = x$, $x = s'u$, $y = s'v$, $u,v \in S$, $ss'u = ss'v$, korrutame vasakult $s'$, $s'ss'u = s'ss'v$, siit aga $s'u = s'v$, arvestades $x,y$ def, olemig saanud implikatsiooni kehtivuse. Kas kujutus on s\"urjektiivne ? Võtame mistahes elemendi, $sx \in sS$, $sx = ss'sx = l_s(s'sx) \in s'S$.
+$\Phi: S \to PT(A)$, $\Phi(s) = l_s$, miks see kujutus on \"uks\"uhene? $\Phi$ \"uks\"uhesus: Olgu $s,t \in S, l_s = l_t$, siis $Dom(l_s) = Dom(l_t)$, arvestame, et $s'S = l_s $ ja $t'S = l_t$. $s = ss's = l_s(s's) = lt(s's) = ts's$, analoogiliselt $t = st't$, paneme kokku : $s = ts's = tt'ts's = t(t't)(s's)$, idempotent, kommunteerub, $ (ts's')t't = st't = t$. Kas $l_st = l_s \cdot l_t$?  Veendume, et $(st)'S =Dom(l_st) = Dom(l_s \cdot l_t ) = l_t^{-1}(s'S)$. ABitulemus : $(st)' = t's'$, \"uhesuse põhjal piisab näidata, et sobib see element : $(t's')(st)(t's') = t'(s's)(tt')s' = (t'tt')(s'ss') = t's'$, $(st)(t's')(st) = st$.
+Kas $t's'S \subset l_t{-1}(s'S)$? Kas suvaline x kuulub sinna ? $x \in S, l_t(t's'x) = tt's'x = (tt')(s's)s'x = s'(stt's'x) \in s'S$. Kas $l_t^{-1}(s'S) \subset (st)'S$? $l_t^{-1}(s'S) = \left\lbrace x \in t'S | tx \in s'S \right\rbrace$ $x \in t'S$. Kas $ tx \in s'S \implies x \in t's'S$? $x = t'y, y \in S$, $x = t'y = t'tt'y = t'tx = t's'z, z \in S, \in t's'S$. 
+
+\end{proof}
+
+\section{Universaalalgebra}
+\subsection{Alamotsekorrutis}
+Def 7.1.1
+
+$A \leq \prod \limits_{i \in I} A_i$
+$\forall j \in I \forall x \in Aj$
+$\exists (a_i)_{i \in I} \in A, a_j = x$
+$A !otsekorrutis A$, alamotsekorrutis $\Delta_A = \left\lbrace (a,a) | a \in A \right\rbrace$
+
+Teoreem 7.1.1
+
+\begin{proof}
+$\pi_j : \prod_{i \in I} A_i \to Aj$
+$\alpha_j = \pi_j | A$, $\alpha_j: A \to A_j$, sürjektsioon.
+$\rho_j = \text{Ker}(\alpha_j)$. 
+Homomorfismiteoreem põhjal $A \ \rho_j !isom A_j$
+$a = (a_i)_{i \in I}, b = (b_i)_{i \in I}, \in A$, $\forall j (a,b) \in \rho_j$.....
+Piisavus: Olgu $\phi: A \to \prod \limits_{i \in I} A / S_i$, $\phi(a) = (a / \rho_i)_{i \in I}$. I $\omega$- algebrade homomorfism(tõestus rutiine). $A' = \phi(A) \leq \prod_{i \in I} A / \rho_i $. $\phi(A)$ on $A/ \rho_i, i \in I$, alamotsekorrutis. Paneme tähele, et $A !isom \phi(A)$, kui $\phi$ \"uks\"uhene, siis sellest järeldub $A !isom \phi(A)$, $a,b \in A$, $\phi(a) = \phi(b)$, $\forall i \in a/ \rho_i =b / \rho_i$.....
+
+def 7.1.2
+
+lause 7.1.1(1)
+
+näited:
+\begin{enumerate}
+\item lihtsad on taandumatud.
+\item $\mathbb{Z}_{p^n}, Z_{p^\infty}$, näiteks $\mathbb{Z}_8  \subset 2 \mathbb{Z}_{8} \subset 4 \mathbb{Z}_8 \subset ...$
+\end{enumerate}
+
+lemma 7.1.1
+
+\begin{proof}
+$A$ algebra
+$a,b \in A, a \neq b$,
+$S = \left\lbrace S \in Con(A) | (a,b) \not \in S \right\rbrace
+S \neq \emptyset, \Delta_A \in S$, $(S, \leq) $ järjestatud hulk. Näitame, et rahuldab Zorni lemma tingimusi. $C (\text(ahend) \subset S$ , $\rho,\sigma \in C \implies \rho \leq \sigma $ või $ \sigma \leq \rho)$. $\tau = !yhendC = !yhend \left\lbrace \rho | \rho \in C \right\rbrace$, $(a,b),(b,c) \in \tau$. Kui meil on $n \in N4, \omega \in \Omega_n$, $a_1,...,a_n,b_1,...,b_n \in A$, $(a_i, b_i ) \in \tau, i = 1,2,...,n \implies ....$. Rahuldab Zorni lemma eeldust, leidub maksimaalne element, olgu $\rho$ järjestatuh hulga $(S,\leq)$ maksimaalne element. Miks $\tau \in S$? $(a,b) \in \tau \implies \exists \rho \in C, (a,b) \in \rho$, vastuolu. 
+Maksimaalne element leidub, $A/ \rho $ on taandumatu. 
+
+\end{proof}
+
+\end{proof}
+
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.15)  20 MAR 2013 13:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.15)  10 APR 2013 12:22
 entering extended mode
 **Sissejuhatus_algebra.tex
 
@@ -600,22 +600,31 @@ cmm/m/it/12 A\OT1/cmr/m/n/12 )$. Ol-gu $\OML/cmm/m/it/12 x; y; z \OMS/cmsy/m/n/
 S/cmsy/m/n/12 2$
  []
 
-[10] [11] [12]
-Overfull \hbox (57.90517pt too wide) in paragraph at lines 472--473
+[10] [11]
+Overfull \hbox (65.22691pt too wide) in paragraph at lines 434--437
+$\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 a; b; c \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12
+ L$ $a \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 b  \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/
+12 )  \OML/cmm/m/it/12 aylemineraja\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 baluminera
+jac\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 balumeineraja\OT1/cmr/m/n/12 (\OML/cmm/
+m/it/12 ayleminerajac\OT1/cmr/m/n/12 )$
+ []
+
+[12]
+Overfull \hbox (57.90517pt too wide) in paragraph at lines 480--481
 \OT1/cmr/m/n/12 alamr[]uhm ning A r[]uhma B nor-maal-ne alamr[]uhm. Siis $\OML/
 cmm/m/it/12 BH=AHisomB=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 (\OML
 /cmm/m/it/12 ByhisosaH\OT1/cmr/m/n/12 ))$. 
  []
 
 
-Overfull \hbox (38.845pt too wide) in paragraph at lines 484--487
+Overfull \hbox (38.845pt too wide) in paragraph at lines 492--495
  \OT1/cmr/bx/n/12 T[]oestus[] \OT1/cmr/m/n/12 Idee: n[]aitame, et m[]olemad on 
 iso-morf-sed $\OML/cmm/m/it/12 HyhisK=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]yhis
 K\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 HyhisK[]\OT1/cmr/m/n/12 )$.
  []
 
 
-Overfull \hbox (16.22447pt too wide) in paragraph at lines 484--487
+Overfull \hbox (16.22447pt too wide) in paragraph at lines 492--495
 $\OML/cmm/m/it/12 H[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 HyhisK\OT1/cmr/m/n/12 )\
 OML/cmm/m/it/12 =H[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 HyhisK[]\OT1/cmr/m/n/12 )
 \OML/cmm/m/it/12 isomHyhisK=\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]yhisK\OT1/cmr/
@@ -623,20 +632,20 @@ m/n/12 )(\OML/cmm/m/it/12 HyhisK[]\OT1/cmr/m/n/12 )$. Ka-su-ta-me iso-
  []
 
 
-Overfull \hbox (36.61493pt too wide) in paragraph at lines 484--487
+Overfull \hbox (36.61493pt too wide) in paragraph at lines 492--495
 $\OML/cmm/m/it/12 HyhisK[]$\OT1/cmr/m/n/12 . Li-saks vaa-ta-ma $\OML/cmm/m/it/1
 2 G$ \OT1/cmr/m/n/12 rol-lis $\OML/cmm/m/it/12 H$\OT1/cmr/m/n/12 -d. Kas $\OML/
 cmm/m/it/12 hyhisK[]normaalnealamryhmHyhisK$\OT1/cmr/m/n/12 ? 
  []
 
 [13] [14]
-Overfull \hbox (7.521pt too wide) in paragraph at lines 561--572
+Overfull \hbox (7.521pt too wide) in paragraph at lines 569--580
 $[]$ \OT1/cmr/m/n/12 Zor-ni lem-ma eel-du-te kont-roll. $[]$, $\OML/cmm/m/it/12
  X[] \OMS/cmsy/m/n/12 2$
  []
 
 [15]
-Overfull \hbox (13.19125pt too wide) in paragraph at lines 573--577
+Overfull \hbox (13.19125pt too wide) in paragraph at lines 581--585
 []$\OML/cmm/m/it/12 V$ \OT1/cmr/m/n/12 vek-tor-ruum []ule $\OML/cmm/m/it/12 K$ 
 $ei; i \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$ \OT1/cmr/m/n/12 -$\OML/cmm/m/it/1
 2 V$ \OT1/cmr/m/n/12 baas. $\OML/cmm/m/it/12 Visomringpluss [] K[]$ $ringpluss 
@@ -644,7 +653,7 @@ $ei; i \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$ \OT1/cmr/m/n/12 -$\OML/cmm/m/it/1
  []
 
 
-Overfull \hbox (62.23917pt too wide) in paragraph at lines 578--581
+Overfull \hbox (62.23917pt too wide) in paragraph at lines 586--589
 []\OT1/cmr/m/n/12 defineerime $\OML/cmm/m/it/12  \OT1/cmr/m/n/12 : \OML/cmm/m/
 it/12 V \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 ringpluss [] K[]$ \OT1/cmr/m/n/12 n
 ii, et $\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 ) 
@@ -653,7 +662,7 @@ ii, et $\OML/cmm/m/it/12 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 )
  []
 
 [16]
-Overfull \hbox (22.07777pt too wide) in paragraph at lines 629--635
+Overfull \hbox (22.07777pt too wide) in paragraph at lines 637--643
 []$\OML/cmm/m/it/12 k; l \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N\OML/cmm/m/it/12 ; [
 ]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k; l\OT1/cmr/m/n/12 ) = 1$ $\U/msb/m/n/12 Z[
 ] \OMS/cmsy/m/n/12 ' \U/msb/m/n/12 Z[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ring\
@@ -662,7 +671,7 @@ U/msb/m/n/12 Z[]$ $\OML/cmm/m/it/12 \OT1/cmr/m/n/12 ([]) = ([]\OML/cmm/m/it/12
  []
 
 
-Overfull \hbox (1.77861pt too wide) in paragraph at lines 638--642
+Overfull \hbox (1.77861pt too wide) in paragraph at lines 646--650
 []\OT1/cmr/m/n/12 T[]oestus: $\OML/cmm/m/it/12 M$ \OT1/cmr/m/n/12 -[t[]apne] ta
 an-da-ma-tu(=lihtne) $\OML/cmm/m/it/12 R$\OT1/cmr/m/n/12 -moodul $\OML/cmm/m/it
 /12 K \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 End[]M$\OT1/cmr/m/n/12 , $(\OML/cmm/m/
@@ -671,7 +680,7 @@ it/12 K; \OT1/cmr/m/n/12 +\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 \OT1/cmr/m/n/12
  []
 
 
-Overfull \hbox (41.72687pt too wide) in paragraph at lines 638--642
+Overfull \hbox (41.72687pt too wide) in paragraph at lines 646--650
 $\OT1/cmr/m/n/12 0 \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = \OML/cmm/m/it/12  \OMS/
 cmsy/m/n/12 2 \OML/cmm/m/it/12 K$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 \OT1/cmr/
 m/n/12 (\OML/cmm/m/it/12 M\OT1/cmr/m/n/12 ) = [] \OML/cmm/m/it/12 ; \OT1/cmr/m/
@@ -682,13 +691,168 @@ s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 eeldus; lihtne\OT1/cmr/m/n/12 )\OML/cmm/m/it
  []
 
 [17]
+Overfull \hbox (30.94383pt too wide) in paragraph at lines 689--701
+$\OML/cmm/m/it/12 S$ $K \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 End[]M$ $S[] \OT1/cm
+r/m/n/12 = \OML/cmm/m/it/12 S$ $b \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 (\OML/cmm/
+m/it/12 S[]yhisosaa[]\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 $
+ []
+
+
+Overfull \hbox (85.37607pt too wide) in paragraph at lines 725--741
+[]$\OT1/cmr/m/n/12 2)  =[]\OMS/cmsy/m/n/12 )  \OT1/cmr/m/n/12 3)$ Ol-gu $\OML/c
+mm/m/it/12 Mat[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K\OT1/cmr/m/n/12 )\OML/cmm/m/
+it/12 ; K$ \OT1/cmr/m/n/12 kor-pus. V[]aide: $\OML/cmm/m/it/12 R$ \OT1/cmr/m/n/
+12 on liht-ne. $[] \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = \OML/cmm/m/it/12 Inormaa
+lnealamruhmR  \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 )$
+ []
+
+
+Overfull \hbox (44.57558pt too wide) in paragraph at lines 725--741
+$\OML/cmm/m/it/12 I \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 R$\OT1/cmr/m/n/12 . $\OM
+S/cmsy/m/n/12 9\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 a[]\OT1/c
+mr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$ \OT1/cmr/m/n/12 Too-me sis-s
+e maat-rik-sid $\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 E[]A
+ \OT1/cmr/m/n/12 =$
+ []
+
+[18]
+Overfull \hbox (135.98006pt too wide) in paragraph at lines 754--757
+[]$\OML/cmm/m/it/12 R \OMS/cmsy/m/n/12 ! []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M\
+OT1/cmr/m/n/12 ; +)$ $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 i R \OMS/cmsy/m/n/12 !
+ \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 )[](\OML/cmm/m/it/12 M[]\
+OT1/cmr/m/n/12 ; +)$ $\OML/cmm/m/it/12  \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 R \
+OMS/cmsy/m/n/12 ! []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 ; +)!\
+OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis[]
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M[]; \OT1/cmr/m/n/12 +)$. 
+ []
+
+
+Overfull \hbox (2.62947pt too wide) in paragraph at lines 768--771
+$\OML/cmm/m/it/12 primitiivsedringid$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 M[]$ \
+OT1/cmr/m/n/12 t[]apne taan-du-ma-tu $\OML/cmm/m/it/12 R[]$\OT1/cmr/m/n/12 -moo
+dul. $\OML/cmm/m/it/12 M[]; m \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 M[]; r \OMS/c
+msy/m/n/12 2$
+ []
+
+
+Overfull \hbox (23.54614pt too wide) in paragraph at lines 780--794
+$\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr/
+m/n/12 !\OML/cmm/m/it/12 otsekorrutisX[]; \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 o
+nilmne$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/1
+2 X; x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]; :::; x[]\OT1/cmr/m/n/12 )\OML/c
+mm/m/it/12 ; x[] \OMS/cmsy/m/n/12 2$
+ []
+
+
+Overfull \hbox (38.53616pt too wide) in paragraph at lines 780--794
+$\OML/cmm/m/it/12 rx \OT1/cmr/m/n/12 = (0\OML/cmm/m/it/12 ; :::; \OT1/cmr/m/n/1
+2 0\OML/cmm/m/it/12 ; r[]x[]; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; :::\OT1/cmr/m
+/n/12 0) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 X$ $r[]x[] \OMS/cmsy/m/n/12 2 \OML
+/cmm/m/it/12 X[]$ \OT1/cmr/m/n/12 Kas $\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 !\OM
+L/cmm/m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis \OM
+S/cmsy/m/n/12 $
+ []
+
+
+Overfull \hbox (38.35732pt too wide) in paragraph at lines 780--794
+$\OML/cmm/m/it/12 X$\OT1/cmr/m/n/12 ? Va-li-me su-va-li-se ele-men-di $(\OML/cm
+m/m/it/12 X[]; :::; X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 X[
+]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/i
+t/12 otsekorrutisX[]$\OT1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (40.0593pt too wide) in paragraph at lines 797--798
+[]\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; :
+::; R[]$ \OT1/cmr/m/n/12 Ar-ti-ni rin-gid, $\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 
+= \OML/cmm/m/it/12 R[]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutis:::\OT1/cmr
+/m/n/12 !\OML/cmm/m/it/12 otsekorrutisR[]$\OT1/cmr/m/n/12 .
+ []
+
+[19]
+Overfull \hbox (5.68968pt too wide) in paragraph at lines 820--847
+$[] []\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 yhisosaI \OT1/cmr/m/n/12 = \OML/cmm/m/i
+t/12 Re[]\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsesumma\OT1/cmr/m/n/12 ([] []!\OML
+/cmm/m/it/12 yhisosaI\OT1/cmr/m/n/12 )$ $[] [] =$
+ []
+
+
+Overfull \hbox (27.87054pt too wide) in paragraph at lines 820--847
+\OT1/cmr/m/n/12 pa-rem-pool-ne an-hi-laa-tor Ol-gu $\OML/cmm/m/it/12 I \OT1/cmr
+/m/n/12 = \OML/cmm/m/it/12 Re; e[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 e$ $R \OT
+1/cmr/m/n/12 = \OML/cmm/m/it/12 I\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsesumma[][
+]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 e\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; j \OT1/
+cmr/m/n/12 :=$
+ []
+
+
+Overfull \hbox (7.26483pt too wide) in paragraph at lines 820--847
+\OT1/cmr/m/n/12 Kas $[][](\OML/cmm/m/it/12 I\OT1/cmr/m/n/12 )!\OML/cmm/m/it/12 
+normaalne[]lamryhmR$\OT1/cmr/m/n/12 ? $\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 []
+[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 I\OT1/cmr/m/n/12 )$ $\OML/cmm/m/it/12 y \OM
+S/cmsy/m/n/12 2 \OML/cmm/m/it/12 I; r \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R$ $y
+ [] \OT1/cmr/m/n/12 =$
+ []
+
+[20]
+Overfull \hbox (64.52264pt too wide) in paragraph at lines 850--853
+[]\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 iso
+meetirilneMat[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K[]\OT1/cmr/m/n/12 )!\OML/cmm/
+m/it/12 otsekorrutis:::\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otsekorrutisMat[]\OT1/
+cmr/m/n/12 (\OML/cmm/m/it/12 K[]\OT1/cmr/m/n/12 )$
+ []
+
+
+Overfull \hbox (53.16008pt too wide) in paragraph at lines 856--872
+$\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 yhisosa\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 lim
+its[][][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 ) = []$ $\OML/cmm
+/m/it/12 r \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R; r \OMS/cmsy/m/n/12 2\OT1/cmr/
+m/n/12 !\OML/cmm/m/it/12 yhisosa\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 limits[][][]\
+OT1/cmr/m/n/12 (\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 )$...
+ []
+
+
+Overfull \hbox (37.23024pt too wide) in paragraph at lines 873--886
+$\OML/cmm/m/it/12 R\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 isomeetrilineI\OT1/cmr/m/n
+/12 !\OML/cmm/m/it/12 otsekorrutisJ$ $R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 I\OT
+1/cmr/m/n/12 !\OML/cmm/m/it/12 otsesummaJ$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 J
+\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 normaalnealamryhm$
+ []
+
+
+Overfull \hbox (3.43088pt too wide) in paragraph at lines 873--886
+$[][] []$\OT1/cmr/m/n/12 ? $[][] []!\OML/cmm/m/it/12 yhisosaI\OT1/cmr/m/n/12 !\
+OML/cmm/m/it/12 normalanealamryhmi \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 I$\OT1/c
+mr/m/n/12 , peab
+ []
+
+[21]
+Overfull \hbox (98.15324pt too wide) in paragraph at lines 959--970
+[]\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 = 2$, $\OML/cmm/m/
+it/12 p[] \OT1/cmr/m/n/12 = 3$, $\OML/cmm/m/it/12 p[] \OT1/cmr/m/n/12 = 5$,... 
+$\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = \OM
+L/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 )$ Kas $\OM
+L/cmm/m/it/12 A \OT1/cmr/m/n/12 =!\OML/cmm/m/it/12 sisemineotsesumma [] T[]\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 )$?
+ []
+
+
+Overfull \hbox (6.15805pt too wide) in paragraph at lines 959--970
+\OT1/cmr/m/n/12 Kas $\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 \OT1/cmr/m/n/12 !\OML
+/cmm/m/it/12 sisemineotsesumma [] T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cm
+r/m/n/12 )$? Teist-pi-di ilm-ne. $\OML/cmm/m/it/12 a \OMS/cmsy/m/n/12 2 \OML/cm
+m/m/it/12 A; \OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \OML/cmm/m
+/it/12 N; na \OT1/cmr/m/n/12 =$
+ []
+
+[22] [23]
 (C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
 algebra.aux) ) 
 Here is how much of TeX's memory you used:
- 3183 strings out of 494045
- 39156 string characters out of 3148378
- 107089 words of memory out of 3000000
- 6441 multiletter control sequences out of 15000+200000
+ 3184 strings out of 494045
+ 39172 string characters out of 3148378
+ 109089 words of memory out of 3000000
+ 6442 multiletter control sequences out of 15000+200000
  14304 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  27i,10n,35p,1258b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -704,9 +868,9 @@ c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Sissejuhatus_algebra.pdf (17 pages, 203063 bytes).
+Output written on Sissejuhatus_algebra.pdf (23 pages, 232415 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
