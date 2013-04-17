@@ -1161,6 +1161,7 @@ $\rho_j = \text{Ker}(\alpha_j)$.
 Homomorfismiteoreem põhjal $A \ \rho_j !isom A_j$
 $a = (a_i)_{i \in I}, b = (b_i)_{i \in I}, \in A$, $\forall j (a,b) \in \rho_j$.....
 Piisavus: Olgu $\phi: A \to \prod \limits_{i \in I} A / S_i$, $\phi(a) = (a / \rho_i)_{i \in I}$. I $\omega$- algebrade homomorfism(tõestus rutiine). $A' = \phi(A) \leq \prod_{i \in I} A / \rho_i $. $\phi(A)$ on $A/ \rho_i, i \in I$, alamotsekorrutis. Paneme tähele, et $A !isom \phi(A)$, kui $\phi$ \"uks\"uhene, siis sellest järeldub $A !isom \phi(A)$, $a,b \in A$, $\phi(a) = \phi(b)$, $\forall i \in a/ \rho_i =b / \rho_i$.....
+\end{proof}
 
 def 7.1.2
 
@@ -1181,9 +1182,64 @@ $S = \left\lbrace S \in Con(A) | (a,b) \not \in S \right\rbrace
 S \neq \emptyset, \Delta_A \in S$, $(S, \leq) $ järjestatud hulk. Näitame, et rahuldab Zorni lemma tingimusi. $C (\text(ahend) \subset S$ , $\rho,\sigma \in C \implies \rho \leq \sigma $ või $ \sigma \leq \rho)$. $\tau = !yhendC = !yhend \left\lbrace \rho | \rho \in C \right\rbrace$, $(a,b),(b,c) \in \tau$. Kui meil on $n \in N4, \omega \in \Omega_n$, $a_1,...,a_n,b_1,...,b_n \in A$, $(a_i, b_i ) \in \tau, i = 1,2,...,n \implies ....$. Rahuldab Zorni lemma eeldust, leidub maksimaalne element, olgu $\rho$ järjestatuh hulga $(S,\leq)$ maksimaalne element. Miks $\tau \in S$? $(a,b) \in \tau \implies \exists \rho \in C, (a,b) \in \rho$, vastuolu. 
 Maksimaalne element leidub, $A/ \rho $ on taandumatu. 
 
-\end{proof}
+
 
 \end{proof}
 
+lemma 7.1.1
+
+teoreem 7.1.2
+
+\begin{proof}
+$A$ - $\Omega$-algebra
+$\abs{A} > 1$
+Kas $\left( a,b \right)$ ?
+$a \neq b \to \rho_{a,b}$
+$\left( a,b \right) \not \in \rho_{a,b}$
+$A/ \rho_{a,b}$ elementide ...
+$S = !raja /\\_{a,b \in A, a \neq b} \rho_{a,b} = !dioganoaal A$, kas $S \leq !diag A$?
+$\exists c,d \in A, c \neq d, (c,d) \in \rho$,
+$\forall a,b \in A, a \neq b \implies \rho \leq \rho_{a,b}$.
+\end{proof}
+
+\subsection{Termid,samasused, muutkonnad}
+def 7.2.1
+
+n\"aited:
+\begin{enumerate}
+\item Signatuur: $\Omega_2 = \{ \cdot \}, Omega_1 = \{_^ \},\Omega_1=\{ 1 \}$
+$X = \{x,y,z\}$
+termid: $x,y,z,1$
+binaarsete tehte abil $xx,xy,xz,x1,yy,....$,
+unaarse tehte abil $x^{-1}...$
+\item Võre $\Omega = \{ alumine raja, ylemine raja \}, X = {x,y}$. Termid: 1-  $x,y$, 2 - $x !araja x, x !yraja x,....$
+\end{enumerate}
+Teoreem 7.2.1 Termide algebra $T\left( \Omega,X \right)$ on vaba kõigi $\Omega$-algebrate klassis, kusjuures tema baasiks on hulk $X$.
+
+\begin{proof}
+$A$ - $\Omega$-algebra
+$\phi: X \to A$ suvaline kujutus
+Soovime jätkata $\phi$ homomorfismiks, $\psi: T(\Omega,X) \to A$.
+$\omega \in \Omega_0$
+$\phi(x) = \psi(x) \forall x \in X$
+$\psi(\omega_0) = \left , \omega_0^A \in A$
+$\omega \in \Omega_n$, $t_1,...,t_n \in T \left( \Omega,X \right)$.
+$\psi(t_1),...,\psi(t_n)$ on juba defineeritud, $\psi(\omega(t1,...,t_n)) = \omega^A(\psi(t_1),....,\psi(t_n))$
+\end{proof}
+
+def 7.2.2
+
+def 7.2.3
+
+lause 7.2.1 - võime rääkida iga $\Omega$-algebrate klassi $K$ jaoks leidub vähim $\Omega$-algebrate muutkond $V$. 
+
+\subsection{Birkhoffi teoreem}
+Teoreem 7.3.1
+
+Olgu $K - \Omega$-algebare klass
+$\exists A \in K, \exists a,b \in A, a \neq b, \abs{A} > 1, T = T(\Omega,X), \Theta = !araja \left\lbrace \rho \in Con(T) | T/ \rho \in K \right\rbrace$, $T / \Theta $ - klassi $K$ vabad algebrad, baasgia $X / \Theta = \left\lbrace x / \Theta | x \in X \right\rbrace$. Kas $\abs{X / \Theta} = abs{X}$ ? $x,y \in X$, $x \neq y = (x,y) \not \in \Theta$
+$A \in K$, $a,b \in A, a \neq b$, leidub $\phi \in Hom(T,A), \phi(x) = a, \phi(y) = b$, $\rho = Ker(\phi) \in Con(T), \phi(T) \leq A \implies \phi(T) \in K$, Homomorfisimi teoreemi põhjal $\phi(T) \isom T/Ker \phi = T / \rho$. $T/ \rho \in K$, $\Theta \leq \rho, (x,y) \in \THeta \leq \rho \implies \rho(x) = \rho(y)$, mis on vastuolu. Järk on sama!
+
+Veendume vabaduses. $A \in K, \phi: X/ \Theta \to A$ suvaline kujutus $X \to X/ \Theta \to \phi A$, $\pi(x) = x/ \Theta$, $\phi \pi \to A$, leidub $\psi \in Hom(T,A)$, nii et $\psi !ahend X = \phi \pi$, otsime $\alpha$ nii, et $\alpha \pi = \psi$, def $\alpha(t/ \Theta) = \psi(t)4$,  
 
 \end{document}

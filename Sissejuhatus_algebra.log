@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.6)  17 APR 2013 12:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.15)  17 APR 2013 13:18
 entering extended mode
 **Sissejuhatus_algebra.tex
-(K:\algebra\Sissejuhatus_algebra.tex
+
+(C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
+algebra.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +15,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(K:\MikTeX\tex\latex\base\report.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(K:\MikTeX\tex\latex\base\size12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,18 +32,20 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (K:\MikTeX\tex\latex\base\inputenc.sty
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(K:\MikTeX\tex\latex\base\utf8.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
- (K:\MikTeX\tex\latex\base\t1enc.dfu
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -191,7 +195,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(K:\MikTeX\tex\latex\base\ot1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -221,7 +225,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
- (K:\MikTeX\tex\latex\base\omsenc.dfu
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -245,24 +250,24 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(K:\MikTeX\tex\latex\ams\math\amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(K:\MikTeX\tex\latex\ams\math\amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(K:\MikTeX\tex\latex\ams\math\amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-(K:\MikTeX\tex\latex\ams\math\amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(K:\MikTeX\tex\latex\ams\math\amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -303,17 +308,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(K:\MikTeX\tex\latex\amsfonts\amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
-(K:\MikTeX\tex\latex\amsfonts\amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(K:\MikTeX\tex\latex\ams\classes\amsthm.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -325,23 +330,23 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks26
 )
-(K:\MikTeX\tex\latex\tools\enumerate.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks27
 )
-(K:\MikTeX\tex\generic\babel\babel.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(K:\MikTeX\tex\latex\00miktex\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(K:\MikTeX\tex\generic\babel\estonian.ldf
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\estonian.ldf"
 Language: estonian 2009/03/08 v1.0k Estonian support from the babel system
 
-(K:\MikTeX\tex\generic\babel\babel.def
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen112
@@ -349,27 +354,29 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 Package babel Info: Making " an active character on input line 98.
 Warning: Hyphenation would work better for the T1 encoding.
 ))
-(K:\MikTeX\tex\latex\graphics\color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
- (K:\MikTeX\tex\latex\00miktex\color.cfg
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
- (K:\MikTeX\tex\latex\pdftex-def\pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(K:\MikTeX\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(K:\MikTeX\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
 ))
-("J:\Documents and Settings\Voss\Application Data\MiKTeX\2.9\tex\latex\xcolor\x
-color.sty"
+(C:\Users\Kasutaja\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
- (K:\MikTeX\tex\latex\00miktex\color.cfg
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
@@ -385,10 +392,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-(K:\MikTeX\tex\latex\graphics\dvipsnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(K:\MikTeX\tex\latex\float\float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count102
 \float@exts=\toks28
@@ -396,11 +403,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box29
 )
-("J:\Documents and Settings\Voss\Application Data\MiKTeX\2.9\tex\latex\theoremr
-ef\theoremref.sty"
+(C:\Users\Kasutaja\AppData\Roaming\MiKTeX\2.9\tex\latex\theoremref\theoremref.s
+ty
 Package: theoremref 2008/05/13 References with automatic theorem names
 \thmref@num=\count103
-) (K:\algebra\Sissejuhatus_algebra.aux)
+)
+(C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
+algebra.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
@@ -414,8 +423,7 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 
-("J:\Documents and Settings\Voss\Application Data\MiKTeX\2.9\tex\context\base\s
-upp-pdf.mkii"
+(C:\Users\Kasutaja\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen113
@@ -431,11 +439,12 @@ upp-pdf.mkii"
 )
 Peat"ukk 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 78.
-(K:\MikTeX\tex\latex\amsfonts\umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 78.
- (K:\MikTeX\tex\latex\amsfonts\umsb.fd
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (6.0pt too wide) in paragraph at lines 78--79
@@ -445,8 +454,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 78--79
 [1
 
 
-{J:/Documents and Settings/Voss/Local Settings/Application Data/MiKTeX/2.9/pdft
-ex/config/pdftex.map}]
+{C:/Users/Kasutaja/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \vbox (8.71272pt too high) has occurred while \output is active []
 
 
@@ -873,7 +881,7 @@ t/12 b\OT1/cmr/m/n/12 ) =$
  []
 
 [25]
-Overfull \hbox (33.292pt too wide) in paragraph at lines 1178--1183
+Overfull \hbox (33.292pt too wide) in paragraph at lines 1179--1184
 $\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 yhend []$\OT1/cmr/m/n/12 , $(\OML/cmm/m/it/1
 2 a; b\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 b; 
 c\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 $\OT1/cmr/m/n/12 . Kui 
@@ -882,28 +890,128 @@ meil on $\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 N\OT1/cmr/m/n/1
 []$, $\OML/cmm/m/it/12 a[]; :::; a[]; b[]; :::; b[] \OMS/cmsy/m/n/12 2$
  []
 
-[26] [27] (K:\algebra\Sissejuhatus_algebra.aux) ) 
+[26]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.1195 $\abs
+            {A} > 1$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.1210 ... $\Omega_2 = \{ \cdot \}, Omega_1 = \{_^
+                                                   \},\Omega_1=\{ 1 \}$
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1210 ... \}, Omega_1 = \{_^ \},\Omega_1=\{ 1 \}$
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   ,
+l.1225 $\psi(\omega_0) = \left ,
+                                 \omega_0^A \in A$
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.1225 $\psi(\omega_0) = \left , \omega_0^A \in A$
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[27]
+! Undefined control sequence.
+l.1240 ...\in K, \exists a,b \in A, a \neq b, \abs
+                                                  {A} > 1, T = T(\Omega,X), ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.1240 ...heta | x \in X \right\rbrace$. Kas $\abs
+                                                  {X / \Theta} = abs{X}$ ? $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.00246pt too wide) in paragraph at lines 1239--1241
+[]\OT1/cmr/m/n/12 Olgu $\OML/cmm/m/it/12 K \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 
+$-algebare klass $\OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 2 \OML/
+cmm/m/it/12 K; \OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 a; b \OMS/cmsy/m/n/12 2 \OML/
+cmm/m/it/12 A; a \OMS/cmsy/m/n/12 6\OT1/cmr/m/n/12 = \OML/cmm/m/it/12 b; A > \O
+T1/cmr/m/n/12 1\OML/cmm/m/it/12 ; T \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 T\OT1/cm
+r/m/n/12 (
+\OML/cmm/m/it/12 ; X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12  =$
+ []
+
+
+Overfull \hbox (8.7166pt too wide) in paragraph at lines 1239--1241
+$\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 araja []$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12
+ T=\OT1/cmr/m/n/12 $ - klas-si $\OML/cmm/m/it/12 K$ \OT1/cmr/m/n/12 va-bad al-
+geb-rad, baas-gia $\OML/cmm/m/it/12 X=\OT1/cmr/m/n/12  =$
+ []
+
+[28]
+(C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
+algebra.aux) ) 
 Here is how much of TeX's memory you used:
- 3185 strings out of 494045
- 37818 string characters out of 3155590
- 109971 words of memory out of 3000000
- 6443 multiletter control sequences out of 15000+200000
+ 3193 strings out of 494045
+ 39411 string characters out of 3148378
+ 110109 words of memory out of 3000000
+ 6451 multiletter control sequences out of 15000+200000
  14304 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  27i,10n,35p,1258b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-<K:/MikTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><K:
-/MikTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><K:/MikTeX/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><K:/
-MikTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><K:/MikTeX/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><K:/Mik
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><K:/MikTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><K:/MikTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><K:/MikTe
-X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><K:/MikTeX/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb><K:/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Sissejuhatus_algebra.pdf (27 pages, 258102 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Sissejuhatus_algebra.pdf (28 pages, 263742 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
