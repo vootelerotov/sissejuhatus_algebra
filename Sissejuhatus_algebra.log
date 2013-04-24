@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.15)  22 APR 2013 11:40
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.15)  24 APR 2013 13:05
 entering extended mode
 **Sissejuhatus_algebra.tex
 
@@ -1014,6 +1014,30 @@ $
  []
 
 [28]
+! Undefined control sequence.
+l.1269 ...$R \cdot S = \left\lbrace (x,z) | \exist
+                                                   y \in A, (x,y) \in R, (y,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (2.44955pt too wide) in paragraph at lines 1269--1270
+[]\OT1/cmr/m/n/12 Tulemes uni-ver-saalal-geb-rast. Ise-loo-mus-tab t[]anap[]aev
+a uni-ver-saalal-geb-ra suun-
+ []
+
+
+Overfull \hbox (138.06174pt too wide) in paragraph at lines 1269--1270
+\OT1/cmr/m/n/12 di. Bi-naar-se-te seos-te kor-ru-ta-mi-ne : $\OML/cmm/m/it/12 R
+; S \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 A\OT1/cmr/m/n/12 !\OML/cmm/m/it/12 otse
+korrutisA$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 R \OMS/cmsy/m/n/12  \OML/cmm/m/i
+t/12 S \OT1/cmr/m/n/12 = []$,
+ []
+
+[29]
 (C:\Users\Kasutaja\Documents\Sissejuhatus_algebra_struktuuridesse\Sissejuhatus_
 algebra.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1037,9 +1061,9 @@ c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Sissejuhatus_algebra.pdf (28 pages, 267855 bytes).
+Output written on Sissejuhatus_algebra.pdf (29 pages, 272252 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

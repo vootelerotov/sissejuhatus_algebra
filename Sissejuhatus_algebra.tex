@@ -1192,6 +1192,8 @@ teoreem 7.1.2
 
 \begin{proof}
 $A$ - $\Omega$-algebra
+
+
 $\abs{A} > 1$
 Kas $\left( a,b \right)$ ?
 $a \neq b \to \rho_{a,b}$
@@ -1251,5 +1253,30 @@ $T(D)$ - $D$ perioodiline osa $T(D) < D$ , on jaguv kuna $x \in T(D) \implies \e
 
 Esimene: $D$ väändeta jaguv Abeli r\"uhm, D on $\mathbb{Z}$-moodul, $D$ on ka $\mathbb{Q}$-moodul. $r = \frac{m}{n} \in \mathbb{Q}, d \in D$, kas $rd \in D$ ? $rd = x$, $nrd = nx$, $nd=nx$, kas \"uhene ? Tuleb väändest. $ny = md = nx, n(x-y) = nd-md = 0 \implies x=y$
 \end{proof} 
+
+$A[p] = \left\lbrace x \in A | px = 0 \right\rbrace$
+$A[p]$ on vektorruum \"ule korupse $\mathbb{Z}_p$
+
+Leidub baas (igas vetkorruumis). Vaatleme loenduvat baasi $b_1,b_2,...$ - $A[p]$ baas. Tähistame $b_i = b_{i1}$, leiame eleendid $p \cdot b_{i2} = b_{i1}, p \cdot b_{i3} = b_{i2}$, $B_i = <b_{i1},b_{i2} >$, $B_i \leq A$, $A = B_1 !otsesumma B_2 !otsesumma .....$
+
+\"uhesuse näitamasieks piisab näidata, et $a = a1+...+an$, $a_i \in B_i, a_i \neq 0$, eeldame, et see on kõige lihtsam esitus. Korrutame mõlemat poolt $p-ga$, saame $0 = p a_1 + p a_2... p a_n$ Kui kõik on nullid, siis avaldub baas kaudu ja need avalduvad \"uhiselt. Kui ei ole nullid (kõik korraga saavad olla ainult), siis korrutame uuesti $p$-ga läbi jne. 
+
+teoreem 7.3.2
+
+Olgu $K$ $\Omega$-algebrade klass, mis on kinnine alamalgebrate, faktoralgebrade ja otsekorrutiste suhtes. Eeldame, et $\exists A \in K, | A | \geq 2$. $S$ - kõige nende samastuste hulka, mis kehtivad kõigis klassi $K$ kuuluvaid algebraid. 
+V - kõigi nende $\Omega$-algebrate klassi, milles kehtivad kõigi samastuste hulgast $S$, $K \leq V$. Kasutame eelmist teoreemi, olgu $A \in V$, tahaksime veenduda, et $A \in K$. Võtame $F$ - klassi $K$ vaba algebra, baasiga $B$, mille võimsus on suurem võrdne $A$ mingist moodustajate s\"usteemist.  Valime kujutuse $\phi : B \to A$, $\phi(b) = A$ moodustajate s\"usteem. N\"u\"ud $f \in F$, $f = t^{F} \left( b_1,...,b_n \right)$. $\phi(f) = \phi(t(b1,...,b_n)) = t^{A}(\phi(b1),...,\phi(b_n))$.
+
+Kas on alust arvata, et sellest, et $t_{1}^{F}(b_1,...,b_n) = t_2^{A}(b_1,b_2,...,b_n) $ järeldub, et  $t_{1}^{A}(\phi(b_1),...,\phi(b_n)) = t_2^{A}(\phi(b_1),(b_2),...,(b_n)) $? Jareldub, nimest, $F$ on $K$ vaba algebra. Olgu $t_1=t_2) \in S$, $C \in K$, $c_1,...,c_n \in C$, $\exists \psi \in Hom(F,C)$, $\psi(b_i) = c_i, i \in \lbrace 1,2,...,n \rbrace$. $t_{1}^{C}(c_1,...,c_n) = t_{1}^{C} ( \psi(b_1),...,\psi(b_n) ) = \psi(t_{1}^{C} ( b_1,...,b_n )....$ Järeldus : $A$ on isomorfine $F$ faktoralgebraga.Saas meie klass on kinnine faktoralgebrate suhtes.
+
+Tulemes universaalalgebrast. Iseloomustab tänapäeva universaalalgebra suundi. Binaarsete seoste korrutamine : $R,S \subset A !otsekorrutis A$, $R \cdot S = \left\lbrace (x,z) | \exist y \in A, (x,y) \in R, (y,z) \in S \right\rbrace$, kui meil on $\rho, \sigma \in Eq(A)$, siis võime vaadelda korrutist $\rho \cdot \sigma $, mis ei pruugi olla ekvivalestiseos. Kehtivad samaväärsused :$ \rho \cdot \sigma = \sigma \cdot \rho, \rho \cdot \sigma \in Eq(A)$. Korrutis on \"ulemine raja, kui kommuteerub, siis raja leidmine lihnte. 
+
+Maltsevi(Malcev) teoreem: $\Omega$-algebrate muutkond $V$ on kommuteeruvate kongruentsiea parajasti siis kui leidub selline ternaarne term, $m(x,y,z)$, et igas algebras $A \in V$ kehtivad samasused: $m(x,y,y) = x = m(y,y,x)$.
+
+\begin{proof}
+Piisavus: Oletame, et selline term on olemas. 
+$A \in V$,... $\Theta(y,z) \in Con(A)$, $
+(u,y) = (m(x,y,z), m( .........$
+Tarvilikus: Võtame mittetriviaalse muutkonna $V$, $F$ olgu $F(x,f,z), F$ $V$ vaba algebra, baasiga $x,y,z$. Vaatleme kongruentse $\theta(x,z), \theta(x,y) , \theta(y,z)$, $\theta(x,y) \cdot \theta(y,z) = \theta (y,z( \cdot \theta(x,y)$,  
+\end{proof}
 
 \end{document}
