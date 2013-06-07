@@ -26,6 +26,13 @@
 \newtheorem{alamalgebra}[equation]{Definitsioon}
 % II loeng
 \newtheorem{kongruents}[equation]{Definitsioon}
+\newtheorem{faktoralgebra_kongruensti_jargi}[equation]{Definitsioon}
+\newtheorem{tuum}[equation]{Definitsioon}
+% III loeng
+\newtheorem{lihtne_algebra}[equation]{Definitsioon}
+\newtheorem{korvalklass}[equation]{Definitsioon}
+\newtheorem{normaalne_alamryhm}[equation]{Definitsioon}
+\newtheorem{faktorryhm}[equation]{Definitsioon}
 
 \theoremstyle{plain}
 \newtheorem{homomorfismide_korrutis_homomorfism}[equation]{Lause}
@@ -36,6 +43,23 @@
 \newtheorem{homomorfism_ja_alamalgebrad}[equation]{Lause}
 %II loeng
 \newtheorem{alamalgebrate_systeemi_yhisosa_alamalgebra}[equation]{Lause}
+\newtheorem{loomulik_kujutus_homomorfism}[equation]{Lause}
+\newtheorem{tuum_kongruents}[equation]{Lause}
+\newtheorem{loomuliku_kujutuse_tuum}[equation]{Lause}
+\newtheorem{faktoralgebra_alamalgebra_isomorfsus}[equation]{Lause}
+%III loeng
+\newtheorem{normaalne_siis_kui_aH=Ha}[equation]{Lause}
+\newtheorem{loomulik_kujutus_homomorfism_ryhm}[equation]{Lause}
+
+\newtheorem{homomorfismiteoreem}[equation]{Teoreem}
+\newtheorem{faktoralgebra_faktoriseerimine}[equation]{Teoreem}
+\newtheorem{kongruents_normaalne_alamryhm}[equation]{Teoreem}
+\newtheorem{homomorfismiteoreem_ryhm}[equation]{Teoreem}
+
+% III loeng
+\newtheorem{yksyhene_vastavus_faktoralgebra_kongruentside_vahel}[equation]{Järeldus}
+\newtheorem{faktoralgebra_lihtne}[equation]{Järeldus}
+
 
 
 \begin{document}
@@ -157,7 +181,7 @@ Kehtigu kolmas tingimus, see tähendab $\phi(xy)= \phi(x) \phi(y)$. Veendume, et
 \phi(1) = \phi(1*1) = \phi(1)\phi(1) \implies \phi(1)\phi(1)^{-1} = \phi(1)\phi(1)\phi(1)^{-1} \implies 1 = \phi(1)*1 = \phi(1)
 \end{equation*}
 \begin{equation*}
- \phi(x^{-1}x) = \phi(x^{-1})\phi(x) = \phi(1) = 1 \implies \phi(x)^{-1} = \phi(x^{-1})
+   \phi(x^{-1})\phi(x) = \phi(x^{-1}x) = \phi(1) = 1 \implies \phi(x)^{-1} = \phi(x^{-1})
 \end{equation*}
 \end{proof}
 
@@ -193,11 +217,11 @@ Iga $\Omega$-algebra A korral on hulk End$(A)$ monoid kujutuste korrutamise (jä
 \end{emorf_on_monoid}
 
 \begin{proof}
-Tõestuseks piisab veenduda, et leidub \"uhikelement ja kujutuste järjest rakendamine on assotsiatiivne. Veendume \"huikelemendi olemasolus, selleks sobib kujutus $id_A : A \to A, id_{A}(x) = x, x \in A$. On selge, et selline kujutus on ka homomorfism, mistõttu ta kuulub hulka End$(A)$. Assotatiivsuses veendumiseks piisab tähele panna, et $\left( \phi\psi \right) x$ on defineeritud kui $\phi \left( \psi \left( x \right) \right)$. Seega $\left( \phi \psi \right) \upsilon \left( x \right) = \phi \left( \psi \left( \upsilon \left( x \right) \right) \right) =   \phi \left( \psi \upsilon \right) \left( x \right)$.
+Tõestuseks piisab veenduda, et leidub \"uhikelement ja kujutuste järjest rakendamine on assotsiatiivne. Veendume \"uhikelemendi olemasolus, selleks sobib kujutus $id_A : A \to A, id_{A}(x) = x, x \in A$. On selge, et selline kujutus on ka homomorfism, mistõttu ta kuulub hulka End$(A)$. Assotatiivsuses veendumiseks piisab tähele panna, et $\left( \phi\psi \right) x$ on defineeritud kui $\phi \left( \psi \left( x \right) \right)$. Seega $\left( \phi \psi \right) \upsilon \left( x \right) = \phi \left( \psi \left( \upsilon \left( x \right) \right) \right) =   \phi \left( \psi \upsilon \right) \left( x \right)$.
 \end{proof}
 
 \begin{isomorfism}
-Bijektiivne homomorfismi nimetatakse \textbf{isomorfismiks}. 
+Bijektiivset homomorfismi nimetatakse \textbf{isomorfismiks}. 
 \end{isomorfism}
 
 \begin{isomorfsus}
@@ -258,11 +282,11 @@ $\Omega$-algebrat $B$ nimetatakse $\Omega$-algebra $A$ alamalgebraks, kui $B \su
  Eelnevat võib mõtestada järgnevalt : $B \subset A, b_1,\cdots,b_n : \omega^B (b_1,\cdots,b_n) = \omega^A (b_1,\cdots,b_n) ( \in B)$. Ehk, sõnadesse panduna, siis tehte $\omega$ väärtus ei sõltu sellest, kas me vaatame teda algebras $A$ või algebras $B$.  
 Definitsioonist järjeldub, et algebra mittet\"uhialamhulk, mis on kinnine tehete suhtes on alamalgebra. 
  
-Paneme tähele, et kui me jätaksime ära nõude, et alamhulk peab olema mittet\"hi, siis kehtiks jägnev väide:  olgu  $(A;*)$ on poolr\"uhm ja $B= \emptyset \subset A$, siis $B$ rahuldab tingimust $ x,y \in B \implies xy \in B $ ehk $B$ on kinnine korrutamise suhtes. Samas $B$ ei ole alamalgebra, seega on  mittet\"uhja alamhulga nõue oluline. 
+Paneme tähele, et kui me jätaksime ära nõude, et alamhulk peab olema mittet\"uhi, siis kehtiks jägnev väide:  olgu  $(A;*)$ on poolr\"uhm ja $B= \emptyset \subset A$, siis $B$ rahuldab tingimust $ x,y \in B \implies xy \in B $ ehk $B$ on kinnine korrutamise suhtes. Samas $B$ ei ole alamalgebra, seega on  mittet\"uhja alamhulga nõue oluline. 
 
 Seda, et $\Omega$-algebra $B$ on $\Omega$-algebra $A$ alamalgebra tähistame $B \leq A$.
  
-Kui $ B \leq A$, siis saab vaadelda sisestuskujutust$ \tau : B \to A, \tau(x) = x, x \in B$. On selge, et $\tau \in Hom(B,A)$, samuti on lihte veenduda, et $\tau$ on injektiivne. 
+Kui $ B \leq A$, siis saab vaadelda sisestuskujutust $\tau : B \to A, \tau(x) = x, x \in B$. On selge, et $\tau \in Hom(B,A)$, samuti on lihte veenduda, et $\tau$ on injektiivne. Seega $B \simeq A $ 
 Teatud mõttes kehtib ka vastupidine seos, seda näeme järgmises lauses.
 
 \begin{kui_leidub_homomorfism_leidub_alamalgebra}
@@ -282,7 +306,7 @@ Olgu antud $\Omega$-algebrate homomorfism $\phi : A \to B$ ning olgu antud alama
 \begin{proof}
 Veendume esiteks, et algebra $B$ alamhulk $\phi(C)$ on kinnine. Valime suvaliselt mingi  tehte $\omega \in \Omega_n$. Alamhulga kinnisus on samaväärne sellege, et suvaliste $ e_1,...,e_n \in \phi(C)$ korral $\omega(e_1,...,e_n) \in \phi(C)$. Märgime, et leiduvad $ c_i \in C$,nii et $\phi(c_i)=e_i$. Kusjuures, leidub $ c \in C$ niiviisi, et kehtib $ \omega(c_1,...,c_n) = c$. Seega, $ \omega(e_1,...,e_n) = \omega(\phi(c_1),...,\phi(c_n))= \phi(\omega(c_1,...,c_n)) = \phi(c) \in \phi(C)$. Seega algebra $B$ alamhulk $\phi(C)$ on kinnine ja seega algebra $B$ alamalgebra. 
 
-Veendume n\"u\"ud, et algebra $A$ alamhulk $\phi^{-1}(D)$ on kinnine. Valime taaskord suvaliselt mingi $\omega \in \Omega_n$. Piisab näidata, et $a_1,...,a_n \in \phi^{-1}(D) \implies \omega(a_1,...,a_n) \in \phi^{-1}(D) \iff \phi(\omega(a_1,...,a_n)) \in D$. Leiduvad $d_1,...,d_n$, nii et kehtib $\phi(a_i)=d_i$. Jällegi, kuna $D$ on alamalgebra, siis kehtib järgnev: $d = \omega(d_1,...,dn) = \omega(\phi(a_1),...,\phi(a_n)) \in D$.
+Veendume n\"u\"ud, et algebra $A$ alamhulk $\phi^{-1}(D)$ on kinnine. Valime taaskord suvaliselt mingi $\omega \in \Omega_n$. Piisab näidata, et $a_1,...,a_n \in \phi^{-1}(D) \implies \omega(a_1,...,a_n) \in \phi^{-1}(D) \iff \phi(\omega(a_1,...,a_n)) \in D$. Leiduvad $d_1,...,d_n$, nii et kehtib $\phi(a_i)=d_i$. Jällegi, kuna $D$ on alamalgebra, siis kehtib järgnev: $d = \phi \left( \omega(a_1,...,a_n) \right) = \omega(\phi(a_1),...,\phi(a_n)) \in D$.
  
 
 
@@ -295,11 +319,11 @@ Veendume n\"u\"ud, et algebra $A$ alamhulk $\phi^{-1}(D)$ on kinnine. Valime taa
 \end{alamalgebrate_systeemi_yhisosa_alamalgebra}
 
 \begin{proof}
-Olgu $B_i \leq A, i \in I, \cap_{i \in I}B_i \neq \emptyset$. Olgu $\omega_n \in \Omega$, valime suvaliselt $x_1,...,x_n$ hulgast $\cap_{i \in I} B_i$. Sellest järeldub otseselt, et $x_1,...,x_n \in B_i \forall i \in I$, kuna $B_i$ on alamalgebra, siis $\omega(x1,...,x_n) \in B_i \implies \omega(x1,...,x_n) \in \cap_{i \in I}$, millest alamalgebra definitsioonist järeldub, et $\cap_{i \in I} B_i$ on alamalgebra.
+Olgu $B_i \leq A, i \in I, \cap_{i \in I}B_i \neq \emptyset$. Olgu $\omega_n \in \Omega$, valime suvaliselt $x_1,...,x_n$ hulgast $\cap_{i \in I} B_i$. Sellest järeldub otseselt, et $x_1,...,x_n \in B_i ~ \forall i \in I$, kuna $B_i$ on alamalgebra, siis $\omega(x1,...,x_n) \in B_i \implies \omega(x_1,...,x_n) \in \bigcap \limits_{i \in I} B_i$, millest alamalgebra definitsioonist järeldub, et $\bigcap \limits_{i \in I} B_i$ on alamalgebra.
 \end{proof}
 
 Vaatleme $\Omega$-algebra $A$ mittet\"uhja alamhulka $X$.
-Näeme, et $\cap \left\lbrace B | X \leq B \leq A \right\rbrace \neq \emptyset$. Vastavalt lausele \ref{alamalgebrate_systeemi_yhisosa_alamalgebra} on tegemist alamalgebraga. Sellist alamalgebrad tähistatakse $\left\langle X \right\rangle$.
+Näeme, et vähim $X$-i sisaldav alamalgebra  $\cap \left\lbrace B ~ | ~  X \subset B \leq A, B \right\rbrace \neq \emptyset$. Vastavalt lausele \ref{alamalgebrate_systeemi_yhisosa_alamalgebra} on tegemist alamalgebraga. Sellist alamalgebrad tähistatakse $\left\langle X \right\rangle$.
 Kui $\left\langle X \right\rangle = A$, siis öeldakse, et  $X$ on $A$ moodustajate s\"usteem.
 
 On võimalik näidata, et $\left\langle X \right\rangle$ koosneb täpselt algebra $A$ neist elementidest, mis on selle algebra teheta abil (nende korduval rakendamisel) saadavad hulga $B$ elementidest.
@@ -331,63 +355,196 @@ järeldub
 \end{enumerate}
 }}
 
-Kui hulgal on antud ekvivalentsiseos $\rho$, siis iga $a \in A$ määrab ekvivalentsiklassi  $\left\lbrace x \in A ~|~ a \rho x \right\rbrace$, mida me hakama tähistama  $a / \rho$. Kõigi  $\rho$-klasside hulka nimetatakse hulga $A$ faktorhulgaks ekvivalentsi $\rho$ järgi ja tähistatakse $A/ \rho$. 
+\vspace{10pt}
 
-$a_1 \/ \rho = a_2 \/ \rho \iff a_1 \rho a_2$
+Kui hulgal on antud ekvivalentsiseos $\rho$, siis iga $a \in A$ määrab ekvivalentsiklassi  $\left\lbrace x \in A ~|~ a \rho x \right\rbrace$, mida me hakama tähistama  $a / \rho$. Kõigi  $\rho$-klasside hulka nimetatakse hulga $A$ faktorhulgaks ekvivalentsi $\rho$ järgi ja tähistatakse $A/ \rho$.  Paneme tähele, et kehtib $a_1 / \rho = a_2 / \rho \iff a_1 \rho a_2$.
 
-Võtame $\omega \in \Omega_n$, $a_1 / \rho , \cdots , a_n / \rho \in A / \rho$ .
+\subsection*{Näiteid kongruentsidest}
+\begin{enumerate}[I]
+\item Olgu meil r\"uhm $\left( \mathbb{Z}, + \right)$, $n \in \mathbb{Z}$ ja ekvivalents $\rho_n \colon  a \rho_n b \iff n | a - b$. Siis $\mathbb{Z} = \left\lbrace 0 / \rho, 1 / \rho,..., n-1 / \rho \right\rbrace$, kusjuures $a \rho = \left \lbrace a + kn | k \in \mathbb{Z} \right\rbrace$. Sellist faktorhulka $\mathbb{Z} / \rho$ nimetatakse jäägiklassiringiks. Lihtne on veenduda, et $\rho$ on tõepoolest kongruents.
+\item Olgu meil r\"uhm $\left( \mathbb{Z}, + \right)$ ja ekvivalents $\rho \colon =
+\begin{cases}
+-1 \rho x , ~ x < 0 \\
+0  \rho x, x = 0 \\
+1  \rho x, x > 0
+\end{cases}
+$ 
+Paneme tähele, et tegemist ei ole kongruentsiga. Tõepoolest, $ \left( 1,1 \right),\left( -2,-1 \right) \in \rho, \left( -1,0 \right) \not \in \rho$.
+\item Paneme samas tähele, et eelnevalt defineeritud ekvivalents on kongruents r\"uhma $\left( \mathbb{Z}, \cdot \right)$.
 
-$\omega(a_1 / \rho , \cdots , a_n / \rho) = \omega(a_1,\cdots,a_n)/ \rho$
+\end{enumerate}
 
-Lisame $\omega$-le lisatingimiuse : $(x_1,y_i),\cdots, (x_n,y_n)  \in \rho \iff ( \omega(x_1, \cdots , x_n), \omega(y_1,\cdots,y_n)) \in \rho$
+
+
+\begin{faktoralgebra_kongruensti_jargi}
+$\Omega$-algebra $A$ faktoralgebraks kongruentsi $\rho$ järgi nimetatakse faktorhulka $A / \rho$, mille tehted $\omega \in \Omega$ on defineeritud valemiga
+
+\begin{equation*}
+\omega \left( a_1 / \rho,...,a_n / \rho \right) = \left( \omega \left( a_1,...,a_n \right) \right) / \rho
+\end{equation*}
+
+\end{faktoralgebra_kongruensti_jargi}
+
 
 Olgu $\rho \in Eqv(a)$.
-Eksisteerib kujutis $ \pi : A \rightarrow A/ \rho$, $\pi (a) = a / \rho $ - loomulik kujutus faktorhulgale, projektsioon.
+Saab defineerida kujutise $ \pi : A \rightarrow A/ \rho$, $\pi (a) = a / \rho $ . Seda kujutust nimetatakse loomulik kujutus faktorhulgale või ka loomulikuks  projektsiooks. Kuna iga $\rho$-klass koosneb hulga $a$ elementidest, siis on kujutus $\pi $ s\"urjektiivne.
+
+\begin{loomulik_kujutus_homomorfism} Kui $A$ on $\Omega$-algebra ja $\rho$ tema kongruents, siis loomulik kujutus $\pi : A \to A / \rho$ on $\Omega$-algebrate s\"urjektiivne homomorfism.
+\end{loomulik_kujutus_homomorfism}
+
+\begin{proof}
+Olgu $A$ $\Omega$-algebra ja $\rho$ tema kongruents. Veendume, et loomulik kujutus $\pi : A \to A / \rho $ on s\"urjektiinve homomorfism. S\"urjektiivsus on ilmne - iga ekvivalentsiklass sisaldab hulga $A$ element. Veendume, et $\pi$ on homomorfism. Valime suvaliselt $\omega \in \Omega$, veendume, et $\omega \left( \pi \left( a_1 \right),..., \pi \left( a_n \right) \right) = \pi \left( \omega \left( a_1,...,a_n \right) \right)$.
+Loomuliku kujutuse ja faktoralgebra  definitsioonide põhjal saame kirjutada :   
+$\omega \left( \pi \left( a_1 \right),..., \pi \left( a_n \right) \right) = \omega \left(  a_1 / \rho ),...,  a_n / \rho \right) =   \left( \omega \left( a_1,...,a_n \right) \right) / \rho = \pi \left( \omega \left( a_1,...,a_n \right) \right)$.
+\end{proof}
+
+\begin{tuum}
+Kujutuse $\phi \colon A \to B$ tuumaks nimetatakse binaarset seost $\rho$ hulgal $A$, mis on defineeritud eeskirjaga:
+\begin{equation*}
+\left( x,y \right) \in \rho \iff \phi \left( x \right) = \phi \left( y \right)
+\end{equation*}
+\end{tuum}
+
+On kerge kontrollida, et iga kujutuse $\phi \colon A \to B$ tuum on ekvivalentsiseos hulgal $A$.
 
 
-Võtame $\omega \in \Omega_n, a_1,\cdots,a_n \in A$
+\begin{tuum_kongruents}
+Iga $\Omega$-algebrate homomorfismi $\phi \colon A \to B$ tuum on algebra $A$ kongruents.
+\end{tuum_kongruents}
+\begin{proof}
+Veendume, et homomorfismi$ \phi \colon A \to B$ tuum on kongruents. Teame, et tegemist on ekvivalentsiga, seega jääb kontrollida, et suvaline $\omega \in \Omega$ korral kui $ \left( a_1, b_1 \right),..., \left( a_n, b_n \right)$ siis ka $ \left( \omega \left( a_1,...,a_n \right), \omega \left( b_1,...,b_n \right) \right)$, mis on samaväärne sellega, et kui $ \phi \left( a_1 \right) = \phi \left( b_1 \right),..., \phi \left( a_n  \right) = \phi \left (b_n \right)$ siis ka $ \phi \left( \omega \left(a_1,...,a_n \right) \right) =  \phi \left( \omega \left( b_1,...,b_n \right) \right)$. Kuna $\phi$ on homomorfism, siis: 
+\begin{equation*}
+\phi \left( \omega \left(a_1,...,a_n \right) \right) = \omega \left( \phi \left( a_1 \right) , ... , \phi \left( a_n \right) \right)  = \omega \left( \phi \left( 
+b_1 \right) , ... , \phi \left( b_n \right) \right)  = \phi \left( \omega \left( b_1,...,b_n \right) \right)
+\end{equation*}
+\end{proof}
 
-$\pi(\omega(a1,\cdots,a_n)) = \omega(a_1,\cdots,a_n)/\rho = \omega( a_1 / \rho, \cdots , a_n / \rho) = ...$
+\begin{loomuliku_kujutuse_tuum}
+Kui $\rho$ on $\Omega$-algebra $A$ kongruents, siis loomuliku homomorfismi $\pi \colon A \to A / \rho$ tuum on $\rho$.
+\end{loomuliku_kujutuse_tuum}
 
-\subsection{Def - tuum}
+\begin{proof}
+Veendume, et $Ker \left( \pi \right) = \rho$. Veendume, et $Ker \left( \pi \right) \subset \rho$. Olgu $\left( a , b \right) \in Ker \left( \pi \right) \implies \pi \left( a \right) = \pi \left( b \right) \implies a / \rho = b / \rho \implies \left( a , b \right) \in \rho$. Teistpidi, olgu $\left( a , b \right) \in \rho$, siis $ a  / \rho =  b / \rho \implies \pi \left( a \right) = \pi \left( b \right) \implies \left( a,b \right) \in Ker \left( \pi \right)$.
+\end{proof}
 
 
-\subsection{Lause 1.4.3}
 
-\subsubsection*{Tõestus}
-Olgu $\phi : A \rightarrow B$ homoformism. $\rho$ - $\phi $ tuum . 
-Valime $\omega \in \Omega_n$, $a_1,\cdots,a_n,a_1^{`},\cdots,a_n^{`}$. Kas $\omega(a_1,\cdots ,a_n) \rho \omega(a_1^{`},\cdots ,a_n^{`})$ kehtib ? ...
+\begin{homomorfismiteoreem}
+Kui $\phi \colon A \to B$ on $\Omega$-algebrate s\"urjektiinve homomorfism ja $\rho$ on $\phi$ tuum, siis $B \simeq A / \rho$
+\end{homomorfismiteoreem}
 
-\paragraph{Homomorfismiteoreem}
-
-\paragraph*{Tõestus}
-Olgu $\psi : A/ \rho \rightarrow B, \psi(a / \rho) := \phi(a)$. Kas on \"uheselt määratud ? Ehk kas $a_1/ \rho = a_2 / \rho \iff \phi(a_1) = \phi (a_2)$. Siit saaksime kätte ka injektiivsuse. Piisab arvesse võtta, et eelnev tähendab, et $a_1 \rho a_2$, nin kun $\rho$ on $\phi$ tuum. siis on tulemus selge. Sürjektiuuvses tuleb sellest, et $\phi$ sürjektiivne. 
+\begin{proof}
+Defineerime $\psi : A/ \rho \to B, \psi \left( a / \rho \right) := \phi \left( a \right)$. Kas on definitsioon on korrektne, st kas $\psi$ on \"uheselt määratud ? Ehk kas $a_1/ \rho = a_2 / \rho \iff \phi \left( a_1 \right) = \phi \left( a_2 \right)$. Siit saaksime kätte ka injektiivsuse. Piisab arvesse võtta, et eelnev tähendab, et $a_1 / \rho = a_2 / \rho \iff a_1 \rho a_2$, ning kuna $\rho$ on $\phi$ tuum, siis $\left( a_1, a_2 \right) \in Ker \left( \phi \right)$. $\psi$ sürjektiivsus tuleneb otse  $\phi$ sürjektiivsusest. Järelikult on $\psi$ bijektsioon.
 Kas $\psi$ on homoformism ?
-Olgu $\omega \in \Omega_n, a_1, \cdots, a_n \in A$.
-Siis  $\psi(\omega(a_1 / \rho, \cdots, a_n / \rho) = \psi (\omega(a_1, \cdots, a_n) / \rho) = \phi(w(a_1,\cdots,a_n)) = \omega(\phi(a_1),\cdots, \phi(a_n)) = \omega(\psi(a_1 / \rho, \cdots, a_s / \rho)).$
+Olgu $\omega \in \Omega_n$ ja $a_1,...,a_n \in A$.
+\begin{align*}
+\psi\left( \omega \left( a_1 / \rho,..., a_n / \rho \right) \right) = \psi \left( \omega \left( a_1,...,a_n \right) / \rho \right) = \phi \left( \omega \left( a_1,...,a_n \right) \right) = \\ 
+= \omega \left( \phi \left( a_1 \right) ,..., \phi \left( a_n \right) \right)  = \omega \left( \psi \left( a_1 / \rho \right), ..., \psi \left( a_n / \rho \right) \right)
+\end{align*}
+\end{proof}
 
-\paragraph{Lause 1.4.4} Olgu $\rho$ $\Omega $-algebra A kongruents, $D \leq A / \rho$ ning $\pi $ kongurgentsi $\rho $ tuum. Siis $D isomeetriline C / \rho|_C , kus C = \pi^{-1}(D) $.
+\begin{faktoralgebra_alamalgebra_isomorfsus} {\color{red} EI SAA ARU }Olgu $\rho$ $\Omega $-algebra A kongruents, $D \leq A / \rho$ ning $\pi $ kongurgentsi $\rho $ tuum. Siis $D \simeq C / \rho|_C$ , kus $C = \pi^{-1}(D) $.
+\end{faktoralgebra_alamalgebra_isomorfsus}
 
-\paragraph*{Tõestus}
+\begin{proof}
+Olgu $\pi^{-1}(D) = C \leq A$. Olgu $\alpha$ $\pi$ ahend C-le ($\alpha = \pi|_{C}$). Siis $\alpha : C \rightarrow D$, $\alpha$ on homomorfism. Väidame, et $\alpha$ on s\"urjektiinve. Kuna $\pi$ oli s\"urjektiinve, siis $\forall y \in A / \rho ~ \exists x \in A,   \pi(x) = y$. Seega $\alpha(x) = y$. 
+\end{proof}
 
-Olgu $\pi^{-1}(D) = C \leq A$. Olgu $\alpha$ $\pi$ ahend C-le ($\alpha = \pi|_{C}$). Siis $\alpha : C \rightarrow D$, $\alpha$ on homomorfism. Väidame, et $\alpha$ on s\"urjektiinve. Kuna $\pi$ oli s\"urjektiinve, siis $\forall x \in A \pi(x) = y$. Seega $\alpha(x) = y$. 
+Viimane lause näitab, et mistahes algebra $A$ faktoralgebra alamalgebra on alati isomorfne sama algebra $A$ mingi alamalgebra faktoralgebraga. Vastupidine ei ole \"uldiselt võimalik.
 
-K\"usimus : kui kaks korda faktoriseerime, mis siis juhtub, kas me saame midagi uut ? Võimalik asendada isomorfismi täpsuseni üks kord faktoriseerimisega. 
+\section{Faktoralgebra faktoriseerimine}
 
-Olgu antud $\rho$ ja $\sigma$ $\Omega$-algebra A kongurentsid, kusjuures $\rho \leq \sigma, (x,y) \in \rho \implies (x,y) \in \sigma$. Defineerime faktoralgebral $A/ \rho$ binaarse seos:
+Tekib k\"usimus, kui kaks korda faktoriseerime, mis siis juhtub, kas me saame midagi uut ? Tuleb välja, et kahekordset faktoriseeringut on võimalik asendada isomorfismi täpsuseni üks kord faktoriseerimisega. 
 
-$\sigma / \rho = \{(x / \rho, y / \rho  | (x,y) \in a \sigma \}$
-
-Võime veenduda, et nii defineertus seos $\sigma / \rho$ on faktoralgebra $A / \rho$ kongurents.
-
-\paragraph{Teoreem 1.4.2}
-
-Olgu $\rho \in Con(A), \tau \in Con(A / \rho)$. $\pi : A \rightarrow A / \rho$. Olgu $x,y \in A$.  Defineerime $\sigma$: $(x,y) \in \sigma \iff \pi(x) \tau \pi(x)$
-
-Väide: $\sigma \in Con(A)$. Veendume, et $\sigma \in Eqv(A)$. Olgu $x,y,z \in A, (x,y), (y,z) \in \tau$, st. $(\pi(x),\pi(y)), (\pi(y),\pi(z)), (\pi(x),\pi(z)) \in \tau$.
+Olgu antud $\rho$ ja $\sigma$ $\Omega$-algebra $A$ kongruentsid, kusjuures $\rho \leq \sigma, (x,y) \in \rho \implies (x,y) \in \sigma$. Defineerime faktoralgebral $A/ \rho$ binaarse seose:
+\begin{equation*}
+\sigma / \rho = \{\left( x / \rho, y / \rho \right)  | (x,y) \in a \sigma \}
+\end{equation*}
 
 
-\section{loeng IV}
+Võime veenduda, et nii defineertus seos $\sigma / \rho$ on faktoralgebra $A / \rho$ kongruents.
+
+\begin{faktoralgebra_faktoriseerimine}
+Olgu $A$ $\Omega$-algebra, $\rho, \sigma \in $Con$\left( A \right)$, kusjuures $\rho \leq \sigma$. Siis $\sigma / \rho $ on faktoralgebra $A / \rho$ kongruents. Veel enam, faktoralgebra $A / \rho$ iga kongruents omab kuju $ \sigma / \rho$, kus $\sigma \in Con(A)$ ja $\rho \leq \sigma$. Sealjuures algebrad $\left( A / \rho \right) / \left( \sigma / \rho \right)$ ja $ A / \sigma$ on isomorfsed. 
+\end{faktoralgebra_faktoriseerimine}
+\begin{proof}
+Veendume esimese s väites. Tõepoolest, pannes tähele, kuidas on defineeritud faktoralgebra tehted, on lihtne veenduda, et tõepoolest $\sigma / \rho $ on faktoralgebra kongruents. Olgu $\omega \in \Omega_n$, $( a_i / \rho, b_i / \rho) \in \sigma / \rho \implies \left( a_i, b_i \right) \in \sigma \implies \left( \omega \left(a_i \right), \omega \left( b_i \right) \right) \in \sigma \implies \left( \omega \left(a_i \right) / \rho, \omega \left( b_i \right) \right) / \rho \in \sigma / \rho$. Teoreemi teise osa tõestus: Olgu $\tau \in Con(A / \rho)$. Defineerime kongruentsi $\sigma_0$ järgnevalt: $ \left( x, y \right) \iff \left( \pi \left( x \right), \pi \left( y \right) \right)$. Lihtne on veenduda, et $\sigma_0 \in $Con$\left( A \right)$. Tõepoolest, see, et $\sigma_0 \in $Eqv$(A)$ on ilmne. Veendume, et $\omega \in \Omega_n$ korral $\left( a_i, b_i \right) \in \sigma_0 \implies  \left( \omega \left( a_i \right), \omega \left( b_i \right) \right)$. Olgu   $\left( a_i, b_i \right) \in \sigma_0$ , vastavalt definitsioonile siis $ \left( \pi \left( a_i \right), \pi \left( b_i \right) \right) \in \tau$, kuna $\tau$ on kongruents, siis ka $ \left( \omega \left( a_i \right) / \rho, \omega \left( b_i  \right) / \rho \right) \in \tau$, seega ka $ \left( \omega \left( a_i \right), \omega \left( b_i \right) \right) \in \sigma_0$. Viimase osa tõestuseks paneme tähele, et $A / \rho$ faktoriiseerimine $a / \rho$ järgi kitsendab ekvivalentsiklasse ning loomulik kujutus $\pi \colon A / \rho \to \left( A / \rho \right) / \left( \sigma / \rho \right)$ on homomorfism.  
+\end{proof}
+
+% III loeng
+
+\begin{yksyhene_vastavus_faktoralgebra_kongruentside_vahel}
+\label{yksyhene_vastavus_faktoralgebra_kongruentside_vahel}
+Olgu $A$ $\Omega$-algbra ja $\rho \in $Con$\left( A \right)$. Siis on olemas sisalduvusega kooskõlas olev \"uks\"uhene vastavus faktoralgebra $A / \rho$ kõig kongruentside ja algebra $A$ kõigi nende kongruentside vahel, mis sisaldavad kongruentsi $\rho$
+\end{yksyhene_vastavus_faktoralgebra_kongruentside_vahel}
+\begin{proof}
+{\color{red}k\"usi, ei tea}
+\end{proof}
+
+Igas hulgal $A$ on kaks erilist ekvivalentsiseosst: $\bigtriangleup_A$ ja $\bigtriangledown_A$. Esimene neist on võrdusseos hulgas $A$: $\bigtriangleup_A = \left\lbrace \left(a, a \right) | a \in A \right\rbrace$, teine aga kogu otsekorrutis $A \times A$. On selge, et $\bigtriangleup_A$ ja $\bigtriangledown_A$ on vastavalt vähim ja suurim ekvivalentsiseos hulgal $A$. Samuti on lihtne veenduda, et kui $A$ on $\Omega$-algebra, siis need kaks ekvivalentsiseost on selle algebra kongruentsid.
+\begin{lihtne_algebra}
+Algebrat, millel on täpselt kaks kongruentsi: $\bigtriangleup_A$ ja $\bigtriangledown_A$, nimetatakse lihtsaks.
+\end{lihtne_algebra}
+
+Järeldusest \ref{yksyhene_vastavus_faktoralgebra_kongruentside_vahel} tuleneb otseselt järgmine järeldus.
+\begin{faktoralgebra_lihtne}
+Faktoralgebra $A / \rho$ on lihtne parajasti siis, kui kongruents $\rho$ on maksimaalne.
+\end{faktoralgebra_lihtne}
+
+\section{R\"uhmade, ringide ja vektorruumid faktoriseerimine}
+
+\begin{korvalklass}
+Olgu $G$ r\"uhm ja $H$ tema alamr\"uhm. Siis hulki $aH = \left\lbrace ah | h \in H \right\rbrace$ ($Ha = \left\lbrace ha | h \in H \right\rbrace$), kus $a \in G$, nimetatakse alamr\"uhma $H$ vasakpoolseks (parempoolseks) kõrvalklassideks r\"uhmas $G$.
+\end{korvalklass}
+
+\begin{normaalne_alamryhm}
+R\"uhma $G$ alamr\"uhm $H$ nimetatakse normaalseks, kui iga $a \in G$ ja $h \in H$ korral $a^{-1}ha \in H$.
+\end{normaalne_alamryhm}
+
+\begin{normaalne_siis_kui_aH=Ha}
+R\"uhma $G$ alamr\"uhm $H$ on normaalne parajasti siis, kui iga $a \in G$ korral $aH = Ha$.
+\end{normaalne_siis_kui_aH=Ha}
+
+\begin{proof}
+Olgu $H$ normaalne, s.t. $\forall a \in G$, $h \in H \implies a^{-1}ha \in H$. Fikseerime $a_0 \in G$, veendume, et $a_0 H = H a_0$. Olgu $z \in H \implies az \in aH$, $az = aza^{-1}a$. $H$ normaalsuse tõttu $y = aza^{-1} \in H$, seega  $az = ya$ ehk $aH \subset Ha$. Analoogiliselt saame näidata ka et $Ha \subset aH$.
+Olgu n\"u\"ud $aH = Ha$ ja olgu $ah \in aH$, siis $\exists h' \in H \colon ah = h'a $. Korrutame mõlemat poolt $a$ pöördelemendiga, saame, et $aha^{-1} = h' \in H$. 
+\end{proof}
+
+\begin{kongruents_normaalne_alamryhm}
+Kui $\rho$ on r\"uhma $G$ kongruents, siis $G$ \"uhikelementi sisaldav $\rho$-klass $1 / \rho$ on r\"uhma $G$ normaalne alamr\"uhm. Vastupidi, kui $H$ on r\"uhma $G$ normaalne alamr\"uhm, siis leidub täpselt \"uks r\"uhma $G$ kongruents $rho$, mille korral $ 1 / \rho = H$. Selle kongruentsi klassid on täpselt $H$ kõrvalklassid r\"uhmas $G$, täpsemalt, iga $a \in G$ korral $a / \rho = aH$.
+\end{kongruents_normaalne_alamryhm}
+
+\begin{proof}
+Esimest poolt lihtne näidata: $\left(x,1 \right) \in \rho, \left( y, 1 \right) \in \rho \implies \left( x \cdot y, 1 \cdot 1 =1 \right), \left(x,1 \right) \in \rho \implies \left( x^{-1}, 1 ^{-1} = 1 \right) \in \rho$, $\left( a ^ {-1}, a ^ {-1} \right) \in \rho, \left( x, 1 \right) \in \rho, \left( a  , a  \right) \in \rho \implies \left( a^{-1}xa, a^{-1}1a = a^{-1}a = 1 \right) \in \rho$.
+Teine pool:Olgu $H$ normaalne alamr\"uhm. Veendume, et kõrvalklassid on lõikumatud. Tõepoolest, olgu $aH \cap bH \neq \emptyset$. Siis leidub $c \in aH \cap bH$, s.t $c = ah_0 = bh_1$, seega $a = bh_{1}h_{0}^{-1} = b h_2 \in bH$, $z \in H, az = bh_{2}z = b h_3 \in bH$, analoogiliselt saame näidata teistpidist sisalduvust, seega $aH = bH$. 
+Defineerime $a \rho_0 b \iff aH = bH$. Paneme tähele, et siis $ 1 / \rho = H$. Veendume, et defineeritu on kongruents: $a_iH = b_iH \implies a_i = b_ih_i$, siis $a_{1}a_{2} = b_{1}h_{1}b_{2}h_{2} = b_{1}b_{2} \left( b_{2}^{-1} h_{1} b_{2} \right) h_{2} = b_{1}b_{2}h_{0}h_{2} = b_{1}b_{2}h_{0} \in b_{1}b_{2}H$. {\color{red} Miks teisiti ei saa kongruentsi defineerida?}.
+\end{proof}
+
+See teoreem \"utleb, et iga r\"uhma $G$ korral on olemas \"uk\"uhene vastavus normaalsete alamr\"uhmade ja kongruentside vahel. Järelikult võime rääkida faktorr\"uhma moodustamisest sellele alamr\"uhmale vastava kongruentsi järgi. Seda arvestades jõuame järgmise definititsioonini.
+
+\begin{faktorryhm} R\"uhma $G$ faktorr\"uhmaks normaalse alamr\"uhma $H$ järgi nimetatakse r\"uhma, mille elementideks on $H$ kõrvalklassid r\"uhmas $G$, kusjuures nende korrutamine toimub jargimse eeskirja kohaselt: $aH \cdot bH = (ab)H$. Seda r\"uhma tähistatakse $G/H$.
+\end{faktorryhm}
+
+Samuti, arvestades \"uks\"uhest vastavust r\"uhma kongruentside ja normaalsete alamr\"uhmade vahel võib r\"uhmade homomorfismi tuuma defineerida mitte kui kongruentsi vaid kui selle \"uhikelementi sisaldavat klassi. Nii r\"uhmateoorias ka tavaliselt tehakse.
+
+Seega, kui $\phi \colon G \to H$ on r\"uhmade homomorfism, siis $\phi$ tuumaks nimetatakse $G$ normaalset alamr\"uhma $\left\lbrace x \in G | \phi(x) = 1 \right\rbrace$, mida tähistatakse Ker($\phi$).
+
+Saame \"umber sõnastada kaks $\Omega$-algebrate jaoks tõestatud tulemust:
+
+\begin{loomulik_kujutus_homomorfism}
+Kui $H$ on r\"uhma $G$ normaalne alamr\"uhm, siis loomulik homomorfism $\pi \colon G \to G / H$ tuum on $H$.
+\end{loomulik_kujutus_homomorfism}
+
+\begin{homomorfismiteoreem}
+Kui $\phi \colon G \to H$ on r\"uhmade s\"urjektiivne homomorfism, siis $G \simeq H / $Ker($\phi$),
+\end{homomorfismiteoreem}
+
+On lihtne näha, et Abeli r\"uhma kõik alamr\"uhmad on normaalsed. Seega, kui $A$ on Abeli r\"uhm (aditiivses tähednduses) ja $H$ tema alamr\"uhm, siis faktorr\"uhma $A/H$ elementides on kõrvalklassid $a + H$, kus $a \in A$ ja kõrvalklasside liitmine toimub reegil $ \left( a + H \right) + \left( b + H \right) = \left( a + b \right) + H$ kohaselt. Abeli r\"uhmade homomorfismi $\phi \colon A \to B$ tuum on aga Ker$ \left( \phi \right) = \left\lbrace x \in A | \phi(x) = 0 \right\rbrace$.  
+
+
+
+
+% IV loeng
 
 \subsection{Lagrange'i teoreem}
 
